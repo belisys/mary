@@ -134,6 +134,8 @@ export class SanctuaryGate {
     this.btnT = document.getElementById(_0x(10));
     this.errB = document.getElementById(_0x(11));
     this.errT = document.getElementById(_0x(12));
+    this.epigraphCard = document.getElementById('gate-epigraph-card');
+    this.epigraphBtn = document.getElementById('epigraph-enter-btn');
 
     if (!this.el) return;
 
@@ -153,6 +155,16 @@ export class SanctuaryGate {
           e.stopPropagation();
         }
         this._0xchk();
+      });
+    }
+
+    if (this.epigraphBtn) {
+      this.epigraphBtn.addEventListener('click', (e) => {
+        if (e) {
+          e.preventDefault();
+          e.stopPropagation();
+        }
+        this._0xenterSanctuary();
       });
     }
 
@@ -219,28 +231,70 @@ export class SanctuaryGate {
 
   _0xwin() {
     this._0xlock = true;
-    window.__gateJustUnlocked = true;
-    setTimeout(() => { window.__gateJustUnlocked = false; }, 2500);
-    sessionStorage.setItem(_0x(13), 'true');
     this._0xclr();
 
+    // Start Cinderella playing softly right when date is validated
     if (window.musicPlayer && !window.musicPlayer.isPlaying) {
       try { window.musicPlayer.loadTrack(0, true); } catch (e) {}
     }
 
-    if (this.card) this.card.classList.add(_0x(20));
-    if (this.icon) this.icon.textContent = _0x(21);
-    if (this.title) this.title.textContent = _0x(22);
-    if (this.desc) {
-      this.desc.innerHTML = _0x(23);
-      this.desc.style.color = '#fbcfe8';
+    // Reveal the Cinematic Epigraph Prologue
+    this._0xrevealEpigraph();
+  }
+
+  _0xrevealEpigraph() {
+    if (!this.epigraphCard) {
+      this._0xenterSanctuary();
+      return;
     }
-    if (this.btnT) this.btnT.textContent = _0x(24);
+
+    if (window.gsap && this.card) {
+      window.gsap.to(this.card, {
+        scale: 0.94,
+        opacity: 0,
+        y: 14,
+        filter: 'blur(6px)',
+        duration: 0.5,
+        ease: 'power2.inOut',
+        onComplete: () => {
+          this.card.style.display = 'none';
+          this.epigraphCard.classList.remove('hidden');
+          this.epigraphCard.style.display = 'flex';
+
+          window.gsap.fromTo(this.epigraphCard,
+            { opacity: 0, scale: 0.96, y: -10, filter: 'blur(8px)' },
+            { opacity: 1, scale: 1, y: 0, filter: 'blur(0px)', duration: 0.8, ease: 'power2.out' }
+          );
+
+          const textLines = this.epigraphCard.querySelectorAll('.epigraph-eyebrow, .epigraph-quote p, .epigraph-meta, .epigraph-action');
+          if (textLines.length) {
+            window.gsap.fromTo(textLines,
+              { opacity: 0, y: 12 },
+              { opacity: 1, y: 0, duration: 0.6, stagger: 0.14, ease: 'power2.out', delay: 0.15 }
+            );
+          }
+        }
+      });
+    } else {
+      if (this.card) this.card.style.display = 'none';
+      this.epigraphCard.classList.remove('hidden');
+      this.epigraphCard.style.display = 'flex';
+    }
+  }
+
+  _0xenterSanctuary() {
+    sessionStorage.setItem(_0x(13), 'true');
+    window.__gateJustUnlocked = true;
+    setTimeout(() => { window.__gateJustUnlocked = false; }, 2500);
 
     // Spectacular 3D scene unlock animation (camera swoop, heart bloom, shooting stars burst)
     if (window.heartScene && typeof window.heartScene.playUnlockAnimation === 'function') {
       window.heartScene.playUnlockAnimation();
     }
+
+    const cardToAnimate = (this.epigraphCard && !this.epigraphCard.classList.contains('hidden'))
+      ? this.epigraphCard
+      : this.card;
 
     if (window.gsap) {
       const tl = window.gsap.timeline({
@@ -252,7 +306,9 @@ export class SanctuaryGate {
           }
         }
       });
-      tl.to(this.card, { scale: 1.15, opacity: 0, y: -40, filter: 'blur(8px)', duration: 0.85, ease: 'power2.inOut' });
+      if (cardToAnimate) {
+        tl.to(cardToAnimate, { scale: 1.08, opacity: 0, y: -30, filter: 'blur(10px)', duration: 0.85, ease: 'power2.inOut' });
+      }
       tl.to(this.el, { opacity: 0, duration: 0.85, ease: 'power2.inOut' }, '-=0.45');
     } else {
       if (this.el) this.el.style.display = _0x(25);

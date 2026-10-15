@@ -25,7 +25,7 @@ import { ShootingStarsEngine } from './shootingStars.js';
 import { ConstellationSelector } from './constellationSelector.js?v=327';
 import { letterModal } from './letterModal.js?v=327';
 import { vaultManager } from './vaultManager.js?v=327';
-import { sanctuaryGate } from './sanctuaryGate.js?v=327';
+import { sanctuaryGate } from './sanctuaryGate.js?v=331';
 import { orientationManager } from './orientationManager.js?v=327';
 
 class HeartScene {
