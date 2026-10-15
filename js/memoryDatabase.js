@@ -5,20 +5,20 @@
  * - Maps every single particle in Mary's 3D beating heart to curated,
  *   authentic thoughts, medical reminders, motivation, and literary wisdom.
  * - Organized into 3 strict constellation pools:
- *   1. Words From Me (Devotion, banter, compliments, biology facts, trinkets)
+ *   1. Words From Me (Devotion, banter, compliments, biology facts, ten kids inside joke)
  *   2. Poems & Wisdom (Arabic romance, classical verse, philosophy of love)
  *   3. Lessons & Knowledge (Somatic health, resilience, biology & stoic clarity)
  *   plus All Stars full galaxy.
  * - Zero em dashes.
  */
 
-import { MARY_SANCTUARY_LEXICON } from './marySanctuaryLexicon.js?v=336';
+import { MARY_SANCTUARY_LEXICON } from './marySanctuaryLexicon.js?v=337';
 
 // Kept empty for backwards compatibility
 export const PHOTO_MEMORIES = {};
 
 export const CATEGORY_POOLS = {
-  // 1. Words From Me: Exactly 166 entries (65 devotion + 45 banter + 40 compliments + 15 science + 1 trinkets inside joke)
+  // 1. Words From Me: Exactly 166 entries (65 devotion + 45 banter + 40 compliments + 15 science + 1 ten kids inside joke)
   words_from_me: MARY_SANCTUARY_LEXICON.filter(e => e.id && (
     e.id.startsWith('dev-') || e.id.startsWith('ban-') || e.id.startsWith('comp-') || e.id.startsWith('sci-') || e.id === 'drm-01'
   )).map(e => ({

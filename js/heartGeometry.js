@@ -11,7 +11,7 @@
 
 import * as THREE from 'three';
 import { CONFIG } from './config.js';
-import { MARY_SANCTUARY_LEXICON } from './marySanctuaryLexicon.js?v=336';
+import { MARY_SANCTUARY_LEXICON } from './marySanctuaryLexicon.js?v=337';
 
 export class HeartEngine {
   constructor(scene) {

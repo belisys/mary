@@ -14,20 +14,20 @@ import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
 import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
 
 import { CONFIG } from './config.js';
-import { HeartEngine } from './heartGeometry.js?v=336';
-import { PlanetaryRingEngine } from './planetaryRing.js?v=336';
-import { RaycasterInteraction } from './raycasterInteraction.js?v=336';
-import { modalManager } from './modalManager.js?v=336';
-import { telemetry } from './telemetry.js?v=336';
+import { HeartEngine } from './heartGeometry.js?v=337';
+import { PlanetaryRingEngine } from './planetaryRing.js?v=337';
+import { RaycasterInteraction } from './raycasterInteraction.js?v=337';
+import { modalManager } from './modalManager.js?v=337';
+import { telemetry } from './telemetry.js?v=337';
 import { ScreenWhispersEngine } from './screenWhispers.js';
-import { musicPlayer } from './musicPlayer.js?v=336';
+import { musicPlayer } from './musicPlayer.js?v=337';
 import { ShootingStarsEngine } from './shootingStars.js';
-import { BackgroundStarfield } from './backgroundStarfield.js?v=336';
-import { ConstellationSelector } from './constellationSelector.js?v=336';
-import { letterModal } from './letterModal.js?v=336';
-import { vaultManager } from './vaultManager.js?v=336';
-import { sanctuaryGate } from './sanctuaryGate.js?v=336';
-import { orientationManager } from './orientationManager.js?v=336';
+import { BackgroundStarfield } from './backgroundStarfield.js?v=337';
+import { ConstellationSelector } from './constellationSelector.js?v=337';
+import { letterModal } from './letterModal.js?v=337';
+import { vaultManager } from './vaultManager.js?v=337';
+import { sanctuaryGate } from './sanctuaryGate.js?v=337';
+import { orientationManager } from './orientationManager.js?v=337';
 
 class HeartScene {
   constructor() {

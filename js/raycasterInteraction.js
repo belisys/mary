@@ -8,8 +8,8 @@
  */
 
 import * as THREE from 'three';
-import { modalManager } from './modalManager.js?v=336';
-import { telemetry } from './telemetry.js?v=336';
+import { modalManager } from './modalManager.js?v=337';
+import { telemetry } from './telemetry.js?v=337';
 
 export class RaycasterInteraction {
   constructor(camera, scene, heartEngine, planetaryRing) {

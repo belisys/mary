@@ -14,7 +14,7 @@
  * non-matching stars gently recede into velvet night twilight.
  */
 
-import { modalManager } from './modalManager.js?v=336';
+import { modalManager } from './modalManager.js?v=337';
 
 export const CONSTELLATION_GROUPS = {
   all: {
