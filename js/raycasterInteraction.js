@@ -28,6 +28,7 @@ export class RaycasterInteraction {
     this.screenX = -999;
     this.screenY = -999;
     this.mouseDownPos = { x: -999, y: -999 };
+    this.isPinching = false;
 
     this.bindEvents();
   }
@@ -71,9 +72,12 @@ export class RaycasterInteraction {
     });
 
     window.addEventListener('touchstart', (e) => {
-      if (e.touches.length > 0) {
+      if (e.touches.length === 1) {
+        this.isPinching = false;
         this.mouseDownPos.x = e.touches[0].clientX;
         this.mouseDownPos.y = e.touches[0].clientY;
+      } else if (e.touches.length > 1) {
+        this.isPinching = true;
       }
     }, { passive: true });
 
@@ -95,12 +99,14 @@ export class RaycasterInteraction {
     });
 
     window.addEventListener('touchmove', (e) => {
-      if (e.touches.length > 0) {
+      if (e.touches.length === 1 && !this.isPinching) {
         const touch = e.touches[0];
         this.pointer.x = (touch.clientX / window.innerWidth) * 2 - 1;
         this.pointer.y = -(touch.clientY / window.innerHeight) * 2 + 1;
         this.screenX = touch.clientX;
         this.screenY = touch.clientY;
+      } else if (e.touches.length > 1) {
+        this.isPinching = true;
       }
     }, { passive: true });
 
@@ -114,6 +120,12 @@ export class RaycasterInteraction {
 
     window.addEventListener('touchend', (e) => {
       if (this.isUIElement(e.target)) return;
+      if (this.isPinching) {
+        if (e.touches.length === 0) {
+          this.isPinching = false;
+        }
+        return;
+      }
       if (e.changedTouches.length > 0) {
         const touch = e.changedTouches[0];
         const dragDist = Math.hypot(touch.clientX - this.mouseDownPos.x, touch.clientY - this.mouseDownPos.y);
@@ -137,12 +149,15 @@ export class RaycasterInteraction {
       return;
     }
 
-    // Dynamic threshold: scales down when camera zooms deep inside the heart!
+    // Dynamic threshold: scales down when camera zooms deep inside the heart,
+    // and provides a natural comfortable touch target radius on mobile devices.
     const camDist = this.camera.position.length();
+    const isTouchDevice = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
+    const maxThreshold = isTouchDevice ? 1.85 : 1.35;
     this.raycaster.params.Points.threshold = THREE.MathUtils.clamp(
       0.35 + (camDist - 3.0) * 0.022,
       0.35,
-      1.35
+      maxThreshold
     );
 
     this.raycaster.setFromCamera(this.pointer, this.camera);

@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="for mary." />
+  <meta name="mobile-web-app-capable" content="yes" />
   <meta name="theme-color" content="#07070a" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
@@ -21,7 +25,7 @@
   </script>
 
   <!-- Google Fonts & Stylesheet -->
-  <link rel="stylesheet" href="css/style.css?v=327" />
+  <link rel="stylesheet" href="css/style.css?v=329" />
 
   <!-- GSAP Animation Engine -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
@@ -141,7 +145,7 @@
   <div id="ui-overlay">
     <!-- Top-Left Minimalist Chic Brand -->
     <header class="header-brand">
-      <h1 class="brand-title">for mary.</h1>
+      <h1 class="brand-title"><span class="brand-sparkle">✦</span> for mary.</h1>
       <p class="brand-subtitle">for the softest soul, and the strongest heart I have ever known.</p>
     </header>
 
@@ -226,49 +230,83 @@
         ✦ <span id="unlocked-badge-count">0 / 309</span>
       </div>
 
-      <!-- Special Starlight Orbit Beacon / Sanctuary Vessel Shortcut Button -->
-      <button id="open-vessel-btn" class="vessel-pill-btn" title="Open Orbit Starlight Beacon Vessel" aria-label="Open Starlight Beacon Vessel" type="button">
-        <svg class="icon-vessel" width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
-          <polygon points="12 2 15 9 22 12 15 15 12 22 9 15 2 12 9 9 12 2"></polygon>
-        </svg>
-        <span>Starlight Vessel</span>
-      </button>
+      <!-- Mobile Floating Quick Action Dock / Desktop Action Group -->
+      <nav class="mobile-action-dock" id="mobile-action-dock" aria-label="Quick Actions">
+        <!-- Special Starlight Orbit Beacon / Sanctuary Vessel Shortcut Button -->
+        <button id="open-vessel-btn" class="vessel-pill-btn dock-btn" title="Open Orbit Starlight Beacon Vessel" aria-label="Open Starlight Beacon Vessel" type="button">
+          <svg class="icon-vessel" width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
+            <polygon points="12 2 15 9 22 12 15 15 12 22 9 15 2 12 9 9 12 2"></polygon>
+          </svg>
+          <span class="dock-label-full">Starlight Vessel</span>
+          <span class="dock-label-compact">Vessel</span>
+        </button>
 
-      <!-- Whenever You Remember Me Photo Vault Button -->
-      <button id="open-vault-btn" class="vault-pill-btn" title="Open Whenever You Remember Me Photo Vault" aria-label="Whenever You Remember Me Photo Vault" type="button">
-        <svg class="icon-vault" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-          <rect x="3" y="3" width="18" height="18" rx="3" ry="3"></rect>
-          <circle cx="8.5" cy="8.5" r="1.5"></circle>
-          <polyline points="21 15 16 10 5 21"></polyline>
-        </svg>
-        <span>Whenever You Remember Me</span>
-        <span id="vault-badge-count" class="vault-badge-count hidden">0</span>
-      </button>
+        <!-- Whenever You Remember Me Photo Vault Button -->
+        <button id="open-vault-btn" class="vault-pill-btn dock-btn" title="Open Whenever You Remember Me Photo Vault" aria-label="Whenever You Remember Me Photo Vault" type="button">
+          <svg class="icon-vault" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="3" ry="3"></rect>
+            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+            <polyline points="21 15 16 10 5 21"></polyline>
+          </svg>
+          <span class="dock-label-full">Whenever You Remember Me</span>
+          <span class="dock-label-compact">Vault</span>
+          <span id="vault-badge-count" class="vault-badge-count hidden">0</span>
+        </button>
 
-      <!-- Leave Me a Message Button -->
-      <button id="open-letter-btn" class="letter-pill-btn" title="Write a private letter or send a photo to Nader" aria-label="Leave Me a Message" type="button">
-        <svg class="icon-letter" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-          <polyline points="22,6 12,13 2,6"></polyline>
-        </svg>
-        <span>Leave Me a Message</span>
-      </button>
+        <!-- Leave Me a Message Button -->
+        <button id="open-letter-btn" class="letter-pill-btn dock-btn" title="Write a private letter or send a photo to Nader" aria-label="Leave Me a Message" type="button">
+          <svg class="icon-letter" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+          <span class="dock-label-full">Leave Me a Message</span>
+          <span class="dock-label-compact">Message</span>
+        </button>
 
-      <!-- Center View Button (Returns from inside to full overview) -->
-      <button id="reset-cam-btn" class="center-pill-btn" title="Center Heart & View Overview" aria-label="Center View" type="button">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="12" cy="12" r="3"></circle>
-          <line x1="12" y1="2" x2="12" y2="6"></line>
-          <line x1="12" y1="18" x2="12" y2="22"></line>
-          <line x1="2" y1="12" x2="6" y2="12"></line>
-          <line x1="18" y1="12" x2="22" y2="12"></line>
-        </svg>
-        <span>Center</span>
-      </button>
+        <!-- Center View Button (Returns from inside to full overview) -->
+        <button id="reset-cam-btn" class="center-pill-btn dock-btn" title="Center Heart & View Overview" aria-label="Center View" type="button">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="3"></circle>
+            <line x1="12" y1="2" x2="12" y2="6"></line>
+            <line x1="12" y1="18" x2="12" y2="22"></line>
+            <line x1="2" y1="12" x2="6" y2="12"></line>
+            <line x1="18" y1="12" x2="22" y2="12"></line>
+          </svg>
+          <span class="dock-label-full">Center</span>
+          <span class="dock-label-compact">Center</span>
+        </button>
+
+        <!-- Cinematic Widescreen & Fullscreen Toggle Button -->
+        <button id="fullscreen-btn" class="fullscreen-pill-btn dock-btn" title="Toggle Cinematic Widescreen Fullscreen" aria-label="Toggle Fullscreen" type="button">
+          <svg class="icon-fs-enter" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path>
+          </svg>
+          <svg class="icon-fs-exit hidden" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"></path>
+          </svg>
+          <span class="dock-label-full">Cinema</span>
+          <span class="dock-label-compact">Cinema</span>
+        </button>
+      </nav>
     </div>
 
     <!-- Right-Edge Floating Constellation Selector -->
     <div id="star-constellation-selector" class="constellation-selector-wrap"></div>
+
+    <!-- Floating Cinematic Orientation Hint (Mobile Portrait) -->
+    <aside id="orientation-hint" class="orientation-hint-pill hidden" role="status" aria-live="polite">
+      <div class="orientation-hint-content" id="orientation-hint-btn" role="button" tabindex="0" title="Switch to cinematic view">
+        <span class="orientation-hint-icon">🔄</span>
+        <span class="orientation-hint-text">Rotate for Cinematic Widescreen</span>
+      </div>
+      <button id="orientation-hint-dismiss" class="orientation-hint-close" aria-label="Dismiss rotation tip" type="button">&times;</button>
+    </aside>
+
+    <!-- Orientation / Fullscreen iOS Guidance Toast -->
+    <div id="orientation-toast" class="orientation-toast hidden" role="status" aria-live="polite">
+      <span class="toast-sparkle">✦</span>
+      <span id="orientation-toast-text" class="toast-text"></span>
+    </div>
 
     <!-- Bottom Section: Synced Lyrics Ticker & Hint -->
     <div class="bottom-section">
@@ -806,6 +844,6 @@
   </div>
 
   <!-- Module Script Launcher -->
-  <script type="module" src="js/heartScene.js?v=327"></script>
+  <script type="module" src="js/heartScene.js?v=329"></script>
 </body>
 </html>

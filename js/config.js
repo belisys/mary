@@ -25,10 +25,10 @@ export const CONFIG = {
     corePulseSpeed: 1.15,
     pulseAmplitude: 1.08,
     
-    // Camera Limits (Permits flying right inside the 3D heart)
+    // Camera Limits (Permits flying right inside the 3D heart and full mobile overview)
     camera: {
       minDistance: 1.2,
-      maxDistance: 85.0,
+      maxDistance: 145.0,
       initialPosition: { x: 0, y: 3, z: 62 },
       panEnabled: true
     },

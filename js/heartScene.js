@@ -26,6 +26,7 @@ import { ConstellationSelector } from './constellationSelector.js?v=327';
 import { letterModal } from './letterModal.js?v=327';
 import { vaultManager } from './vaultManager.js?v=327';
 import { sanctuaryGate } from './sanctuaryGate.js?v=327';
+import { orientationManager } from './orientationManager.js?v=327';
 
 class HeartScene {
   constructor() {
@@ -67,6 +68,37 @@ class HeartScene {
     }
   }
 
+  /**
+   * Dynamically calculates camera distance and altitude based on viewport aspect ratio.
+   * Desktop/Landscape (aspect >= 1.0): Returns exact intimate cinematic distance (Z = 62, Y = 3).
+   * Mobile Portrait (aspect < 1.0): Dynamically calculates Z so the heart (width 32) fits
+   * edge-to-edge with ~10% horizontal margins (e.g. Z ~ 104-108 for iPhone 14/15/16 Pro).
+   */
+  getCameraFraming(aspect = (window.innerWidth / window.innerHeight)) {
+    const baseZ = CONFIG.visuals.camera.initialPosition?.z || 62.0;
+    const baseY = CONFIG.visuals.camera.initialPosition?.y || 3.0;
+
+    if (aspect >= 1.0) {
+      return { z: baseZ, y: baseY, targetDist: Math.hypot(baseY, baseZ) };
+    }
+
+    // Three.js vertical FOV = 45 degrees
+    // Visible horizontal world width at distance Z is: 2 * Z * tan(vFOV / 2) * aspect
+    // Cardioid heart width is 32 units (x: -16 to +16).
+    // Target visible width of ~40.5 units ensures heart occupies ~79% of screen width,
+    // leaving clean, elegant ~10.5% margins on mobile and keeping planetary rings in view.
+    const targetVisibleWidth = 40.5;
+    const fovRad = (this.camera ? this.camera.fov : 45) * (Math.PI / 180);
+    const zNeeded = targetVisibleWidth / (2 * Math.tan(fovRad / 2) * aspect);
+
+    // Clamp between baseZ (62.0) and 112.0
+    const z = THREE.MathUtils.clamp(zNeeded, baseZ, 112.0);
+    // Scale altitude Y proportionally to preserve exact polar viewing pitch angle
+    const y = baseY * (z / baseZ);
+
+    return { z, y, targetDist: Math.hypot(y, z) };
+  }
+
   init() {
     if (window.gsap && window.gsap.ticker) {
       window.gsap.ticker.lagSmoothing(false);
@@ -79,7 +111,8 @@ class HeartScene {
 
     const aspect = window.innerWidth / window.innerHeight;
     this.camera = new THREE.PerspectiveCamera(45, aspect, 0.1, 1000);
-    this.camera.position.set(0, 3, 62);
+    const initialFraming = this.getCameraFraming(aspect);
+    this.camera.position.set(0, initialFraming.y, initialFraming.z);
 
     // 2. WebGL Renderer
     this.renderer = new THREE.WebGLRenderer({
@@ -92,6 +125,7 @@ class HeartScene {
     this.renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
     this.renderer.toneMapping = THREE.ACESFilmicToneMapping;
     this.renderer.toneMappingExposure = 1.1;
+    this.renderer.domElement.style.touchAction = 'none';
     this.container.appendChild(this.renderer.domElement);
 
     // 3. Orbit Controls: Horizontal orbit with gentle organic vertical perspective
@@ -100,7 +134,15 @@ class HeartScene {
     this.controls.dampingFactor = 0.05;
     this.controls.enablePan = false; // Left mouse drag exclusively orbits around the heart at (0, 0, 0)!
     this.controls.minDistance = CONFIG.visuals.camera.minDistance || 1.2;  // Fly right inside!
-    this.controls.maxDistance = CONFIG.visuals.camera.maxDistance || 85.0;
+    this.controls.maxDistance = Math.max(CONFIG.visuals.camera.maxDistance || 145.0, initialFraming.z * 1.35);
+
+    // Explicit touches mapping for mobile touch gestures (1-finger rotate, 2-finger pinch zoom)
+    if (THREE.TOUCH) {
+      this.controls.touches = {
+        ONE: THREE.TOUCH.ROTATE,
+        TWO: THREE.TOUCH.DOLLY_PAN
+      };
+    }
     
     // Natural viewing perspective around the horizontal axis
     this.controls.minPolarAngle = 1.25; // ~71.6° (view lobes from slightly above)
@@ -133,7 +175,15 @@ class HeartScene {
     modalManager.setFlyToCallback((index) => this.flyCameraToParticle(index));
 
     // 7. Event Listeners
-    window.addEventListener('resize', () => this.onWindowResize());
+    window.addEventListener('resize', () => this.onWindowResize(true));
+    window.addEventListener('orientationchange', () => {
+      // Delay to allow mobile browser bar & viewport dimensions to settle
+      setTimeout(() => this.onWindowResize(true), 120);
+      setTimeout(() => this.onWindowResize(true), 320);
+    });
+    if (orientationManager && typeof orientationManager.onOrientationChange === 'function') {
+      orientationManager.onOrientationChange(() => this.onWindowResize(true));
+    }
     this.initUIButtons();
 
     // 8. Silent Visit Telemetry Launch
@@ -220,6 +270,8 @@ class HeartScene {
   }
 
   resetCameraToCenter() {
+    const framing = this.getCameraFraming(this.camera.aspect);
+
     if (window.gsap) {
       window.gsap.killTweensOf([this.camera.position, this.controls.target]);
 
@@ -236,8 +288,8 @@ class HeartScene {
 
       window.gsap.to(this.camera.position, {
         x: 0,
-        y: 3,
-        z: 62,
+        y: framing.y,
+        z: framing.z,
         duration: 1.3,
         ease: "power2.inOut",
         onComplete: () => {
@@ -247,7 +299,7 @@ class HeartScene {
       });
     } else {
       this.controls.target.set(0, 0, 0);
-      this.camera.position.set(0, 3, 62);
+      this.camera.position.set(0, framing.y, framing.z);
       this.controls.update();
     }
   }
@@ -255,16 +307,20 @@ class HeartScene {
   playUnlockAnimation() {
     if (!window.gsap) return;
 
+    const framing = this.getCameraFraming(this.camera.aspect);
+    const startZ = framing.z * 1.35;
+    const startY = framing.y * 3.33;
+
     // 1. Cinematic Camera Glide: starts slightly elevated & deeper in space, swooping smoothly to center view
     if (this.camera && this.controls) {
       this.controls.enabled = false;
-      this.camera.position.set(0, 10, 84);
+      this.camera.position.set(0, startY, startZ);
       this.controls.target.set(0, 0, 0);
 
       window.gsap.to(this.camera.position, {
         x: 0,
-        y: 3,
-        z: 62,
+        y: framing.y,
+        z: framing.z,
         duration: 2.4,
         ease: "power3.out",
         onComplete: () => {
@@ -316,16 +372,58 @@ class HeartScene {
     );
   }
 
-  onWindowResize() {
+  onWindowResize(animateCamera = true) {
     const width = window.innerWidth;
     const height = window.innerHeight;
+    const aspect = width / height;
 
-    this.camera.aspect = width / height;
+    this.camera.aspect = aspect;
     this.camera.updateProjectionMatrix();
 
     this.renderer.setSize(width, height);
     this.composer.setSize(width, height);
     this.composer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+    this.updateCameraForViewport(aspect, animateCamera);
+  }
+
+  updateCameraForViewport(aspect, animate = true) {
+    const framing = this.getCameraFraming(aspect);
+    this.controls.maxDistance = Math.max(CONFIG.visuals.camera.maxDistance || 145.0, framing.z * 1.35);
+
+    // If modal is open or letter modal is active, do not interrupt reading experience
+    if ((modalManager && modalManager.isOpen) || (window.letterModal && window.letterModal.isOpen)) {
+      return;
+    }
+
+    const currentOffset = this.camera.position.clone().sub(this.controls.target);
+    const currentDist = currentOffset.length();
+    if (currentDist < 0.01) return;
+
+    // Only adjust distance if user is in standard overview range (> 25 units from heart center)
+    // If user has zoomed deep inside the heart (< 25 units), respect their close-up exploration!
+    if (currentDist < 25.0) return;
+
+    // Preserve the user's current azimuth & polar rotation angle while smoothly adjusting distance
+    const direction = currentOffset.normalize();
+    const newPos = this.controls.target.clone().add(direction.multiplyScalar(framing.targetDist));
+
+    if (window.gsap && animate) {
+      window.gsap.killTweensOf(this.camera.position);
+      window.gsap.to(this.camera.position, {
+        x: newPos.x,
+        y: newPos.y,
+        z: newPos.z,
+        duration: 0.9,
+        ease: "power2.out",
+        onUpdate: () => {
+          this.controls.update();
+        }
+      });
+    } else {
+      this.camera.position.copy(newPos);
+      this.controls.update();
+    }
   }
 
   animate() {

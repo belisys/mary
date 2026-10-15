@@ -247,6 +247,9 @@ export class SanctuaryGate {
         onComplete: () => {
           if (this.el) this.el.style.display = _0x(25);
           document.body.classList.remove(_0x(15));
+          if (window.orientationManager && typeof window.orientationManager.updateHintVisibility === 'function') {
+            window.orientationManager.updateHintVisibility();
+          }
         }
       });
       tl.to(this.card, { scale: 1.15, opacity: 0, y: -40, filter: 'blur(8px)', duration: 0.85, ease: 'power2.inOut' });
@@ -254,6 +257,9 @@ export class SanctuaryGate {
     } else {
       if (this.el) this.el.style.display = _0x(25);
       document.body.classList.remove(_0x(15));
+      if (window.orientationManager && typeof window.orientationManager.updateHintVisibility === 'function') {
+        window.orientationManager.updateHintVisibility();
+      }
     }
   }
 }
