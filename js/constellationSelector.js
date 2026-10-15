@@ -14,7 +14,7 @@
  * non-matching stars gently recede into velvet night twilight.
  */
 
-import { modalManager } from './modalManager.js?v=327';
+import { modalManager } from './modalManager.js?v=336';
 
 export const CONSTELLATION_GROUPS = {
   all: {
@@ -46,21 +46,12 @@ export const CONSTELLATION_GROUPS = {
   },
   advice: {
     id: "advice",
-    title: "Advice & Strength",
-    subtitle: "Health, calm & stay strong",
+    title: "Lessons & Knowledge",
+    subtitle: "Biology, health & stoic clarity",
     iconSvg: `<svg class="cat-svg-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>`,
     colorHex: "#38bdf8", // Radiant Celestial Jade / Cyan
     threeColorHex: 0x38bdf8,
-    actionLabel: "✦ Read Advice & Calm"
-  },
-  travel: {
-    id: "travel",
-    title: "Travels & Dreams",
-    subtitle: "Siwa, Vienna, Barcelona & More",
-    iconSvg: `<svg class="cat-svg-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>`,
-    colorHex: "#ffffff", // Pure Diamond Starlight Flare
-    threeColorHex: 0xffffff,
-    actionLabel: "✦ Open Travel Milestone"
+    actionLabel: "✦ Read Lesson & Knowledge"
   }
 };
 

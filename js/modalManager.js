@@ -9,9 +9,9 @@
  * - Smooth camera flight & GSAP spring physics.
  */
 
-import { getMemoryByDotId, getCategoryPool } from './memoryDatabase.js?v=335';
-import { MARY_SANCTUARY_LEXICON } from './marySanctuaryLexicon.js?v=335';
-import { telemetry } from './telemetry.js?v=335';
+import { getMemoryByDotId, getCategoryPool } from './memoryDatabase.js?v=336';
+import { MARY_SANCTUARY_LEXICON } from './marySanctuaryLexicon.js?v=336';
+import { telemetry } from './telemetry.js?v=336';
 
 class ModalManager {
   constructor() {

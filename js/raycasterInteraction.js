@@ -8,8 +8,8 @@
  */
 
 import * as THREE from 'three';
-import { modalManager } from './modalManager.js?v=327';
-import { telemetry } from './telemetry.js?v=327';
+import { modalManager } from './modalManager.js?v=336';
+import { telemetry } from './telemetry.js?v=336';
 
 export class RaycasterInteraction {
   constructor(camera, scene, heartEngine, planetaryRing) {
@@ -216,9 +216,7 @@ export class RaycasterInteraction {
         } else if (pData && pData.filterGroup === 'poems') {
           categoryTag = `<span style="color:#e879f9; font-weight:600;">✦ Poem & Verse</span>`;
         } else if (pData && pData.filterGroup === 'advice') {
-          categoryTag = `<span style="color:#38bdf8; font-weight:600;">✦ Advice & Strength</span>`;
-        } else if (pData && pData.filterGroup === 'travel') {
-          categoryTag = `<span style="color:#ffffff; font-weight:600;">✦ Travel Milestone</span>`;
+          categoryTag = `<span style="color:#38bdf8; font-weight:600;">✦ Lesson & Knowledge</span>`;
         }
 
         this.tooltip.innerHTML = isDiscovered

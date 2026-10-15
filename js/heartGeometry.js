@@ -11,8 +11,7 @@
 
 import * as THREE from 'three';
 import { CONFIG } from './config.js';
-import { MARY_SANCTUARY_LEXICON } from './marySanctuaryLexicon.js?v=335';
-import { PHOTO_MEMORIES } from './memoryDatabase.js?v=335';
+import { MARY_SANCTUARY_LEXICON } from './marySanctuaryLexicon.js?v=336';
 
 export class HeartEngine {
   constructor(scene) {
@@ -29,8 +28,7 @@ export class HeartEngine {
     this.filterColors = {
       words_from_me: new THREE.Color(0xfde047), // Warm Champagne Sunburst Gold
       poems: new THREE.Color(0xe879f9),         // Ethereal Rose-Lavender / Amethyst
-      advice: new THREE.Color(0x38bdf8),        // Radiant Celestial Jade / Cyan
-      travel: new THREE.Color(0xffffff)         // Pure Diamond Starlight Flare
+      advice: new THREE.Color(0x38bdf8)         // Radiant Celestial Jade / Cyan
     };
 
     // Load discovered star IDs from localStorage
@@ -213,47 +211,21 @@ export class HeartEngine {
 
       // Assign category metadata for constellation filtering
       let filterGroup = 'words_from_me';
-      let categoryName = 'Grounded Devotion';
-      let entryTitle = "Mary's Star";
+      const lexIdx = Math.abs((dotId - 1) % MARY_SANCTUARY_LEXICON.length);
+      const entry = MARY_SANCTUARY_LEXICON[lexIdx];
+      const categoryName = entry ? (entry.category || 'Words From Me') : 'Words From Me';
+      const entryTitle = entry ? (entry.title || "Mary's Star") : "Mary's Star";
 
-      if (dotId <= 9 && PHOTO_MEMORIES[dotId]) {
-        filterGroup = 'travel';
-        categoryName = 'Travel & Shared Dreams';
-        entryTitle = PHOTO_MEMORIES[dotId].title;
-      } else {
-        const lexIdx = Math.abs((dotId - 10) % MARY_SANCTUARY_LEXICON.length);
-        const entry = MARY_SANCTUARY_LEXICON[lexIdx];
-        categoryName = entry.category || 'Grounded Devotion';
-        entryTitle = entry.title || "Mary's Star";
-
-        if (
-          categoryName === 'Grounded Devotion' ||
-          categoryName === 'Grounded Devotion & Letters' ||
-          categoryName === 'Playful Dominance & Banter' ||
-          categoryName === 'Take the Compliment'
-        ) {
-          filterGroup = 'words_from_me';
-        } else if (
-          categoryName === 'Celestial Verse' ||
-          categoryName === 'Celestial Verse & Poetry'
-        ) {
+      if (entry && entry.id) {
+        if (entry.id.startsWith('poe-') || entry.id.startsWith('lit-') || entry.id.startsWith('phi-')) {
           filterGroup = 'poems';
-        } else if (
-          categoryName === 'Stay Strong & Motivated' ||
-          categoryName === 'Somatic & Physical Care'
-        ) {
+        } else if (entry.id.startsWith('som-') || entry.id.startsWith('mot-') || (entry.id.startsWith('drm-') && entry.id !== 'drm-01')) {
           filterGroup = 'advice';
-        } else if (
-          categoryName === 'Flirty Science & Shared Dreams'
-        ) {
-          if (entry.id && entry.id.startsWith('drm-')) {
-            filterGroup = 'travel';
-          } else {
-            filterGroup = 'words_from_me';
-          }
         } else {
           filterGroup = 'words_from_me';
         }
+      } else {
+        filterGroup = 'words_from_me';
       }
 
       this.particleData.push({
