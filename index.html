@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="theme-color" content="#07070a" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💖</text></svg>" />
+  <title>for mary.</title>
+
+  <!-- Three.js Import Map -->
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.136.0/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three@0.136.0/examples/jsm/"
+    }
+  }
+  </script>
+
+  <!-- Google Fonts & Stylesheet -->
+  <link rel="stylesheet" href="css/style.css?v=327" />
+
+  <!-- GSAP Animation Engine -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+
+  <!-- =========================================================================
+       SANCTUARY VERIFICATION AIRLOCK / ENTRANCE GATE
+       ========================================================================= -->
+  <div id="sanctuary-gate" class="sanctuary-gate">
+    <div class="gate-backdrop"></div>
+    <div class="gate-ambient-glow"></div>
+    <div class="gate-stars-dust"></div>
+
+    <div id="gate-card" class="gate-card">
+      <div id="gate-icon-wrap" class="gate-icon-wrap">
+        <span id="gate-icon" class="gate-icon">🔒</span>
+      </div>
+
+      <div class="gate-header">
+        <h2 id="gate-title" class="gate-title">Enter the code.</h2>
+        <p id="gate-desc" class="gate-desc">
+          Hey hey hey! Where do you think you're going?!<br />
+          This story is only for me, my girl, and our fucking cats. 🐾<br />
+          Enter the date and that's all.
+        </p>
+      </div>
+
+      <!-- Funny intruder alert box -->
+      <div id="gate-error-box" class="gate-error-box hidden" role="alert">
+        <div class="gate-error-header">
+          <span class="gate-error-badge">🚨 INTRUDER WARNING</span>
+        </div>
+        <p id="gate-error-text" class="gate-error-text">🚨 ACCESS DENIED: Protected sanctuary. Intruder alert triggered! 🛑</p>
+      </div>
+
+      <!-- Date selector row (Year, Month, Day) -->
+      <div class="gate-inputs-container">
+        <div class="gate-input-group">
+          <label for="gate-year" class="gate-label">Year</label>
+          <div class="gate-select-wrapper">
+            <select id="gate-year" class="gate-select">
+              <option value="" disabled selected>Year</option>
+              <option value="2024">2024</option>
+              <option value="2025">2025</option>
+              <option value="2026">2026</option>
+              <option value="2027">2027</option>
+            </select>
+            <span class="gate-select-arrow">▾</span>
+          </div>
+        </div>
+
+        <div class="gate-input-group">
+          <label for="gate-month" class="gate-label">Month</label>
+          <div class="gate-select-wrapper">
+            <select id="gate-month" class="gate-select">
+              <option value="" disabled selected>Month</option>
+              <option value="01">01 - January</option>
+              <option value="02">02 - February</option>
+              <option value="03">03 - March</option>
+              <option value="04">04 - April</option>
+              <option value="05">05 - May</option>
+              <option value="06">06 - June</option>
+              <option value="07">07 - July</option>
+              <option value="08">08 - August</option>
+              <option value="09">09 - September</option>
+              <option value="10">10 - October</option>
+              <option value="11">11 - November</option>
+              <option value="12">12 - December</option>
+            </select>
+            <span class="gate-select-arrow">▾</span>
+          </div>
+        </div>
+
+        <div class="gate-input-group">
+          <label for="gate-day" class="gate-label">Day</label>
+          <div class="gate-select-wrapper">
+            <select id="gate-day" class="gate-select">
+              <option value="" disabled selected>Day</option>
+              <option value="01">01</option><option value="02">02</option><option value="03">03</option><option value="04">04</option><option value="05">05</option>
+              <option value="06">06</option><option value="07">07</option><option value="08">08</option><option value="09">09</option><option value="10">10</option>
+              <option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option>
+              <option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option>
+              <option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option>
+              <option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+            <span class="gate-select-arrow">▾</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unlock button -->
+      <button id="gate-unlock-btn" class="gate-unlock-btn" type="button">
+        <span class="gate-btn-icon">✨</span>
+        <span id="gate-btn-text" class="gate-btn-text">Enter ✦</span>
+        <span class="gate-btn-sparkle">✦</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Ethereal Screen-Space Background Light Whispers (1 word/phrase at a time) -->
+  <div id="screen-whisper-container">
+    <div id="whisper-aura"></div>
+    <div id="whisper-text">I love you</div>
+    <div id="whisper-lang">✦ English</div>
+  </div>
+
+  <!-- 3D WebGL Canvas Layer -->
+  <div id="canvas-container"></div>
+
+  <!-- Interactive Reticle Cursor & Tooltip for Desktop -->
+  <div id="cursor-ring"></div>
+  <div id="hover-star-tooltip" class="hidden"></div>
+
+  <!-- UI Overlay Layer -->
+  <div id="ui-overlay">
+    <!-- Top-Left Minimalist Chic Brand -->
+    <header class="header-brand">
+      <h1 class="brand-title">for mary.</h1>
+      <p class="brand-subtitle">for the softest soul, and the strongest heart I have ever known.</p>
+    </header>
+
+    <!-- Top-Right Controls & Cinderella Music Player -->
+    <div class="top-controls">
+      <!-- Music Player & Song Selector Wrapper -->
+      <div class="music-player-wrapper">
+        <div id="music-player-pill" class="music-pill">
+          <button id="music-play-btn" class="music-icon-btn" aria-label="Play or Pause" type="button">
+            <svg class="icon-play" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+            <svg class="icon-pause" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <rect x="6" y="4" width="4" height="16"></rect>
+              <rect x="14" y="4" width="4" height="16"></rect>
+            </svg>
+          </button>
+
+          <div id="music-track-trigger" class="music-info" role="button" tabindex="0" title="Click to change track">
+            <span id="current-track-title" class="music-title">Cinderella</span>
+            <svg class="icon-chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+            <div class="music-visualizer">
+              <span class="music-wave-bar"></span>
+              <span class="music-wave-bar"></span>
+              <span class="music-wave-bar"></span>
+              <span class="music-wave-bar"></span>
+            </div>
+          </div>
+
+          <!-- Speaker Button with Dropdown Volume Slider Popover -->
+          <div class="volume-speaker-wrapper">
+            <button id="music-mute-btn" class="music-icon-btn" aria-label="Audio Volume" type="button" title="Audio Volume Slider">
+              <svg class="icon-volume" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+              </svg>
+              <svg class="icon-muted" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <line x1="23" y1="9" x2="17" y2="15"></line>
+                <line x1="17" y1="9" x2="23" y2="15"></line>
+              </svg>
+            </button>
+
+            <!-- Floating Volume Slider Dropdown right below the speaker button -->
+            <div id="volume-slider-popover" class="volume-slider-popover hidden">
+              <div class="volume-slider-card">
+                <button id="volume-slider-mute-toggle" class="volume-slider-mini-btn" title="Toggle Mute" type="button">
+                  <svg class="icon-vol-mini" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                  </svg>
+                  <svg class="icon-muted-mini" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                    <line x1="23" y1="9" x2="17" y2="15"></line>
+                    <line x1="17" y1="9" x2="23" y2="15"></line>
+                  </svg>
+                </button>
+                <div class="volume-slider-track-wrap">
+                  <input type="range" id="volume-slider-input" min="0" max="100" value="25" step="1" aria-label="Volume Slider">
+                </div>
+                <span id="volume-slider-percent" class="volume-slider-percent">25%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sleek Floating Track Selector Popover right below the bar -->
+        <div id="playlist-popover" class="playlist-popover hidden">
+          <div class="playlist-popover-header">
+            <span>✦ SOUNDTRACK</span>
+          </div>
+          <div class="playlist-items-list" id="playlist-items-list">
+            <!-- Dynamically populated by musicPlayer.js -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Star Memory Counter -->
+      <div class="badge-secrets" title="Secret memories discovered in the heart">
+        ✦ <span id="unlocked-badge-count">0 / 309</span>
+      </div>
+
+      <!-- Special Starlight Orbit Beacon / Sanctuary Vessel Shortcut Button -->
+      <button id="open-vessel-btn" class="vessel-pill-btn" title="Open Orbit Starlight Beacon Vessel" aria-label="Open Starlight Beacon Vessel" type="button">
+        <svg class="icon-vessel" width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
+          <polygon points="12 2 15 9 22 12 15 15 12 22 9 15 2 12 9 9 12 2"></polygon>
+        </svg>
+        <span>Starlight Vessel</span>
+      </button>
+
+      <!-- Whenever You Remember Me Photo Vault Button -->
+      <button id="open-vault-btn" class="vault-pill-btn" title="Open Whenever You Remember Me Photo Vault" aria-label="Whenever You Remember Me Photo Vault" type="button">
+        <svg class="icon-vault" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="3" width="18" height="18" rx="3" ry="3"></rect>
+          <circle cx="8.5" cy="8.5" r="1.5"></circle>
+          <polyline points="21 15 16 10 5 21"></polyline>
+        </svg>
+        <span>Whenever You Remember Me</span>
+        <span id="vault-badge-count" class="vault-badge-count hidden">0</span>
+      </button>
+
+      <!-- Leave Me a Message Button -->
+      <button id="open-letter-btn" class="letter-pill-btn" title="Write a private letter or send a photo to Nader" aria-label="Leave Me a Message" type="button">
+        <svg class="icon-letter" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+          <polyline points="22,6 12,13 2,6"></polyline>
+        </svg>
+        <span>Leave Me a Message</span>
+      </button>
+
+      <!-- Center View Button (Returns from inside to full overview) -->
+      <button id="reset-cam-btn" class="center-pill-btn" title="Center Heart & View Overview" aria-label="Center View" type="button">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="3"></circle>
+          <line x1="12" y1="2" x2="12" y2="6"></line>
+          <line x1="12" y1="18" x2="12" y2="22"></line>
+          <line x1="2" y1="12" x2="6" y2="12"></line>
+          <line x1="18" y1="12" x2="22" y2="12"></line>
+        </svg>
+        <span>Center</span>
+      </button>
+    </div>
+
+    <!-- Right-Edge Floating Constellation Selector -->
+    <div id="star-constellation-selector" class="constellation-selector-wrap"></div>
+
+    <!-- Bottom Section: Synced Lyrics Ticker & Hint -->
+    <div class="bottom-section">
+      <div id="lyrics-ticker-container">
+        <span class="lyrics-sparkle">♪</span>
+        <span id="lyrics-text">Cinderella • Mac Miller</span>
+      </div>
+
+      <footer class="bottom-hint">
+        ✦ drag to rotate • scroll to fly inside • touch any glowing star or orbit beacon ✦
+      </footer>
+    </div>
+  </div>
+
+  <!-- GSAP Frosted Glass Memory Modal -->
+  <div id="memory-modal" class="hidden" role="dialog" aria-modal="true">
+    <div id="modal-backdrop"></div>
+    <div id="beacon-portal-burst" class="beacon-portal-burst hidden"></div>
+    <div id="modal-card">
+      <div class="modal-header">
+        <div class="modal-header-badges">
+          <span id="modal-badge" class="modal-badge">✦ Secret Memory</span>
+          <span id="modal-location-badge" class="modal-location-badge hidden">📍 Cairo, Egypt</span>
+        </div>
+        <button id="modal-close-btn" class="modal-close" aria-label="Close card">&times;</button>
+      </div>
+
+      <!-- Photo Display Container for Travel Memories -->
+      <div id="modal-photo-container" class="modal-photo-box hidden">
+        <img id="modal-photo-img" src="" alt="Memory Photo" class="modal-photo-frame" />
+      </div>
+
+      <h2 id="modal-title" class="modal-title">Memory Title</h2>
+      <p id="modal-content" class="modal-body-text">Placeholder content will be loaded here.</p>
+
+      <div class="modal-tease-box">
+        <p id="modal-tease" class="modal-tease-text">Teasing note will appear here.</p>
+      </div>
+
+      <div class="modal-footer">
+        <span id="modal-counter" class="modal-counter">✦ 1 Stars Explored</span>
+        <div class="modal-nav-buttons">
+          <button id="modal-prev-btn" class="modal-nav-btn" title="Previous Star">&larr; Prev</button>
+          <button id="modal-random-btn" class="modal-nav-btn modal-btn-sparkle" title="Fly to a random star">✦ Random</button>
+          <button id="modal-next-btn" class="modal-nav-btn" title="Next Star">Next &rarr;</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GSAP Frosted Glass Letter Modal (Private Message & Photo to Nader) -->
+  <div id="letter-modal" class="hidden" role="dialog" aria-modal="true">
+    <div id="letter-backdrop"></div>
+    <div id="letter-card">
+      <div class="letter-header">
+        <div class="letter-header-badges">
+          <span class="letter-badge">✦ Secret Sanctuary</span>
+          <span class="letter-recipient-badge">To Nader</span>
+        </div>
+        <button id="letter-close-btn" class="letter-close" aria-label="Close letter">&times;</button>
+      </div>
+
+      <!-- Form Container -->
+      <div id="letter-form-container">
+        <div class="letter-intro-box">
+          <h2 class="letter-title">Leave Me a Message</h2>
+          <p class="letter-subtext">Write whatever is on your heart, or attach a photo or video. It flies straight to my private box, unseen by anyone else.</p>
+        </div>
+
+        <form id="letter-form" novalidate>
+          <!-- Honeypot anti-spam field -->
+          <input type="text" id="letter-hp" name="hp" style="display:none;" tabindex="-1" autocomplete="off" />
+
+          <div class="letter-input-group">
+            <label for="letter-subject" class="letter-label">Subject</label>
+            <input type="text" id="letter-subject" class="letter-input" placeholder="What's on your mind..." />
+          </div>
+
+          <div class="letter-input-group">
+            <label for="letter-message" class="letter-label">Your Message</label>
+            <textarea id="letter-message" class="letter-textarea" placeholder="Tell me anything, Mary... I'm listening." rows="5"></textarea>
+          </div>
+
+          <!-- Media Attachment & Camera Controls -->
+          <div class="letter-attachment-section">
+            <div class="attachment-actions">
+              <input type="file" id="letter-file-input" accept="image/*,video/*" class="hidden" />
+              <button type="button" id="letter-choose-file-btn" class="photo-btn">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                  <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                  <polyline points="21 15 16 10 5 21"></polyline>
+                </svg>
+                <span>Attach Photo / Video</span>
+              </button>
+
+              <button type="button" id="letter-camera-btn" class="photo-btn">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                  <circle cx="12" cy="13" r="4"></circle>
+                </svg>
+                <span>Take Photo</span>
+              </button>
+            </div>
+
+            <!-- Live Camera Stream Viewport -->
+            <div id="letter-camera-box" class="letter-camera-box hidden">
+              <video id="letter-camera-video" playsinline autoplay muted></video>
+              <div class="camera-controls-overlay">
+                <button type="button" id="letter-snap-btn" class="camera-snap-btn" title="Snap Photo">
+                  <div class="snap-inner-circle"></div>
+                </button>
+                <button type="button" id="letter-close-cam-btn" class="camera-cancel-btn">Cancel</button>
+              </div>
+            </div>
+
+            <!-- Attached Media Preview Card -->
+            <div id="letter-photo-preview" class="letter-photo-preview hidden">
+              <div class="preview-media-container">
+                <img id="letter-preview-img" class="letter-preview-media hidden" src="" alt="Attached photo" />
+                <video id="letter-preview-video" class="letter-preview-media hidden" playsinline muted loop></video>
+                <div id="letter-video-badge" class="letter-video-badge hidden">▶ Video</div>
+              </div>
+              <div class="preview-details">
+                <span id="letter-preview-name" class="preview-filename">attachment.jpg</span>
+                <span id="letter-preview-size" class="preview-filesize">~150 KB</span>
+              </div>
+              <button type="button" id="letter-remove-photo-btn" class="preview-remove-btn" title="Remove attachment">&times;</button>
+            </div>
+          </div>
+
+          <!-- Romantic Memory Verification: Three Number Fields -->
+          <div class="letter-verification-section">
+            <div class="verification-header">
+              <div class="verification-title-wrap">
+                <svg class="icon-lock-key" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="16" r="1"></circle>
+                  <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                  <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                </svg>
+                <span class="verification-question">On which day did we first talk?</span>
+              </div>
+              <span id="date-verify-badge" class="date-verify-badge">✦ Verification</span>
+            </div>
+
+            <p class="verification-subtext">The day the very first message in our conversation was sent.</p>
+
+            <div class="verification-card">
+              <div class="date-fields-grid">
+                <!-- Field 1: Year -->
+                <div class="date-field-col">
+                  <label for="date-select-year" class="date-field-label">Year</label>
+                  <select id="date-select-year" class="date-select-dropdown">
+                    <option value="">Year</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                    <option value="2027">2027</option>
+                  </select>
+                </div>
+
+                <!-- Field 2: Month -->
+                <div class="date-field-col">
+                  <label for="date-select-month" class="date-field-label">Month</label>
+                  <select id="date-select-month" class="date-select-dropdown">
+                    <option value="">Month</option>
+                    <option value="01">01 - Jan</option>
+                    <option value="02">02 - Feb</option>
+                    <option value="03">03 - Mar</option>
+                    <option value="04">04 - Apr</option>
+                    <option value="05">05 - May</option>
+                    <option value="06">06 - Jun</option>
+                    <option value="07">07 - Jul</option>
+                    <option value="08">08 - Aug</option>
+                    <option value="09">09 - Sep</option>
+                    <option value="10">10 - Oct</option>
+                    <option value="11">11 - Nov</option>
+                    <option value="12">12 - Dec</option>
+                  </select>
+                </div>
+
+                <!-- Field 3: Day -->
+                <div class="date-field-col">
+                  <label for="date-select-day" class="date-field-label">Day</label>
+                  <select id="date-select-day" class="date-select-dropdown">
+                    <option value="">Day</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="verification-status-row">
+                <span id="date-verify-tag" class="date-verify-tag pending">Select Date</span>
+                <span id="date-verify-hint" class="date-verify-hint">Select the year, month, and day to unlock sending</span>
+              </div>
+            </div>
+          </div>
+
+          <div id="letter-status-msg" class="letter-status-msg hidden"></div>
+
+          <div class="letter-footer">
+            <button type="submit" id="letter-submit-btn" class="letter-submit-btn">
+              <span class="btn-spinner hidden"></span>
+              <span class="btn-text">Send to Nader ✦</span>
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Success Screen -->
+      <div id="letter-success-box" class="letter-success-box hidden">
+        <div class="success-icon-wrap">
+          <svg class="success-heart-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+          </svg>
+        </div>
+        <h3 class="success-title">Letter Sent</h3>
+        <p class="success-desc">Your message has flown safely across the stars to Nader's private inbox. He will read every single word.</p>
+        <button type="button" id="letter-success-close-btn" class="letter-nav-btn">Return to Heart ✦</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       WHENEVER YOU REMEMBER ME: SHARED PHOTO VAULT MODAL
+       ========================================================================= -->
+  <div id="vault-modal" class="hidden" role="dialog" aria-modal="true" aria-labelledby="vault-modal-title">
+    <div id="vault-backdrop"></div>
+    <div id="vault-card">
+      <!-- Modal Header -->
+      <div class="vault-header">
+        <div class="vault-title-wrap">
+          <div class="vault-badge-row">
+            <span class="vault-tag">✦ SHARED PHOTO VAULT</span>
+            <span id="vault-sync-status" class="vault-sync-status">✦ Synced with Cloud</span>
+          </div>
+          <h2 id="vault-modal-title" class="vault-title">Whenever You Remember Me</h2>
+          <p class="vault-subtitle">Every time our paths cross in your thoughts, capture the moment here forever.</p>
+        </div>
+        <div class="vault-header-actions">
+          <button id="vault-refresh-btn" class="vault-icon-action-btn" title="Refresh Live Memories" type="button">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/>
+            </svg>
+          </button>
+          <button id="vault-close-btn" class="vault-close" aria-label="Close photo vault">&times;</button>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <div class="vault-tabs-nav">
+        <button id="vault-tab-gallery" class="vault-tab-btn active" type="button">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="7" height="7"></rect>
+            <rect x="14" y="3" width="7" height="7"></rect>
+            <rect x="14" y="14" width="7" height="7"></rect>
+            <rect x="3" y="14" width="7" height="7"></rect>
+          </svg>
+          <span>Memory Gallery</span>
+          <span id="vault-gallery-count" class="vault-tab-count">0</span>
+        </button>
+        <button id="vault-tab-add" class="vault-tab-btn" type="button">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+          </svg>
+          <span>Add a Memory</span>
+        </button>
+      </div>
+
+      <!-- TAB 1: GALLERY VIEW -->
+      <div id="vault-gallery-view" class="vault-tab-content">
+        <!-- Filter Bar -->
+        <div class="vault-filter-bar">
+          <span class="vault-filter-label">Filter:</span>
+          <div class="vault-filter-pills">
+            <button class="vault-filter-pill active" data-filter="all" type="button">All Memories</button>
+            <button class="vault-filter-pill" data-filter="Mary" type="button">From Mary 🌸</button>
+            <button class="vault-filter-pill" data-filter="Nader" type="button">From Nader ✦</button>
+          </div>
+        </div>
+
+        <!-- Memories Grid -->
+        <div id="vault-memory-grid" class="vault-memory-grid">
+          <!-- Dynamically populated by vaultManager.js -->
+        </div>
+
+        <!-- Empty State -->
+        <div id="vault-empty-state" class="vault-empty-state hidden">
+          <div class="vault-empty-icon">
+            <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+            </svg>
+          </div>
+          <h4 class="vault-empty-title">The Vault is Waiting for Your First Memory</h4>
+          <p class="vault-empty-desc">Whenever you see something that makes you think of each other, capture a photo, write why you remembered them, and store it here forever.</p>
+          <button id="vault-empty-add-btn" class="vault-empty-action-btn" type="button">+ Upload First Memory ✦</button>
+        </div>
+      </div>
+
+      <!-- TAB 2: ADD MEMORY VIEW -->
+      <div id="vault-add-view" class="vault-tab-content hidden">
+        <form id="vault-add-form" class="vault-add-form" onsubmit="return false;">
+          <!-- Author Toggle -->
+          <div class="vault-form-group">
+            <label class="vault-label">Who is uploading this memory?</label>
+            <div class="vault-author-toggle">
+              <label class="vault-author-opt">
+                <input type="radio" name="vault-author" value="Mary" checked>
+                <span class="vault-author-btn author-mary">
+                  <span class="author-flower">🌸</span>
+                  <span class="author-name">From Mary</span>
+                </span>
+              </label>
+              <label class="vault-author-opt">
+                <input type="radio" name="vault-author" value="Nader">
+                <span class="vault-author-btn author-nader">
+                  <span class="author-star">✦</span>
+                  <span class="author-name">From Nader</span>
+                </span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Photo Selection (Drag/Drop, File Picker, Live Camera) -->
+          <div class="vault-form-group">
+            <label class="vault-label">Photograph <span class="vault-req">*</span></label>
+            <div class="vault-photo-upload-wrap">
+              <input type="file" id="vault-file-input" accept="image/*" class="hidden" />
+
+              <div class="vault-media-action-row">
+                <button type="button" id="vault-choose-file-btn" class="vault-media-action-btn">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                    <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                    <polyline points="21 15 16 10 5 21"></polyline>
+                  </svg>
+                  <span>Choose Photo</span>
+                </button>
+                <button type="button" id="vault-camera-btn" class="vault-media-action-btn">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                    <circle cx="12" cy="13" r="4"></circle>
+                  </svg>
+                  <span>Take Photo</span>
+                </button>
+              </div>
+
+              <!-- Camera Viewport Box -->
+              <div id="vault-camera-box" class="vault-camera-box hidden">
+                <video id="vault-camera-video" playsinline autoplay muted></video>
+                <div class="vault-camera-controls">
+                  <button type="button" id="vault-snap-btn" class="vault-snap-btn" title="Capture Snapshot">
+                    <span class="snap-circle"></span>
+                  </button>
+                  <button type="button" id="vault-close-cam-btn" class="vault-close-cam-btn" title="Close Camera">&times;</button>
+                </div>
+              </div>
+
+              <!-- Photo Preview Container -->
+              <div id="vault-photo-preview" class="vault-photo-preview hidden">
+                <div class="vault-preview-img-frame">
+                  <img id="vault-preview-img" src="" alt="Photo Preview" />
+                </div>
+                <div class="vault-preview-info">
+                  <span id="vault-preview-name" class="vault-preview-name">photo.jpg</span>
+                  <span id="vault-preview-size" class="vault-preview-size">~0 KB</span>
+                  <span id="vault-preview-exif" class="vault-preview-exif hidden">✦ Full EXIF Preserved</span>
+                  <button type="button" id="vault-remove-photo-btn" class="vault-remove-photo-btn" title="Remove photo">&times;</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Reason Why You Remembered Me -->
+          <div class="vault-form-group">
+            <label for="vault-note" class="vault-label">Why did you remember me? <span class="vault-req">*</span></label>
+            <textarea id="vault-note" class="vault-textarea" rows="4" placeholder="Tell me what moment, thought, scenery, or memory made your heart think of me right here..."></textarea>
+          </div>
+
+          <!-- Date Verification Lock (3 dropdowns: 2026-08-23) -->
+          <div class="vault-verification-card">
+            <div class="vault-verification-header">
+              <span class="verification-lock-icon">🔒</span>
+              <div class="verification-header-text">
+                <span class="verification-title">Memory Verification Lock</span>
+                <span class="verification-sub">On which day did we first talk?</span>
+              </div>
+              <span id="vault-verify-badge" class="date-verify-badge pending">Locked</span>
+            </div>
+
+            <div class="vault-date-select-row">
+              <div class="date-field-col">
+                <label for="vault-date-year" class="date-field-label">Year</label>
+                <select id="vault-date-year" class="date-select-dropdown">
+                  <option value="">Year</option>
+                  <option value="2026" selected>2026</option>
+                  <option value="2025">2025</option>
+                  <option value="2024">2024</option>
+                </select>
+              </div>
+              <div class="date-field-col">
+                <label for="vault-date-month" class="date-field-label">Month</label>
+                <select id="vault-date-month" class="date-select-dropdown">
+                  <option value="">Month</option>
+                  <option value="01">01 - Jan</option>
+                  <option value="02">02 - Feb</option>
+                  <option value="03">03 - Mar</option>
+                  <option value="04">04 - Apr</option>
+                  <option value="05">05 - May</option>
+                  <option value="06">06 - Jun</option>
+                  <option value="07">07 - Jul</option>
+                  <option value="08">08 - Aug</option>
+                  <option value="09">09 - Sep</option>
+                  <option value="10">10 - Oct</option>
+                  <option value="11">11 - Nov</option>
+                  <option value="12">12 - Dec</option>
+                </select>
+              </div>
+              <div class="date-field-col">
+                <label for="vault-date-day" class="date-field-label">Day</label>
+                <select id="vault-date-day" class="date-select-dropdown">
+                  <option value="">Day</option>
+                  <option value="01">01</option>
+                  <option value="02">02</option>
+                  <option value="03">03</option>
+                  <option value="04">04</option>
+                  <option value="05">05</option>
+                  <option value="06">06</option>
+                  <option value="07">07</option>
+                  <option value="08">08</option>
+                  <option value="09">09</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="17">17</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
+                  <option value="21">21</option>
+                  <option value="22">22</option>
+                  <option value="23">23</option>
+                  <option value="24">24</option>
+                  <option value="25">25</option>
+                  <option value="26">26</option>
+                  <option value="27">27</option>
+                  <option value="28">28</option>
+                  <option value="29">29</option>
+                  <option value="30">30</option>
+                  <option value="31">31</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="verification-status-row">
+              <span id="vault-date-tag" class="date-verify-tag pending">Select Date</span>
+              <span id="vault-date-hint" class="date-verify-hint">Select the day our first conversation began to unlock saving</span>
+            </div>
+          </div>
+
+          <!-- Status / Error message -->
+          <div id="vault-status-msg" class="vault-status-msg hidden"></div>
+
+          <!-- Submit Button -->
+          <div class="vault-submit-row">
+            <button type="button" id="vault-submit-btn" class="vault-submit-btn">
+              <span class="btn-spinner hidden"></span>
+              <span class="btn-text">Preserve in Vault ✦</span>
+            </button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Fullscreen Photo Lightbox -->
+  <div id="vault-lightbox" class="vault-lightbox hidden" role="dialog" aria-modal="true">
+    <div id="vault-lightbox-backdrop" class="vault-lightbox-backdrop"></div>
+    <div class="vault-lightbox-container">
+      <button id="vault-lightbox-close" class="vault-lightbox-close" title="Close Lightbox">&times;</button>
+      <div class="vault-lightbox-img-wrap">
+        <img id="vault-lightbox-img" src="" alt="Fullscreen Memory Photo" />
+      </div>
+      <div class="vault-lightbox-meta">
+        <div class="vault-lightbox-meta-top">
+          <span id="vault-lightbox-author" class="vault-author-badge">From Mary 🌸</span>
+          <div class="vault-lightbox-meta-right">
+            <span id="vault-lightbox-date" class="vault-lightbox-date">Oct 15, 2026</span>
+            <button id="vault-lightbox-delete-btn" class="vault-lightbox-delete-btn hidden" title="Delete memory (available within 30m of upload)" type="button">
+              🗑️ Delete
+            </button>
+          </div>
+        </div>
+        <p id="vault-lightbox-note" class="vault-lightbox-note">Why I remembered you...</p>
+        <div id="vault-lightbox-exif" class="vault-lightbox-exif hidden"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Module Script Launcher -->
+  <script type="module" src="js/heartScene.js?v=327"></script>
+</body>
+</html>

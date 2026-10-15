@@ -1,0 +1,356 @@
+version: '1.0'
+metadata:
+  title: Maroon 5 - Animals
+  artist: Maroon 5
+  album: Maroon 5 - Animals
+  duration_ms: 230000
+  instrumental: false
+lines:
+- text: Baby, I'm preying on you tonight
+  start_ms: 40970
+  end_ms: 43460
+- text: Hunt you down, eat you alive
+  start_ms: 43460
+  end_ms: 45820
+- text: Just like animals, animals
+  start_ms: 45820
+  end_ms: 48610
+- text: Like animals-mals
+  start_ms: 48610
+  end_ms: 51150
+- text: Maybe you think that you can hide
+  start_ms: 51150
+  end_ms: 53340
+- text: I can smell your scent for miles
+  start_ms: 53340
+  end_ms: 55780
+- text: Just like animals, animals
+  start_ms: 55780
+  end_ms: 58850
+- text: Like animals-mals, baby, I'm...
+  start_ms: 58850
+  end_ms: 61690
+- text: So, what you trying to do to me?
+  start_ms: 61690
+  end_ms: 64720
+- text: It's like we can't stop, we're enemies
+  start_ms: 64720
+  end_ms: 67180
+- text: But we get along when I'm inside you, yeah
+  start_ms: 67180
+  end_ms: 71830
+- text: You're like a drug that's killing me
+  start_ms: 71830
+  end_ms: 74980
+- text: I cut you out entirely
+  start_ms: 74980
+  end_ms: 77050
+- text: But I get so high when I'm inside you
+  start_ms: 77050
+  end_ms: 81240
+- text: Yeah, you can start over, you can run free
+  start_ms: 81240
+  end_ms: 83770
+- text: You can find other fish in the sea
+  start_ms: 83770
+  end_ms: 86570
+- text: You can pretend it's meant to be
+  start_ms: 86570
+  end_ms: 89150
+- text: But you can't stay away from me
+  start_ms: 89150
+  end_ms: 91660
+- text: I can still hear you making that sound
+  start_ms: 91660
+  end_ms: 94160
+- text: Taking me down, rolling on the ground
+  start_ms: 94160
+  end_ms: 96250
+- text: You can pretend that it was me, but no, oh
+  start_ms: 96250
+  end_ms: 101860
+- text: Baby, I'm preying on you tonight
+  start_ms: 101860
+  end_ms: 104220
+- text: Hunt you down, eat you alive
+  start_ms: 104220
+  end_ms: 106390
+- text: Just like animals, animals
+  start_ms: 106390
+  end_ms: 109330
+- text: Like animals-mals
+  start_ms: 109330
+  end_ms: 111750
+- text: Maybe you think that you can hide
+  start_ms: 111750
+  end_ms: 114140
+- text: I can smell your scent for miles
+  start_ms: 114140
+  end_ms: 116680
+- text: Just like animals, animals
+  start_ms: 116680
+  end_ms: 119230
+- text: Like animals-mals, baby, I'm...
+  start_ms: 119230
+  end_ms: 123420
+- text: So, if I run, it's not enough
+  start_ms: 123420
+  end_ms: 125440
+- text: You're still in my head, forever stuck
+  start_ms: 125440
+  end_ms: 127900
+- text: So you can do what you wanna do, yeah
+  start_ms: 127900
+  end_ms: 132690
+- text: I love your lies, I'll eat 'em up
+  start_ms: 132690
+  end_ms: 135570
+- text: But don't deny the animal
+  start_ms: 135570
+  end_ms: 138120
+- text: That comes alive when I'm inside you
+  start_ms: 138120
+  end_ms: 141630
+- text: Yeah, you can start over, you can run free
+  start_ms: 141630
+  end_ms: 144520
+- text: You can find other fish in the sea
+  start_ms: 144520
+  end_ms: 146710
+- text: You can pretend it's meant to be
+  start_ms: 146710
+  end_ms: 149490
+- text: But you can't stay away from me
+  start_ms: 149490
+  end_ms: 152110
+- text: I can still hear you making that sound
+  start_ms: 152110
+  end_ms: 154430
+- text: Taking me down, rolling on the ground
+  start_ms: 154430
+  end_ms: 156970
+- text: You can pretend that it was me, but no, oh!
+  start_ms: 156970
+  end_ms: 161450
+- text: Baby, I'm preying on you tonight
+  start_ms: 161450
+  end_ms: 164620
+- text: Hunt you down, eat you alive
+  start_ms: 164620
+  end_ms: 166920
+- text: Just like animals, animals
+  start_ms: 166920
+  end_ms: 169880
+- text: Like animals-mals
+  start_ms: 169880
+  end_ms: 172190
+- text: Maybe you think that you can hide (yeah)
+  start_ms: 172190
+  end_ms: 175200
+- text: I can smell your scent for miles
+  start_ms: 175200
+  end_ms: 177330
+- text: Just like animals, animals
+  start_ms: 177330
+  end_ms: 179960
+- text: Like animals-mals, baby, I'm...
+  start_ms: 179960
+  end_ms: 183060
+- text: Don't tell no lie, lie, lie, lie
+  start_ms: 183060
+  end_ms: 186090
+- text: You can't deny-ny-ny-ny
+  start_ms: 186090
+  end_ms: 188220
+- text: The beast inside, si-si-side
+  start_ms: 188220
+  end_ms: 190880
+- text: Yeah, yeah, yeah
+  start_ms: 190880
+  end_ms: 193580
+- text: No, girl, don't lie, lie, lie, lie (no, oh-oh)
+  start_ms: 193580
+  end_ms: 196760
+- text: You can't deny-ny-ny-ny (you can't deny)
+  start_ms: 196760
+  end_ms: 198730
+- text: The beast inside, si-si-side
+  start_ms: 198730
+  end_ms: 200930
+- text: Yeah, yeah, yeah
+  start_ms: 200930
+  end_ms: 203140
+- text: Yo-oh, oh
+  start_ms: 203140
+  end_ms: 205270
+- text: Whoa-oh, oh-oh
+  start_ms: 205270
+  end_ms: 207250
+- text: Whoa-oh, oh-oh-oh
+  start_ms: 207250
+  end_ms: 210590
+- text: Just like animals, animals
+  start_ms: 210590
+  end_ms: 215780
+- text: Like animals-mals
+  start_ms: 215780
+  end_ms: 217930
+- text: Just like animals (yeah), animals (yeah)
+  start_ms: 217930
+  end_ms: 220760
+- text: Like animals-mals (yeah)
+  start_ms: 220760
+  end_ms: 223300
+- text: Ah-ooh!
+  start_ms: 223300
+  end_ms: 225670
+- text: Baby, I'm preying on you tonight
+  start_ms: 225670
+  end_ms: 227780
+- text: Hunt you down, eat you alive
+  start_ms: 227780
+  end_ms: 230010
+- text: Just like animals (yeah), animals (oh)
+  start_ms: 230010
+  end_ms: 233470
+- text: Like animals-mals (oh-oh)
+  start_ms: 233470
+  end_ms: 235600
+- text: Maybe you think that you can hide
+  start_ms: 235600
+  end_ms: 238050
+- text: I can smell your scent for miles (for miles)
+  start_ms: 238050
+  end_ms: 240740
+- text: Just like animals (yeah), animals (yeah)
+  start_ms: 240740
+  end_ms: 243250
+- text: Like animals-mals (oh), baby, I'm...
+  start_ms: 243250
+  end_ms: 246170
+- text: Don't tell no lie, lie, lie, lie
+  start_ms: 246170
+  end_ms: 248870
+- text: You can't deny-ny-ny-ny (oh-oh, oh, oh)
+  start_ms: 248870
+  end_ms: 251240
+- text: The beast inside, si-si-side
+  start_ms: 251240
+  end_ms: 253770
+- text: Yeah, yeah, yeah
+  start_ms: 253770
+  end_ms: 256570
+- text: No, girl, don't lie, lie, lie, lie (no, no, don't lie)
+  start_ms: 256570
+  end_ms: 259590
+- text: You can't deny-ny-ny-ny (you can't deny)
+  start_ms: 259590
+  end_ms: 262030
+- text: The beast inside, si-si-side
+  start_ms: 262030
+  end_ms: 264730
+- text: Yeah, yeah, yeah
+  start_ms: 264730
+  end_ms: 266040
+- text: ''
+  start_ms: 266040
+plain: |-
+  Baby, I'm preying on you tonight
+  Hunt you down, eat you alive
+  Just like animals, animals
+  Like animals-mals
+
+  Maybe you think that you can hide
+  I can smell your scent for miles
+  Just like animals, animals
+  Like animals-mals, baby, I'm...
+
+  So, what you trying to do to me?
+  It's like we can't stop, we're enemies
+  But we get along when I'm inside you, yeah
+  You're like a drug that's killing me
+  I cut you out entirely
+  But I get so high when I'm inside you
+
+  Yeah, you can start over, you can run free
+  You can find other fish in the sea
+  You can pretend it's meant to be
+  But you can't stay away from me
+  I can still hear you making that sound
+  Taking me down, rolling on the ground
+  You can pretend that it was me, but no, oh
+
+  Baby, I'm preying on you tonight
+  Hunt you down, eat you alive
+  Just like animals, animals
+  Like animals-mals
+
+  Maybe you think that you can hide
+  I can smell your scent for miles
+  Just like animals, animals
+  Like animals-mals, baby, I'm...
+
+  So, if I run, it's not enough
+  You're still in my head, forever stuck
+  So you can do what you wanna do, yeah
+  I love your lies, I'll eat 'em up
+  But don't deny the animal
+  That comes alive when I'm inside you
+
+  Yeah, you can start over, you can run free
+  You can find other fish in the sea
+  You can pretend it's meant to be
+  But you can't stay away from me
+  I can still hear you making that sound
+  Taking me down, rolling on the ground
+  You can pretend that it was me, but no, oh!
+
+  Baby, I'm preying on you tonight
+  Hunt you down, eat you alive
+  Just like animals, animals
+  Like animals-mals
+
+  Maybe you think that you can hide (yeah)
+  I can smell your scent for miles
+  Just like animals, animals
+  Like animals-mals, baby, I'm...
+
+  Don't tell no lie, lie, lie, lie
+  You can't deny-ny-ny-ny
+  The beast inside, si-si-side
+  Yeah, yeah, yeah
+
+  No, girl, don't lie, lie, lie, lie (no, oh-oh)
+  You can't deny-ny-ny-ny (you can't deny)
+  The beast inside, si-si-side
+  Yeah, yeah, yeah
+
+  Yo-oh, oh
+  Whoa-oh, oh-oh
+  Whoa-oh, oh-oh-oh
+
+  Just like animals, animals
+  Like animals-mals
+  Just like animals (yeah), animals (yeah)
+  Like animals-mals (yeah)
+  Ah-ooh!
+
+  Baby, I'm preying on you tonight
+  Hunt you down, eat you alive
+  Just like animals (yeah), animals (oh)
+  Like animals-mals (oh-oh)
+
+  Maybe you think that you can hide
+  I can smell your scent for miles (for miles)
+  Just like animals (yeah), animals (yeah)
+  Like animals-mals (oh), baby, I'm...
+
+  Don't tell no lie, lie, lie, lie
+  You can't deny-ny-ny-ny (oh-oh, oh, oh)
+  The beast inside, si-si-side
+  Yeah, yeah, yeah
+
+  No, girl, don't lie, lie, lie, lie (no, no, don't lie)
+  You can't deny-ny-ny-ny (you can't deny)
+  The beast inside, si-si-side
+  Yeah, yeah, yeah

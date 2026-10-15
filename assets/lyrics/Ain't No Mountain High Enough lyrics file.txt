@@ -1,0 +1,200 @@
+version: '1.0'
+metadata:
+  title: Ain't No Mountain High Enough
+  artist: Marvin Gaye & Tammi Terrell
+  album: Ain't No Mountain High Enough
+  duration_ms: 151000
+  instrumental: false
+lines:
+- text: Listen, baby
+  start_ms: 6590
+  end_ms: 8730
+- text: Ain't no mountain high, ain't no valley low
+  start_ms: 8730
+  end_ms: 12040
+- text: Ain't no river wide enough, baby
+  start_ms: 12040
+  end_ms: 16280
+- text: If you need me call me, no matter where you are
+  start_ms: 16280
+  end_ms: 19750
+- text: No matter how far (don't worry, baby)
+  start_ms: 19750
+  end_ms: 22740
+- text: Just call my name, I'll be there in a hurry
+  start_ms: 22740
+  end_ms: 27940
+- text: You don't have to worry
+  start_ms: 27940
+  end_ms: 29890
+- text: '''Cause baby there ain''t no mountain high enough'
+  start_ms: 29890
+  end_ms: 34550
+- text: Ain't no valley low enough
+  start_ms: 34550
+  end_ms: 38060
+- text: Ain't no river wide enough
+  start_ms: 38060
+  end_ms: 41770
+- text: To keep me from getting to you, babe
+  start_ms: 41770
+  end_ms: 45330
+- text: Remember the day I set you free
+  start_ms: 45330
+  end_ms: 48210
+- text: I told you you could always count on me, darling
+  start_ms: 48210
+  end_ms: 52020
+- text: From that day on, I made a vow
+  start_ms: 52020
+  end_ms: 55640
+- text: I'll be there when you want me
+  start_ms: 55640
+  end_ms: 58260
+- text: Someway, somehow
+  start_ms: 58260
+  end_ms: 59620
+- text: '''Cause baby there ain''t no mountain high enough'
+  start_ms: 59620
+  end_ms: 64130
+- text: Ain't no valley low enough
+  start_ms: 64130
+  end_ms: 67530
+- text: Ain't no river wide enough
+  start_ms: 67530
+  end_ms: 71220
+- text: To keep me from getting to you, babe
+  start_ms: 71220
+  end_ms: 76580
+- text: Oh no, darling
+  start_ms: 76580
+  end_ms: 78930
+- text: No wind, no rain
+  start_ms: 78930
+  end_ms: 82340
+- text: Or winters cold
+  start_ms: 82340
+  end_ms: 85530
+- text: Can stop me, baby (no, no, baby)
+  start_ms: 85530
+  end_ms: 89280
+- text: '''Cause you are my goal'
+  start_ms: 89280
+  end_ms: 91350
+- text: If you're ever in trouble
+  start_ms: 91350
+  end_ms: 92400
+- text: I'll be there on the double
+  start_ms: 92400
+  end_ms: 93650
+- text: Just send for me, oh baby, ha
+  start_ms: 93650
+  end_ms: 97700
+- text: My love is alive (woo)
+  start_ms: 97700
+  end_ms: 100080
+- text: Way down in my heart
+  start_ms: 100080
+  end_ms: 101990
+- text: Although we are miles apart
+  start_ms: 101990
+  end_ms: 104580
+- text: If you ever need a helping hand
+  start_ms: 104580
+  end_ms: 106300
+- text: I'll be there on the double
+  start_ms: 106300
+  end_ms: 109830
+- text: Just as fast as I can
+  start_ms: 109830
+  end_ms: 111380
+- text: Don't you know that there
+  start_ms: 111380
+  end_ms: 112760
+- text: Ain't no mountain high enough
+  start_ms: 112760
+  end_ms: 116160
+- text: Ain't no valley low enough
+  start_ms: 116160
+  end_ms: 119320
+- text: Ain't no river wide enough
+  start_ms: 119320
+  end_ms: 123240
+- text: To keep me from getting to you, babe
+  start_ms: 123240
+  end_ms: 126420
+- text: Don't ya know that there
+  start_ms: 126420
+  end_ms: 127470
+- text: Ain't no mountain high enough
+  start_ms: 127470
+  end_ms: 130910
+- text: Ain't no valley low enough
+  start_ms: 130910
+  end_ms: 134350
+- text: Ain't no river wide enough
+  start_ms: 134350
+  end_ms: 138080
+- text: Ain't no mountain high enough
+  start_ms: 138080
+  end_ms: 142040
+- text: Ain't no valley low enough
+  start_ms: 142040
+  end_ms: 144320
+- text: ''
+  start_ms: 144320
+plain: |-
+  Listen, baby
+  Ain't no mountain high, ain't no valley low
+  Ain't no river wide enough, baby
+
+  If you need me call me, no matter where you are
+  No matter how far (don't worry, baby)
+  Just call my name, I'll be there in a hurry
+  You don't have to worry
+
+  'Cause baby there ain't no mountain high enough
+  Ain't no valley low enough
+  Ain't no river wide enough
+  To keep me from getting to you, babe
+
+  Remember the day I set you free
+  I told you you could always count on me, darling
+  From that day on, I made a vow
+  I'll be there when you want me
+  Someway, somehow
+
+  'Cause baby there ain't no mountain high enough
+  Ain't no valley low enough
+  Ain't no river wide enough
+  To keep me from getting to you, babe
+
+  Oh no, darling
+  No wind, no rain
+  Or winters cold
+  Can stop me, baby (no, no, baby)
+  'Cause you are my goal
+  If you're ever in trouble
+  I'll be there on the double
+  Just send for me, oh baby, ha
+
+  My love is alive (woo)
+  Way down in my heart
+  Although we are miles apart
+
+  If you ever need a helping hand
+  I'll be there on the double
+  Just as fast as I can
+
+  Don't you know that there
+  Ain't no mountain high enough
+  Ain't no valley low enough
+  Ain't no river wide enough
+  To keep me from getting to you, babe
+
+  Don't ya know that there
+  Ain't no mountain high enough
+  Ain't no valley low enough
+  Ain't no river wide enough
+  Ain't no mountain high enough
+  Ain't no valley low enough

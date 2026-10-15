@@ -1,0 +1,211 @@
+version: '1.0'
+metadata:
+  title: Flawless
+  artist: The Neighbourhood
+  album: Flawless
+  duration_ms: 247000
+  instrumental: false
+lines:
+- text: She planned ahead for a year
+  start_ms: 19260
+  end_ms: 21280
+- text: He said, "Let's play it by ear"
+  start_ms: 21280
+  end_ms: 23240
+- text: She didn't want him to run
+  start_ms: 23240
+  end_ms: 25380
+- text: He didn't want her to fear
+  start_ms: 25380
+  end_ms: 27220
+- text: Nobody said it'd be easy
+  start_ms: 27220
+  end_ms: 29750
+- text: They knew it was rough, but tough luck
+  start_ms: 29750
+  end_ms: 34760
+- text: I fell in love today
+  start_ms: 34760
+  end_ms: 37720
+- text: There aren't many words that you can say
+  start_ms: 37720
+  end_ms: 42050
+- text: That could ever get my mind to change
+  start_ms: 42050
+  end_ms: 46450
+- text: She's enough for me, she's in love with me
+  start_ms: 46450
+  end_ms: 53230
+- text: You're a doll, you are flawless
+  start_ms: 53230
+  end_ms: 60480
+- text: But I just can't wait for love to destroy us
+  start_ms: 60480
+  end_ms: 64840
+- text: I just can't wait for love
+  start_ms: 64840
+  end_ms: 69290
+- text: The only flaw, you are flawless
+  start_ms: 69290
+  end_ms: 76520
+- text: But I just can't wait for love to destroy us
+  start_ms: 76520
+  end_ms: 80840
+- text: I just can't wait for love
+  start_ms: 80840
+  end_ms: 84480
+- text: So, she put his heart in a bag
+  start_ms: 84480
+  end_ms: 87350
+- text: He wouldn't ask for it back
+  start_ms: 87350
+  end_ms: 89330
+- text: He didn't want her to cry
+  start_ms: 89330
+  end_ms: 91230
+- text: She didn't want to be sad
+  start_ms: 91230
+  end_ms: 93280
+- text: She said, you'd better not leave me
+  start_ms: 93280
+  end_ms: 95750
+- text: This shit it'll be fucked for days, and weeks, and months, but
+  start_ms: 95750
+  end_ms: 100750
+- text: I fell in love today
+  start_ms: 100750
+  end_ms: 103770
+- text: There aren't many words that you can say
+  start_ms: 103770
+  end_ms: 107920
+- text: That could ever get my mind to change
+  start_ms: 107920
+  end_ms: 112410
+- text: She's enough for me, she's in love with me
+  start_ms: 112410
+  end_ms: 119210
+- text: You're a doll, you are flawless
+  start_ms: 119210
+  end_ms: 126540
+- text: But I just can't wait for love to destroy us
+  start_ms: 126540
+  end_ms: 130860
+- text: I just can't wait for love
+  start_ms: 130860
+  end_ms: 135220
+- text: The only flaw, you are flawless
+  start_ms: 135220
+  end_ms: 142520
+- text: But I just can't wait for love to destroy us
+  start_ms: 142520
+  end_ms: 146830
+- text: I just can't wait for love
+  start_ms: 146830
+  end_ms: 149320
+- text: When I add it all up, I can't find it
+  start_ms: 149320
+  end_ms: 155770
+- text: The problem with love, is I'm blinded by it
+  start_ms: 155770
+  end_ms: 159920
+- text: It rattles my lungs, but my mind is
+  start_ms: 159920
+  end_ms: 164030
+- text: Tangled between your little flaws
+  start_ms: 164030
+  end_ms: 170230
+- text: Your flaws, your flaws, your flaws
+  start_ms: 170230
+  end_ms: 185280
+- text: You're a doll, you are flawless
+  start_ms: 185280
+  end_ms: 192450
+- text: But I just can't wait for love to destroy us
+  start_ms: 192450
+  end_ms: 196890
+- text: I just can't wait for love
+  start_ms: 196890
+  end_ms: 201240
+- text: The only flaw, you are flawless
+  start_ms: 201240
+  end_ms: 208590
+- text: But I just can't wait for love to destroy us
+  start_ms: 208590
+  end_ms: 212870
+- text: I just can't wait for love
+  start_ms: 212870
+  end_ms: 216080
+- text: Wait for love
+  start_ms: 216080
+  end_ms: 219080
+- text: I won't wait for love
+  start_ms: 219080
+  end_ms: 224000
+- text: Wait for love
+  start_ms: 224000
+  end_ms: 227030
+- text: I won't wait for love
+  start_ms: 227030
+  end_ms: 232070
+- text: Wait for love
+  start_ms: 232070
+  end_ms: 233660
+- text: ''
+  start_ms: 233660
+plain: |-
+  She planned ahead for a year
+  He said, "Let's play it by ear"
+  She didn't want him to run
+  He didn't want her to fear
+  Nobody said it'd be easy
+  They knew it was rough, but tough luck
+
+  I fell in love today
+  There aren't many words that you can say
+  That could ever get my mind to change
+  She's enough for me, she's in love with me
+
+  You're a doll, you are flawless
+  But I just can't wait for love to destroy us
+  I just can't wait for love
+  The only flaw, you are flawless
+  But I just can't wait for love to destroy us
+  I just can't wait for love
+
+  So, she put his heart in a bag
+  He wouldn't ask for it back
+  He didn't want her to cry
+  She didn't want to be sad
+  She said, you'd better not leave me
+  This shit it'll be fucked for days, and weeks, and months, but
+
+  I fell in love today
+  There aren't many words that you can say
+  That could ever get my mind to change
+  She's enough for me, she's in love with me
+
+  You're a doll, you are flawless
+  But I just can't wait for love to destroy us
+  I just can't wait for love
+  The only flaw, you are flawless
+  But I just can't wait for love to destroy us
+  I just can't wait for love
+
+  When I add it all up, I can't find it
+  The problem with love, is I'm blinded by it
+  It rattles my lungs, but my mind is
+  Tangled between your little flaws
+  Your flaws, your flaws, your flaws
+
+  You're a doll, you are flawless
+  But I just can't wait for love to destroy us
+  I just can't wait for love
+  The only flaw, you are flawless
+  But I just can't wait for love to destroy us
+  I just can't wait for love
+
+  Wait for love
+  I won't wait for love
+  Wait for love
+  I won't wait for love
+  Wait for love

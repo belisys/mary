@@ -1,0 +1,452 @@
+[
+  {
+    "id": "poe-01",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ Dark & Bright Harmony",
+    "title": "She Walks in Beauty",
+    "content": "She walks in beauty, like the night\nOf cloudless climes and starry skies;\nAnd all that’s best of dark and bright\nMeet in her aspect and her eyes;\nThus mellow’d to that tender light\nWhich heaven to gaudy day denies.",
+    "author_or_source": "Lord Byron (1814)",
+    "tease": "Written for a girl whose darkness and light create pure harmony."
+  },
+  {
+    "id": "poe-02",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ Between Shadow & Soul",
+    "title": "Sonnet XVII",
+    "content": "I don't love you as if you were a rose of salt, topaz,\nor arrow of carnations that propagate fire:\nI love you as one loves certain obscure things,\nsecretly, between the shadow and the soul.\n\nI love you without knowing how, or when, or from where,\nI love you directly without problems or pride:\nI love you like this because I don’t know any other way.",
+    "author_or_source": "Pablo Neruda (One Hundred Love Sonnets)",
+    "tease": "No problems, no pride. Just pure devotion."
+  },
+  {
+    "id": "poe-03",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ The Steadfast Star",
+    "title": "Bright Star",
+    "content": "Bright star, would I were stedfast as thou art—\nNot in lone splendour hung aloft the night\nAnd watching, with eternal lids apart,\nLike nature's patient, sleepless Eremite...\nPillow'd upon my fair love's ripening breast,\nTo feel for ever its soft fall and swell,\nAwake for ever in a sweet unrest,\nStill, still to hear her tender-taken breath.",
+    "author_or_source": "John Keats (1819)",
+    "tease": "Steadfast as the northern star, keeping watch over you."
+  },
+  {
+    "id": "poe-04",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ The Soft Animal of Your Body",
+    "title": "Wild Geese",
+    "content": "You do not have to be good.\nYou do not have to walk on your knees\nfor a hundred miles through the desert repenting.\nYou only have to let the soft animal of your body\nlove what it loves.\nTell me about despair, yours, and I will tell you mine.\nMeanwhile the world goes on.\nMeanwhile the wild geese, high in the clean blue air,\nare heading home again.",
+    "author_or_source": "Mary Oliver",
+    "tease": "You don't have to repent for existing, Mary. You are loved."
+  },
+  {
+    "id": "poe-05",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ Gentleness Despite Violence",
+    "title": "Scheherazade",
+    "content": "We have not touched the stars, nor are we forgiven, which brings us back to the hero’s shoulders and the gentleness that comes, not from the absence of violence, but despite the abundance of it.",
+    "author_or_source": "Richard Siken (Crush)",
+    "tease": "You survived the fire and chose to remain gentle. That is courage."
+  },
+  {
+    "id": "poe-06",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ I Carry Your Heart",
+    "title": "i carry your heart with me",
+    "content": "i carry your heart with me (i carry it in\nmy heart) i am never without it (anywhere\ni go you go, my dear; and whatever is done\nby only me is your doing, my darling)\ni fear no fate (for you are my fate, my sweet)\ni want no world (for beautiful you are my world, my true)\nand it’s you are whatever a moon has always meant\nand whatever a sun will always sing is you.",
+    "author_or_source": "E.E. Cummings",
+    "tease": "Everywhere I go, you're right there with me."
+  },
+  {
+    "id": "poe-07",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ In Your Hands",
+    "title": "Sonnet XVII (Conclusion)",
+    "content": "except in this form in which I am not nor are you,\nso close that your hand upon my chest is mine,\nso close that your eyes close with my dream.",
+    "author_or_source": "Pablo Neruda",
+    "tease": "So close that your heartbeat echoes in mine."
+  },
+  {
+    "id": "poe-08",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ The Nameless Grace",
+    "title": "She Walks in Beauty (Stanza II)",
+    "content": "One shade the more, one ray the less,\nHad half impair’d the nameless grace\nWhich waves in every raven tress,\nOr softly lightens o’er her face;\nWhere thoughts serenely sweet express\nHow pure, how dear their dwelling-place.",
+    "author_or_source": "Lord Byron",
+    "tease": "Not one ray more, not one shade less. Exactly as you are."
+  },
+  {
+    "id": "poe-09",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ Quiet Solitude",
+    "title": "On Loving Patiently",
+    "content": "For one human being to love another: that is perhaps the most difficult of all our tasks, the ultimate, the last test and proof, the work for which all other work is even preparation. Love consists in this: that two solitudes protect and border and touch one another.",
+    "author_or_source": "Rainer Maria Rilke (Letters to a Young Poet)",
+    "tease": "I am here to protect your quiet solitude, never to invade it."
+  },
+  {
+    "id": "poe-10",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ Possessed by Light",
+    "title": "You Are Jeff",
+    "content": "He reaches over and he touches you, like a prayer for which no words exist, and you feel your heart taking root in your body, like you’ve discovered something you don’t even have a name for.",
+    "author_or_source": "Richard Siken (Crush)",
+    "tease": "A touch like a prayer for which no words exist."
+  },
+  {
+    "id": "poe-11",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ Days in Goodness Spent",
+    "title": "She Walks in Beauty (Stanza III)",
+    "content": "And on that cheek, and o’er that brow,\nSo soft, so calm, yet eloquent,\nThe smiles that win, the tints that glow,\nBut tell of days in goodness spent,\nA mind at peace with all below,\nA heart whose love is innocent!",
+    "author_or_source": "Lord Byron",
+    "tease": "A heart whose love is innocent."
+  },
+  {
+    "id": "poe-12",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ The Deepest Secret",
+    "title": "The Root of the Root",
+    "content": "here is the deepest secret nobody knows\n(here is the root of the root and the bud of the bud\nand the sky of the sky of a tree called life; which grows\nhigher than the soul can hope or mind can hide)\nand this is the wonder that's keeping the stars apart\ni carry your heart (i carry it in my heart)",
+    "author_or_source": "E.E. Cummings",
+    "tease": "The wonder that's keeping the stars apart."
+  },
+  {
+    "id": "poe-13",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ Dark Things Loved",
+    "title": "The Queen",
+    "content": "I have named you queen.\nThere are taller ones than you, taller.\nThere are purer ones than you, purer.\nThere are lovelier ones than you, lovelier.\nBut you are the queen.\nWhen you go through the streets\nno one recognizes you.\nNo one sees your crystal crown...\nAnd when you appear\nall the rivers sound\nin my body, bells\nshake the sky, and a hymn fills the world.",
+    "author_or_source": "Pablo Neruda (The Captain's Verses)",
+    "tease": "Others can pass by blind; I see your crown."
+  },
+  {
+    "id": "poe-14",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ The Night Sky Refuge",
+    "title": "Starry Night",
+    "content": "The night is not an enemy to be feared; it is the velvet cloak that holds the burning stars. In the silence of the dark, all the noise of the daylight fades away, leaving only what is true, what is enduring, and what is loved.",
+    "author_or_source": "Adapted from Classic Romanticism",
+    "tease": "Rest easy under the velvet night."
+  },
+  {
+    "id": "poe-15",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ Burning Love of Pure Crystal",
+    "title": "Pure Crystal",
+    "content": "We met, we recognized each other, we gave ourselves to each other, we succeeded in creating a burning love of pure crystal—do you realize how happy we are and what has been given to us? When I think of us it seems absurd not to believe in eternity.",
+    "author_or_source": "Maria Casarès to Albert Camus",
+    "tease": "A love made of pure, unbreakable crystal."
+  },
+  {
+    "id": "poe-16",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ Eternal Love",
+    "title": "Annabel Lee",
+    "content": "It was many and many a year ago,\nIn a kingdom by the sea,\nThat a maiden there lived whom you may know\nBy the name of Annabel Lee;—\nAnd this maiden she lived with no other thought\nThan to love and be loved by me.\nWe loved with a love that was more than love—\nI and my Annabel Lee—\nWith a love that the winged seraphs of Heaven\nCoveted her and me.",
+    "author_or_source": "Edgar Allan Poe (1849)",
+    "tease": "A love that was more than love."
+  },
+  {
+    "id": "poe-17",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ The Flame of Love",
+    "title": "Sonnet XLIV",
+    "content": "You must know that I do not love you and that I love you,\nbecause everything alive has its two sides,\na word is one wing of the silence,\nfire has its cold half.\nI love you in order to begin to love you,\nto rebegin infinity, and to never stop loving you:\nthat is why I do not yet love you.\nI love you and do not love you as if I had\nthe keys to happiness in my hand and an uncertain fate,\nmy love has two lives in order to love you.",
+    "author_or_source": "Pablo Neruda",
+    "tease": "Two lives in order to love you."
+  },
+  {
+    "id": "poe-18",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ The Silence of Your Eyes",
+    "title": "somewhere i have never travelled",
+    "content": "somewhere i have never travelled, gladly beyond\nany experience, your eyes have their silence:\nin your most frail gesture are things which enclose me,\nor which i cannot touch because they are too near\nyour slightest look easily will unclose me\nthough i have closed myself as fingers,\nyou open always petal by petal myself as Spring opens\n(touching skilfully, mysteriously) her first rose.",
+    "author_or_source": "E.E. Cummings",
+    "tease": "In your most frail gesture are things that enclose me."
+  },
+  {
+    "id": "poe-19",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ The Journey Out",
+    "title": "The Journey",
+    "content": "One day you finally knew\nwhat you had to do, and began,\nthough the voices around you\nkept shouting their bad advice—\nthough the whole house\nbegan to tremble\nand you felt the old tug\nat your ankles.\n'Mend my life!'\neach voice cried.\nBut you didn't stop.\nYou knew what you had to do.",
+    "author_or_source": "Mary Oliver",
+    "tease": "You walked out of their shouting and began your real life."
+  },
+  {
+    "id": "poe-20",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ The Heart That Breaks",
+    "title": "The Broken Heart Lives On",
+    "content": "The heart will break, but broken live on:\nEven as a broken mirror, which the glass\nIn every fragment multiplies; and makes\nA thousand images of one that was,\nThe same, and still the more, the more it breaks;\nAnd thus the heart will split, yet suffer still,\nAnd learn to beat through storm and chill.",
+    "author_or_source": "Lord Byron (Childe Harold's Pilgrimage)",
+    "tease": "The heart learns to beat through storm and chill."
+  },
+  {
+    "id": "poe-21",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ Natural Union",
+    "title": "Love's Philosophy",
+    "content": "The fountains mingle with the river\nAnd the rivers with the ocean,\nThe winds of heaven mix for ever\nWith a sweet emotion;\nNothing in the world is single;\nAll things by a law divine\nIn one spirit meet and mingle.\nWhy not I with thine?",
+    "author_or_source": "Percy Bysshe Shelley (1819)",
+    "tease": "Nothing in the world is single; why not I with thine?"
+  },
+  {
+    "id": "poe-22",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ Walking in the Night",
+    "title": "The Book of Hours",
+    "content": "God speaks to each of us as he makes us,\nthen walks with us silently out of the night.\nThese are the words we dimly hear:\n'You, sent out beyond your recall,\ngo to the limits of your longing.\nEmbody me.\nFlare up like flame and make big shadows I can move in.\nLet everything happen to you: beauty and terror.\nJust keep going. No feeling is final.'",
+    "author_or_source": "Rainer Maria Rilke",
+    "tease": "Let beauty and terror happen; no feeling is final."
+  },
+  {
+    "id": "poe-23",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ A Joy For Ever",
+    "title": "Endymion",
+    "content": "A thing of beauty is a joy for ever:\nIts loveliness increases; it will never\nPass into nothingness; but still will keep\nA bower quiet for us, and a sleep\nFull of sweet dreams, and health, and quiet breathing.\nTherefore, on every morrow, are we wreathing\nA flowery band to bind us to the earth.",
+    "author_or_source": "John Keats (1818)",
+    "tease": "Full of sweet dreams, and health, and quiet breathing."
+  },
+  {
+    "id": "poe-24",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ Glad You Are Here",
+    "title": "Litany in Which Certain Things Are Said",
+    "content": "I'm saying your name over and over\nlike an incantation against the dark.\nI love you. I am glad you are here.\nI am glad you are alive.\nI want you to be here with me tomorrow,\nand the day after that, and every day until the end.",
+    "author_or_source": "Richard Siken (Crush)",
+    "tease": "I am glad you are alive, Mary."
+  },
+  {
+    "id": "poe-25",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ All We Know of Love",
+    "title": "That Love is All There Is",
+    "content": "That love is all there is,\nIs all we know of love;\nIt is enough, the freight should be\nProportioned to the groove.\nWhere thou art, that is home\nCashmere or Calvary or Rome.",
+    "author_or_source": "Emily Dickinson",
+    "tease": "Where thou art, that is home."
+  },
+  {
+    "id": "poe-26",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ The Fire Repeated",
+    "title": "If You Forget Me",
+    "content": "if each day, each hour,\nyou feel that you are destined for me\nwith implacable sweetness,\nif each day a flower climbs\nup to your lips to seek me,\nah my love, ah my own,\nin me all that fire is repeated,\nin me nothing is extinguished or forgotten,\nmy love feeds on your love, beloved,\nand as long as you live it will be in your arms\nwithout leaving mine.",
+    "author_or_source": "Pablo Neruda",
+    "tease": "In me all that fire is repeated; nothing is extinguished."
+  },
+  {
+    "id": "poe-27",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ The Pathless Woods",
+    "title": "Pleasure in the Pathless Woods",
+    "content": "There is a pleasure in the pathless woods,\nThere is a rapture on the lonely shore,\nThere is society, where none intrudes,\nBy the deep Sea, and music in its roar:\nI love not Man the less, but Nature more,\nFrom these our interviews, in which I steal\nFrom all I may be, or have been before,\nTo mingle with the Universe, and feel\nWhat I can ne’er express, yet cannot all conceal.",
+    "author_or_source": "Lord Byron",
+    "tease": "A private rapture where none intrudes."
+  },
+  {
+    "id": "poe-28",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ How Do I Love Thee",
+    "title": "Sonnet 43",
+    "content": "How do I love thee? Let me count the ways.\nI love thee to the depth and breadth and height\nMy soul can reach, when feeling out of sight\nFor the ends of being and ideal grace.\nI love thee to the level of every day’s\nMost quiet need, by sun and candle-light.\nI love thee freely, as men strive for right.\nI love thee purely, as they turn from praise.",
+    "author_or_source": "Elizabeth Barrett Browning (1850)",
+    "tease": "To the depth and breadth and height my soul can reach."
+  },
+  {
+    "id": "poe-29",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ The Radiance Inside",
+    "title": "Bursting with Radiance",
+    "content": "For here there is no place\nthat does not see you. You must change your life.\nYou must allow the beauty to take hold of you\nuntil your whole body bursts like a star from its center.",
+    "author_or_source": "Rainer Maria Rilke",
+    "tease": "Bursting like a star from its center."
+  },
+  {
+    "id": "poe-30",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ We Are Alive",
+    "title": "Snow and Dirty Rain",
+    "content": "Tell me we're dead and I'll believe you.\nTell me we're alive and I'll believe you.\nLook at your hands, look at my chest:\nWe are breathing. We are alive.\nWe made it through the worst of it,\nand here we are, standing together in the light.",
+    "author_or_source": "Richard Siken",
+    "tease": "We made it through the worst of it; we are alive."
+  },
+  {
+    "id": "poe-31",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ Feeling is First",
+    "title": "since feeling is first",
+    "content": "since feeling is first\nwho pays any attention\nto the syntax of things\nwill never wholly kiss you;\nwholly to be a fool\nwhile Spring is in the world\nmy blood approves,\nand kisses are a better fate\nthan wisdom.",
+    "author_or_source": "E.E. Cummings",
+    "tease": "Feeling is first; kisses are a better fate than wisdom."
+  },
+  {
+    "id": "poe-32",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ One Wild and Precious Life",
+    "title": "The Summer Day",
+    "content": "I don't know exactly what a prayer is.\nI do know how to pay attention, how to fall down\ninto the grass, how to kneel down in the grass,\nhow to be idle and blessed, how to stroll through the fields,\nwhich is what I have been doing all day.\nTell me, what else should I have done?\nDoesn't everything die at last, and too soon?\nTell me, what is it you plan to do\nwith your one wild and precious life?",
+    "author_or_source": "Mary Oliver",
+    "tease": "Your one wild and precious life, Mary."
+  },
+  {
+    "id": "poe-33",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ The Tree and the Nest",
+    "title": "The Branch",
+    "content": "I love your body like a tree,\nstrong and quiet in the mountain wind,\ncarrying the hidden nest of my heart in your branches.\nLet the storms howl outside;\nin your boughs there is only peaceful starlight.",
+    "author_or_source": "Pablo Neruda (The Captain's Verses)",
+    "tease": "In your boughs there is only peaceful starlight."
+  },
+  {
+    "id": "poe-34",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ Beauty and Melancholy",
+    "title": "Ode on Melancholy",
+    "content": "She dwells with Beauty—Beauty that must die;\nAnd Joy, whose hand is ever at his lips\nBidding adieu; and aching Pleasure nigh,\nTurning to poison while the bee-mouth sips:\nAy, in the very temple of Delight\nVeil'd Melancholy has her sovran shrine,\nThough seen of none save him whose strenuous tongue\nCan burst Joy's grape against his palate fine.",
+    "author_or_source": "John Keats (1819)",
+    "tease": "Veiled Melancholy has her shrine where beauty lives."
+  },
+  {
+    "id": "poe-35",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ Dream Within a Dream",
+    "title": "A Dream Within a Dream",
+    "content": "I stand amid the roar\nOf a surf-tormented shore,\nAnd I hold within my hand\nGrains of the golden sand—\nHow few! yet how they creep\nThrough my fingers to the deep,\nWhile I weep—while I weep!\nO God! Can I not save\nOne from the pitiless wave?\nIs all that we see or seem\nBut a dream within a dream?",
+    "author_or_source": "Edgar Allan Poe",
+    "tease": "You are the one grain of gold I hold tight."
+  },
+  {
+    "id": "poe-36",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ The Moon Still Beams",
+    "title": "So, We'll Go No More a Roving",
+    "content": "So, we'll go no more a roving\nSo late into the night,\nThough the heart be still as loving,\nAnd the moon be still as bright.\nFor the sword outwears its sheath,\nAnd the soul wears out the breast,\nAnd the heart must pause to breathe,\nAnd love itself have rest.",
+    "author_or_source": "Lord Byron (1817)",
+    "tease": "The heart must pause to breathe, and love itself have rest."
+  },
+  {
+    "id": "poe-37",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ The Road Ahead",
+    "title": "The Road Ahead",
+    "content": "We have reached the part of the story where everything hurts, but we keep driving into the dark because we know there is dawn waiting past the hills. Hold my hand across the console; we are going home.",
+    "author_or_source": "Richard Siken",
+    "tease": "Hold my hand; we are driving into the dawn."
+  },
+  {
+    "id": "poe-38",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ Morning Light",
+    "title": "Sonnet VIII",
+    "content": "If your eyes were not the color of the moon,\nof a day filled with clay, of work, of movement,\nif your agile steps were not made of pure crystal,\nI would not love you with such persistent light,\nwith so much shadow, with such sudden clarity.",
+    "author_or_source": "Pablo Neruda",
+    "tease": "I love you with such sudden clarity."
+  },
+  {
+    "id": "poe-39",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ The Beginning of Wonder",
+    "title": "Duino Elegies",
+    "content": "For beauty is nothing but the beginning of terror\nwhich we are still just able to endure,\nand we are so awed because it serenely disdains\nto annihilate us. Every angel is terrifying.\nYet I reach out my arms and welcome the light.",
+    "author_or_source": "Rainer Maria Rilke",
+    "tease": "Welcome the light with both arms open."
+  },
+  {
+    "id": "poe-40",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ The Pilgrim Soul",
+    "title": "When You Are Old",
+    "content": "How many loved your moments of glad grace,\nAnd loved your beauty with love false or true,\nBut one man loved the pilgrim soul in you,\nAnd loved the sorrows of your changing face;\nAnd bending down beside the glowing bars,\nMurmur, a little sadly, how Love fled\nAnd paced upon the mountains overhead\nAnd hid his face amid a crowd of stars.",
+    "author_or_source": "William Butler Yeats (1893)",
+    "tease": "One man loved the pilgrim soul in you."
+  },
+  {
+    "id": "poe-41",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ Luxury in the Storm",
+    "title": "Wild Nights",
+    "content": "Wild nights - Wild nights!\nWere I with thee\nWild nights should be\nOur luxury!\nFutile the winds\nTo a heart in port,\nDone with the compass -\nDone with the chart!\nRowing in Eden -\nAh - the sea!\nMight I but moor - tonight -\nIn thee!",
+    "author_or_source": "Emily Dickinson",
+    "tease": "Futile the winds to a heart in port."
+  },
+  {
+    "id": "poe-42",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ The World Recreated",
+    "title": "Morning Poem",
+    "content": "Every morning the world is created.\nUnder the orange sticks of the sun\nthe thin trees reach up with their dew-wet needles.\nWhatever you did or didn't do yesterday,\nwhatever mistakes or fears you carried,\nthe morning begins with a clean slate\nand asks for nothing but your quiet breath.",
+    "author_or_source": "Mary Oliver",
+    "tease": "Every morning begins with a clean slate."
+  },
+  {
+    "id": "poe-43",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ You Are My Always",
+    "title": "Always",
+    "content": "You are my always.\nWhen the day falls into the river,\nwhen the lights go out in the distant city,\nwhen the stars begin their slow wheel across the black,\nyou are the thought that does not waver,\nthe center around which all my thoughts orbit.",
+    "author_or_source": "Pablo Neruda (The Captain's Verses)",
+    "tease": "You are my always, Mary."
+  },
+  {
+    "id": "poe-44",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ Love Sufficient Unto Love",
+    "title": "On Love",
+    "content": "Love gives naught but itself and takes naught but from itself.\nLove possesses not nor would it be possessed;\nFor love is sufficient unto love.\nWhen you love you should not say, 'God is in my heart,'\nbut rather, 'I am in the heart of God.'\nAnd to wake at dawn with a winged heart\nand give thanks for another day of loving.",
+    "author_or_source": "Kahlil Gibran (The Prophet)",
+    "tease": "Love is sufficient unto love."
+  },
+  {
+    "id": "poe-45",
+    "category": "Celestial Verse",
+    "frequency_tier": "medium",
+    "tag": "✦ The Moving Stars",
+    "title": "The Cosmic Force",
+    "content": "At the very end of his journey through the heavens,\nDante wrote the line that anchors the universe:\n'L'amor che move il sole e l'altre stelle'—\nThe love that moves the sun and the other stars.\nThat is the gravity holding this heart together for you.",
+    "author_or_source": "Dante Alighieri (Paradiso, XXXIII)",
+    "tease": "The love that moves the sun and the other stars."
+  }
+]

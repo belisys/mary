@@ -1,0 +1,465 @@
+version: '1.0'
+metadata:
+  title: Cinderella (feat. Ty Dolla $ign)
+  artist: Mac Miller
+  album: Mac Miller
+  duration_ms: 480000
+  instrumental: false
+lines:
+- text: Uh, $ign
+  start_ms: 2350
+  end_ms: 6650
+- text: Oh no, no, no, no, no, no, no, no, no
+  start_ms: 6650
+  end_ms: 11850
+- text: Ayy
+  start_ms: 11850
+  end_ms: 13250
+- text: I been waitin' all night for this moment
+  start_ms: 13250
+  end_ms: 16580
+- text: I been waitin' all year for this moment
+  start_ms: 16580
+  end_ms: 19620
+- text: I been picturing you takin' off your clothes for me
+  start_ms: 19620
+  end_ms: 23420
+- text: I been literally curvin' all these hoes for you
+  start_ms: 23420
+  end_ms: 26730
+- text: Daddy told you, better bring your ass home
+  start_ms: 26730
+  end_ms: 30080
+- text: Cinderella better get your ass home
+  start_ms: 30080
+  end_ms: 33430
+- text: Man I swear the parents just don't understand
+  start_ms: 33430
+  end_ms: 36700
+- text: You ain't gotta be old to be a man
+  start_ms: 36700
+  end_ms: 40330
+- text: Take my hand, come with me to my room
+  start_ms: 40330
+  end_ms: 46730
+- text: Girl I got a suite at the SLS
+  start_ms: 46730
+  end_ms: 50380
+- text: I already know you got expensive taste
+  start_ms: 50380
+  end_ms: 54270
+- text: Take my hand, follow me to my room
+  start_ms: 54270
+  end_ms: 60350
+- text: Tell your little friends you gon' be alright
+  start_ms: 60350
+  end_ms: 63890
+- text: Girl I got a plan for the whole night
+  start_ms: 63890
+  end_ms: 66930
+- text: Okay your legs like a store they open up
+  start_ms: 66930
+  end_ms: 69870
+- text: And you got people in the aisle
+  start_ms: 69870
+  end_ms: 71560
+- text: Been here every night for weeks at a time
+  start_ms: 71560
+  end_ms: 74650
+- text: You in my dreams that's why I sleep all the time
+  start_ms: 74650
+  end_ms: 77630
+- text: Just to hear you say I love you, just to touch you
+  start_ms: 77630
+  end_ms: 79960
+- text: Just to leave you behind
+  start_ms: 79960
+  end_ms: 81440
+- text: I told you, you don't have to worry, you'll be fine
+  start_ms: 81440
+  end_ms: 84900
+- text: This the type of thing I heard it happen all the time
+  start_ms: 84900
+  end_ms: 88560
+- text: Yeah, I just wanna see you fly
+  start_ms: 88560
+  end_ms: 91970
+- text: Because your fragrance got me faded, you be keepin' me high
+  start_ms: 91970
+  end_ms: 95210
+- text: Said nothin' better than the first time
+  start_ms: 95210
+  end_ms: 97580
+- text: I'll be at your service like the check-in at the curbside
+  start_ms: 97580
+  end_ms: 100850
+- text: You don't have to spend another second on this Earth dry
+  start_ms: 100850
+  end_ms: 104510
+- text: Wet you like a fresh beau coop, second and a third time
+  start_ms: 104510
+  end_ms: 107730
+- text: Left you up a verse mind
+  start_ms: 107730
+  end_ms: 109510
+- text: And when you hungry I can chef you up some stir fry
+  start_ms: 109510
+  end_ms: 112770
+- text: Get you some dessert wine, elevate this third eye
+  start_ms: 112770
+  end_ms: 116390
+- text: First prize, Nobel, get a piece
+  start_ms: 116390
+  end_ms: 119990
+- text: Your clothes off, turn around, let me see
+  start_ms: 119990
+  end_ms: 122690
+- text: I been waitin' all night for this moment
+  start_ms: 122690
+  end_ms: 125920
+- text: I been waitin' all year for this moment
+  start_ms: 125920
+  end_ms: 129330
+- text: I been picturing you takin' off your clothes for me
+  start_ms: 129330
+  end_ms: 132690
+- text: I been literally curvin' all these hoes for you
+  start_ms: 132690
+  end_ms: 136250
+- text: Daddy told you, better bring your ass home
+  start_ms: 136250
+  end_ms: 139640
+- text: Cinderella better get your ass home
+  start_ms: 139640
+  end_ms: 143300
+- text: Man I swear the parents just don't understand
+  start_ms: 143300
+  end_ms: 146690
+- text: You ain't gotta be old to be a man
+  start_ms: 146690
+  end_ms: 149620
+- text: Take my hand, come with me to my room
+  start_ms: 149620
+  end_ms: 156380
+- text: Girl I got a suite at the SLS
+  start_ms: 156380
+  end_ms: 159750
+- text: I already know you got expensive taste
+  start_ms: 159750
+  end_ms: 163720
+- text: Take my hand, follow me to my room
+  start_ms: 163720
+  end_ms: 170010
+- text: Tell your little friends you gon' be alright
+  start_ms: 170010
+  end_ms: 173420
+- text: Girl I got a plan for the whole night
+  start_ms: 173420
+  end_ms: 176490
+- text: Yeah, okay I came up where the planet was
+  start_ms: 176490
+  end_ms: 179870
+- text: Take you by the hand
+  start_ms: 179870
+  end_ms: 181450
+- text: And bring you somewhere where the sand is
+  start_ms: 181450
+  end_ms: 183540
+- text: Two knives, we landed
+  start_ms: 183540
+  end_ms: 185110
+- text: We went straight into the room
+  start_ms: 185110
+  end_ms: 186150
+- text: And played the music and started dancing
+  start_ms: 186150
+  end_ms: 187800
+- text: You was taking off your pants
+  start_ms: 187800
+  end_ms: 189880
+- text: It look like Dorothy ain't in Kansas anymore
+  start_ms: 189880
+  end_ms: 192160
+- text: I do you like a chore
+  start_ms: 192160
+  end_ms: 194180
+- text: We started on the bed and then we moved onto the floor
+  start_ms: 194180
+  end_ms: 197540
+- text: You started getting crazy, told me fuck you like a whore
+  start_ms: 197540
+  end_ms: 200880
+- text: I thought you was an angel now you yellin' to the Lord
+  start_ms: 200880
+  end_ms: 204720
+- text: You used to tell me all the time I ain't your type
+  start_ms: 204720
+  end_ms: 208350
+- text: Now you always wanna spend the night
+  start_ms: 208350
+  end_ms: 211460
+- text: Now I'm doing everything you like
+  start_ms: 211460
+  end_ms: 214810
+- text: When I'm inside your pussy, damn it feels so right
+  start_ms: 214810
+  end_ms: 218050
+- text: Yeah, but I still respect the game
+  start_ms: 218050
+  end_ms: 220250
+- text: Every time I'm out of line you always set me straight
+  start_ms: 220250
+  end_ms: 223730
+- text: The sex is great, for heavens sake I need it every day
+  start_ms: 223730
+  end_ms: 227080
+- text: I yell your name, Cinderella
+  start_ms: 227080
+  end_ms: 229140
+- text: Never gonna find nobody better
+  start_ms: 229140
+  end_ms: 231390
+- text: All my life...
+  start_ms: 231390
+  end_ms: 232120
+- text: I been waitin' all night for this moment
+  start_ms: 232120
+  end_ms: 235840
+- text: I been waitin' all year for this moment
+  start_ms: 235840
+  end_ms: 239180
+- text: I been picturing you takin' off your clothes for me
+  start_ms: 239180
+  end_ms: 242650
+- text: I been literally curvin' all these hoes for you
+  start_ms: 242650
+  end_ms: 245830
+- text: Daddy told you, better bring your ass home
+  start_ms: 245830
+  end_ms: 249430
+- text: Cinderella better get your ass home
+  start_ms: 249430
+  end_ms: 252880
+- text: Man I swear the parents just don't understand
+  start_ms: 252880
+  end_ms: 256050
+- text: You ain't gotta be old to be a man
+  start_ms: 256050
+  end_ms: 259450
+- text: Take my hand, come with me to my room
+  start_ms: 259450
+  end_ms: 265680
+- text: Girl I got a suite at the SLS
+  start_ms: 265680
+  end_ms: 269220
+- text: I already know you got expensive taste
+  start_ms: 269220
+  end_ms: 273110
+- text: Take my hand, follow me to my room
+  start_ms: 273110
+  end_ms: 279810
+- text: Tell your little friends you gon' be alright
+  start_ms: 279810
+  end_ms: 283150
+- text: Girl I got a plan for the whole night
+  start_ms: 283150
+  end_ms: 288020
+- text: ''
+  start_ms: 288020
+  end_ms: 344860
+- text: Hey now, I'm saying
+  start_ms: 344860
+  end_ms: 349220
+- text: My only way out is the way in
+  start_ms: 349220
+  end_ms: 354220
+- text: I won't stop 'til you're mine, no way
+  start_ms: 354220
+  end_ms: 360830
+- text: Well all my days now, they changin'
+  start_ms: 360830
+  end_ms: 365210
+- text: I got angels, no more Satan
+  start_ms: 365210
+  end_ms: 370070
+- text: Looks like God's on my side, this time
+  start_ms: 370070
+  end_ms: 377220
+- text: Well, I been meanin' to tell you
+  start_ms: 377220
+  end_ms: 380430
+- text: You lookin' better every day
+  start_ms: 380430
+  end_ms: 384730
+- text: Write you letters
+  start_ms: 384730
+  end_ms: 386780
+- text: It's only right that right after love, I write my name
+  start_ms: 386780
+  end_ms: 393150
+- text: If it's forever or never it's all the same
+  start_ms: 393150
+  end_ms: 400790
+- text: Under the weather
+  start_ms: 400790
+  end_ms: 403140
+- text: Feel much better when that weather isn't rain, yeah
+  start_ms: 403140
+  end_ms: 409790
+- text: Ooh Cinderella, don't you run out of time
+  start_ms: 409790
+  end_ms: 418670
+- text: It feels like you've been taking all day
+  start_ms: 418670
+  end_ms: 426280
+- text: Wherever you came from, wherever you going
+  start_ms: 426280
+  end_ms: 429880
+- text: I promise I'm not far behind, yeah
+  start_ms: 429880
+  end_ms: 434500
+- text: So don't you dare throw this away
+  start_ms: 434500
+  end_ms: 442830
+- text: I been meanin' to tell you
+  start_ms: 442830
+  end_ms: 445970
+- text: You lookin' better every day
+  start_ms: 445970
+  end_ms: 449860
+- text: Write you letters
+  start_ms: 449860
+  end_ms: 452160
+- text: It's only right that right after love, I write my name
+  start_ms: 452160
+  end_ms: 459310
+- text: If it's forever or never it's all the same
+  start_ms: 459310
+  end_ms: 466340
+- text: Under the weather
+  start_ms: 466340
+  end_ms: 468320
+- text: Feel much better when that weather isn't rain
+  start_ms: 468320
+  end_ms: 474200
+- text: ''
+  start_ms: 474200
+plain: |-
+  Uh, $ign
+  Oh no, no, no, no, no, no, no, no, no
+  Ayy
+
+  I been waitin' all night for this moment
+  I been waitin' all year for this moment
+  I been picturing you takin' off your clothes for me
+  I been literally curvin' all these hoes for you
+  Daddy told you, better bring your ass home
+  Cinderella better get your ass home
+  Man I swear the parents just don't understand
+  You ain't gotta be old to be a man
+  Take my hand, come with me to my room
+  Girl I got a suite at the SLS
+  I already know you got expensive taste
+  Take my hand, follow me to my room
+  Tell your little friends you gon' be alright
+  Girl I got a plan for the whole night
+
+  Okay your legs like a store they open up
+  And you got people in the aisle
+  Been here every night for weeks at a time
+  You in my dreams that's why I sleep all the time
+  Just to hear you say I love you, just to touch you
+  Just to leave you behind
+  I told you, you don't have to worry, you'll be fine
+  This the type of thing I heard it happen all the time
+  Yeah, I just wanna see you fly
+  Because your fragrance got me faded, you be keepin' me high
+  Said nothin' better than the first time
+  I'll be at your service like the check-in at the curbside
+  You don't have to spend another second on this Earth dry
+  Wet you like a fresh beau coop, second and a third time
+  Left you up a verse mind
+  And when you hungry I can chef you up some stir fry
+  Get you some dessert wine, elevate this third eye
+  First prize, Nobel, get a piece
+  Your clothes off, turn around, let me see
+
+  I been waitin' all night for this moment
+  I been waitin' all year for this moment
+  I been picturing you takin' off your clothes for me
+  I been literally curvin' all these hoes for you
+  Daddy told you, better bring your ass home
+  Cinderella better get your ass home
+  Man I swear the parents just don't understand
+  You ain't gotta be old to be a man
+  Take my hand, come with me to my room
+  Girl I got a suite at the SLS
+  I already know you got expensive taste
+  Take my hand, follow me to my room
+  Tell your little friends you gon' be alright
+  Girl I got a plan for the whole night
+
+  Yeah, okay I came up where the planet was
+  Take you by the hand
+  And bring you somewhere where the sand is
+  Two knives, we landed
+  We went straight into the room
+  And played the music and started dancing
+  You was taking off your pants
+  It look like Dorothy ain't in Kansas anymore
+  I do you like a chore
+  We started on the bed and then we moved onto the floor
+  You started getting crazy, told me fuck you like a whore
+  I thought you was an angel now you yellin' to the Lord
+  You used to tell me all the time I ain't your type
+  Now you always wanna spend the night
+  Now I'm doing everything you like
+  When I'm inside your pussy, damn it feels so right
+  Yeah, but I still respect the game
+  Every time I'm out of line you always set me straight
+  The sex is great, for heavens sake I need it every day
+  I yell your name, Cinderella
+  Never gonna find nobody better
+  All my life...
+
+  I been waitin' all night for this moment
+  I been waitin' all year for this moment
+  I been picturing you takin' off your clothes for me
+  I been literally curvin' all these hoes for you
+  Daddy told you, better bring your ass home
+  Cinderella better get your ass home
+  Man I swear the parents just don't understand
+  You ain't gotta be old to be a man
+  Take my hand, come with me to my room
+  Girl I got a suite at the SLS
+  I already know you got expensive taste
+  Take my hand, follow me to my room
+  Tell your little friends you gon' be alright
+  Girl I got a plan for the whole night
+
+  Hey now, I'm saying
+  My only way out is the way in
+  I won't stop 'til you're mine, no way
+  Well all my days now, they changin'
+  I got angels, no more Satan
+  Looks like God's on my side, this time
+  Well, I been meanin' to tell you
+  You lookin' better every day
+  Write you letters
+  It's only right that right after love, I write my name
+  If it's forever or never it's all the same
+  Under the weather
+  Feel much better when that weather isn't rain, yeah
+  Ooh Cinderella, don't you run out of time
+  It feels like you've been taking all day
+  Wherever you came from, wherever you going
+  I promise I'm not far behind, yeah
+  So don't you dare throw this away
+
+  I been meanin' to tell you
+  You lookin' better every day
+  Write you letters
+  It's only right that right after love, I write my name
+  If it's forever or never it's all the same
+  Under the weather
+  Feel much better when that weather isn't rain

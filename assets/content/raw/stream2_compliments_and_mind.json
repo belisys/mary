@@ -1,0 +1,402 @@
+[
+  {
+    "id": "comp-01",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Stop Deflecting",
+    "title": "Look at Me and Say Thank You",
+    "content": "When I tell you that you look breathtaking, do not roll your eyes, do not tell me your hair is messy, and do not make a joke to deflect it. Say 'thank you', Mary. You are allowed to be admired, especially by the man who loves you. Let the compliment land.",
+    "author_or_source": "Nader",
+    "tease": "Don't you dare argue with me on this."
+  },
+  {
+    "id": "comp-02",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ The 'Too Dumb' Lie",
+    "title": "You Never Sound Dumb to Me",
+    "content": "Don't you ever say 'I sound too dumb' in front of me again. Your family might have spent years making you feel small because they didn't have the emotional capacity to understand your depth. You have an intuitive, brilliant mind. Speak your thoughts freely; you will never be judged here.",
+    "author_or_source": "Nader",
+    "tease": "I'm the biologist, but you understand human soul better than science."
+  },
+  {
+    "id": "comp-03",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Artistic Genius",
+    "title": "Your Art Has a Soul",
+    "content": "Most people know how to copy a picture; you know how to capture feeling. When you sketch, there is a pulse and an electricity to your linework that cannot be taught in any school. You are a real artist, Mary, and don't let anyone who lacks your vision tell you otherwise.",
+    "author_or_source": "Nader",
+    "tease": "One day your art will be in a gallery, and I'll be there reminding you I said it first."
+  },
+  {
+    "id": "comp-04",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Impeccable Aesthetic",
+    "title": "The Rare Eye You Have",
+    "content": "You have an impeccable, quiet eye for beauty. The lighting you notice, the songs you pick, the subtle colors you match—you see elegance where ordinary people just see background noise. It's chic, effortless, and entirely yours.",
+    "author_or_source": "Nader",
+    "tease": "Great taste in music, aesthetics, and especially in partners."
+  },
+  {
+    "id": "comp-05",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ That Rare Laugh",
+    "title": "When You Genuinely Laugh",
+    "content": "You spend so much time with your guarded, serious expression on that when something catches you off guard and you truly laugh out loud, it's my favorite sound in the world. Stop hiding your smile behind your hand; let me see it.",
+    "author_or_source": "Nader",
+    "tease": "I will tell the stupidest jokes on earth just to hear that laugh once."
+  },
+  {
+    "id": "comp-06",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Soft Heart Under Spikes",
+    "title": "The Softest Soul",
+    "content": "You try so hard to look tough with your dark clothes and your cold demeanor, but I know what's underneath. Beneath all those defensive spikes is the most delicate, tender, and caring heart I have ever met. It takes real courage to stay that soft after everything you've survived.",
+    "author_or_source": "Nader",
+    "tease": "You can't fool me, marshmallow."
+  },
+  {
+    "id": "comp-07",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Academic Panic",
+    "title": "Grades Don't Define Your Worth",
+    "content": "When you freeze during exams or math problems, it's panic shutting down your working memory—not a lack of intelligence. You survived an emotional warzone at home while trying to finish school. You are ten times stronger and more resilient than anyone who had an easy road.",
+    "author_or_source": "Nader",
+    "tease": "A piece of paper doesn't measure what you're made of."
+  },
+  {
+    "id": "comp-08",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Natural Elegance",
+    "title": "Unfiltered Beauty",
+    "content": "You don't need fancy filters, perfect lighting, or complicated angles. The quiet way you carry yourself, those angelic eyes, that subtle tilt of your head—you have natural, effortless elegance that people pay fortunes trying to imitate.",
+    "author_or_source": "Nader",
+    "tease": "And yes, even when you just woke up and your hair is everywhere."
+  },
+  {
+    "id": "comp-09",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Emotional Depth",
+    "title": "Your Sensitivity is a Superpower",
+    "content": "They told you you're 'too sensitive' or 'too dramatic' to make you feel like your tears were a defect. They lied to you. Your ability to feel deeply is why you understand art, why your empathy runs deep, and why you love so genuinely. Never apologize for having a big heart.",
+    "author_or_source": "Nader",
+    "tease": "Cold people will always fear someone who can feel."
+  },
+  {
+    "id": "comp-10",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Catching the Deflection",
+    "title": "Caught You Again",
+    "content": "I see what you're doing right now. You're reading this card and thinking: 'He's just saying that to be nice.' Stop. I don't give cheap handouts, and I never say words I don't mean. Take this deposit into your heart and keep it there.",
+    "author_or_source": "Nader",
+    "tease": "I caught you red-handed. Smile and accept it."
+  },
+  {
+    "id": "comp-11",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Fierce Loyalty",
+    "title": "The Way You Love",
+    "content": "Even after being hurt, lied to, and let down, the way you care about people is pure and fiercely loyal. That is rare in this world. It shows the caliber of your character, and it's why you deserve a man who protects that loyalty with his life.",
+    "author_or_source": "Nader",
+    "tease": "I know what I have in my hands."
+  },
+  {
+    "id": "comp-12",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ The Artist's Resilience",
+    "title": "Transforming Pain Into Art",
+    "content": "Some people break under pressure, and some people become bitter. You took the loneliness of your room, picked up a pen, and turned your pain into beauty. That is alchemy, Mary. You are a creator.",
+    "author_or_source": "Nader",
+    "tease": "Never stop creating."
+  },
+  {
+    "id": "comp-13",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Quiet Dignity",
+    "title": "You Stand Tall",
+    "content": "Even on your hardest days, when you felt like sinking into the floor, you got up, washed your face, and carried on. I notice that quiet strength in you. It doesn't make loud noise, but it's unbreakable.",
+    "author_or_source": "Nader",
+    "tease": "Stronger than you give yourself credit for."
+  },
+  {
+    "id": "comp-14",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ You Belong Here",
+    "title": "You Are Allowed to Take Up Space",
+    "content": "You don't need an excuse to exist, to speak, or to be celebrated. You don't have to earn your place in my world by doing chores or being perfect. You exist, and that is more than enough for me.",
+    "author_or_source": "Nader",
+    "tease": "No performance reviews required."
+  },
+  {
+    "id": "comp-15",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Genuine Worship",
+    "title": "Grounded Adoration",
+    "content": "I don't put you on a fake pedestal where you're afraid to make a mistake. I see all your flaws, your late-night mood swings, your stubborn debates, and your quiet fears—and I choose all of it, every single day, with absolute certainty.",
+    "author_or_source": "Nader",
+    "tease": "Flaws and all, you're mine."
+  },
+  {
+    "id": "comp-16",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Drawing Line Confidence",
+    "title": "Look at the Confidence in Your Lines",
+    "content": "Look at the lines you drew today. There is zero hesitation in your stroke when you let yourself create freely. You don't scratch at the paper like an amateur; you lay down bold, expressive curves with natural authority. Stop doubting your technical skill; you have it in your bones.",
+    "author_or_source": "Nader",
+    "tease": "Bold lines, bold artist. Believe in your hand."
+  },
+  {
+    "id": "comp-17",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ 'It's Just a Sketch'",
+    "title": "Stop Undermining Your Work",
+    "content": "Every single time you show me a drawing, you preface it with: 'It's so ugly', 'I ruined it', or 'It's just a rough sketch'. Stop pre-emptively tearing down your work so others can't hurt you first. What you created is gorgeous. Send it with pride and say: 'Look what I made.'",
+    "author_or_source": "Nader",
+    "tease": "No more disclaimers before sending me art."
+  },
+  {
+    "id": "comp-18",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Elegant Posture",
+    "title": "The Grace in Your Collarbones",
+    "content": "The delicate line of your neck and collarbones has classical, sculpted elegance. You look like you walked straight out of a Renaissance oil painting. Stop covering yourself up with tension; you are naturally striking.",
+    "author_or_source": "Nader",
+    "tease": "Sculpted like fine marble, but alive and warm."
+  },
+  {
+    "id": "comp-19",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Emotional Radar",
+    "title": "You Read the Unspoken",
+    "content": "People can put on whatever fake smile they want, but you see straight through it. You notice micro-expressions, shifts in tone, and hidden tension before anyone else. That emotional radar is genius-level intuition. Never let anyone convince you you're unobservant.",
+    "author_or_source": "Nader",
+    "tease": "You're a human lie detector, Mary."
+  },
+  {
+    "id": "comp-20",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Morning FaceTime",
+    "title": "Messy Hair Perfection",
+    "content": "You panic when you answer FaceTime in the morning with your hair wild, half-asleep eyes, and no makeup. Mary, you look the prettiest when you're completely unfiltered and sleepy. That soft, unguarded morning face is my favorite sight.",
+    "author_or_source": "Nader",
+    "tease": "Unfiltered and sleepy beats full glam every time."
+  },
+  {
+    "id": "comp-21",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Creative Imagination",
+    "title": "The Worlds Inside Your Mind",
+    "content": "The characters, moods, and aesthetics living inside your imagination are richer than published graphic novels. You have an entire universe behind those eyes. Keep drawing it into existence; the world needs what you have inside.",
+    "author_or_source": "Nader",
+    "tease": "Build your universe; I'll be the first fan."
+  },
+  {
+    "id": "comp-22",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ That Sleepy Voice Note",
+    "title": "The Tone of Your Voice",
+    "content": "There is a gentle, melodic warmth in your voice notes that instantly settles my chest. When you talk quietly about small things that happened during your day, it carries more genuine comfort than anything else in my notifications.",
+    "author_or_source": "Nader",
+    "tease": "Send three more voice notes right now."
+  },
+  {
+    "id": "comp-23",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ 'Sorry for Spamming'",
+    "title": "You Are Not Annoying",
+    "content": "You sent three texts in a row and followed up with: 'Sorry for spamming, I'm so annoying.' Stop that immediately. Send me thirty texts. Send me photos of cats, sketches, thoughts, and complaints. Hearing from you is a blessing, never a chore.",
+    "author_or_source": "Nader",
+    "tease": "Spam my phone all day; I dare you."
+  },
+  {
+    "id": "comp-24",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Expressive Eyes",
+    "title": "Those Deep Dark Eyes",
+    "content": "Your eyes carry the mystery of a midnight sky. You don't have to speak a word; when you look into the camera, everything you feel is written there with total honesty. They are deep, captivating, and impossible to forget.",
+    "author_or_source": "Nader",
+    "tease": "I could stare into those eyes for hours."
+  },
+  {
+    "id": "comp-25",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Palette Mastery",
+    "title": "Your Sense of Color",
+    "content": "The way you balance muted crimsons, dusty roses, and deep obsidian shadows in your visual taste is sophisticated. You don't follow tacky trends; you have an innate, refined sense of color harmony that takes others decades to develop.",
+    "author_or_source": "Nader",
+    "tease": "A chic colorist by nature."
+  },
+  {
+    "id": "comp-26",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Quiet Brilliance",
+    "title": "They Confused Quiet With Weak",
+    "content": "They thought because you stayed silent in arguments at home, you were weak. They didn't realize you were choosing peace over meaningless violence. Your silence was self-preservation and restraint. That took immense discipline.",
+    "author_or_source": "Nader",
+    "tease": "Quiet strength is the deadliest kind."
+  },
+  {
+    "id": "comp-27",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Fast Sharp Wit",
+    "title": "The Sharp Mind You Hide",
+    "content": "When you drop your guard, your comedic timing and quick wit are razor-sharp. You pick up on subtleties and deliver punchlines with deadpan brilliance. Don't hide that clever brain behind timid modesty.",
+    "author_or_source": "Nader",
+    "tease": "Smarter and funnier than you let on."
+  },
+  {
+    "id": "comp-28",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Taking the Win",
+    "title": "Accept the Compliment with No 'Buts'",
+    "content": "Rule of the day: When someone praises you, delete the word 'but' from your vocabulary. 'Thank you, but I'm tired', 'Thank you, but it's old'—no. Say 'Thank you' and let your heart feel the warmth. You earned it.",
+    "author_or_source": "Nader",
+    "tease": "Say it: 'Thank you, Nader.' Just like that."
+  },
+  {
+    "id": "comp-29",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Effortless Chic",
+    "title": "Style Isn't Bought, It's Born",
+    "content": "Some girls spend thousands on designer labels and still look awkward. You throw on a simple oversized black jacket, silver rings, and boots, and look like a high-fashion editorial model. It's in the way you hold yourself.",
+    "author_or_source": "Nader",
+    "tease": "Effortless, chic, and totally original."
+  },
+  {
+    "id": "comp-30",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Soul Resilience",
+    "title": "You Protected Your Sweetness",
+    "content": "The world threw harshness, shouting, and coldness at you, and somehow you refused to become a cruel or bitter person. Protecting your sweetness in a bitter world is the greatest triumph a human can achieve. I revere that in you.",
+    "author_or_source": "Nader",
+    "tease": "Tough as iron, sweet as honey."
+  },
+  {
+    "id": "comp-31",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Visual Fingerprint",
+    "title": "Your Art is One of a Kind",
+    "content": "If someone placed a hundred drawings on a wall, I could spot yours from twenty paces away. You have a distinct visual voice—the moodiness, the subtle lighting, the delicate emotion. That is what defines a true master.",
+    "author_or_source": "Nader",
+    "tease": "Your signature style is undeniable."
+  },
+  {
+    "id": "comp-32",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Intuitive Empathy",
+    "title": "You Feel With Others",
+    "content": "When someone is hurting, you don't offer fake platitudes; you sit with them in the feeling. Your capacity for genuine empathy is rare. It makes you a true sanctuary for the people lucky enough to be in your inner circle.",
+    "author_or_source": "Nader",
+    "tease": "A heart of gold that must be protected."
+  },
+  {
+    "id": "comp-33",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Unashamed Presence",
+    "title": "You Deserve Every Good Thing",
+    "content": "Good food, peaceful rooms, high-end drawing tablets, unshakeable devotion—none of these are things you 'stole' or 'tricked' the world into giving you. You deserve every ounce of beauty and comfort that comes your way.",
+    "author_or_source": "Nader",
+    "tease": "Open your hands and receive the good."
+  },
+  {
+    "id": "comp-34",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ The Real You",
+    "title": "I Adore the Whole Package",
+    "content": "Not just the artist, not just the cute photos, but the stubborn debater, the midnight overthinker, the girl who bites her lip when she's stressed. The whole package is magnificent, Mary, and it has my complete devotion.",
+    "author_or_source": "Nader",
+    "tease": "100% of you, unconditionally."
+  },
+  {
+    "id": "comp-35",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Never Dim Your Light",
+    "title": "Don't Shrink to Fit In",
+    "content": "If small-minded people at school or home feel intimidated by your taste, your intellect, or your quiet grace, do not shrink yourself to make them comfortable. Shine as bright as you want. Let them squint.",
+    "author_or_source": "Nader",
+    "tease": "Never shrink for anyone."
+  },
+  {
+    "id": "comp-36",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ The Pure Charisma",
+    "title": "Magnetic Quietude",
+    "content": "You don't have to be the loudest in the room to command attention. There is a magnetic, alluring calm around you that draws people in. It's mysterious, intriguing, and breathtaking.",
+    "author_or_source": "Nader",
+    "tease": "Magnetic without even trying."
+  },
+  {
+    "id": "comp-37",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Self-Validation Practice",
+    "title": "Say It in the Mirror",
+    "content": "Go to the mirror right now, look directly into your own eyes, and say: 'I am talented, I am beautiful, and I am safe.' It will feel uncomfortable because trauma made you think humility means self-hatred. Break that conditioning.",
+    "author_or_source": "Nader",
+    "tease": "Go look in the mirror. I'll wait."
+  },
+  {
+    "id": "comp-38",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Deep Intellect",
+    "title": "Intuitive Biology & Life",
+    "content": "You argued with me about biology and life because you understand the organic pulse of living things better than any textbook diagram. Your mind synthesizes emotion and reality effortlessly. That is genuine intellect.",
+    "author_or_source": "Nader",
+    "tease": "Try me in biology anytime, artist."
+  },
+  {
+    "id": "comp-39",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Masterpiece in Progress",
+    "title": "You Are Your Own Art",
+    "content": "You spend so much time making art on screens and paper, but you forget that you are the greatest masterpiece in the room. The way you're growing, healing, and learning to stand tall—that is art in motion.",
+    "author_or_source": "Nader",
+    "tease": "The artist is the masterpiece."
+  },
+  {
+    "id": "comp-40",
+    "category": "Take the Compliment",
+    "frequency_tier": "high",
+    "tag": "✦ Permanent Stamp",
+    "title": "Approved and Verified",
+    "content": "This card officially certifies that Mariem Mohamed Basyuni is stunning, immensely gifted, worthy of unconditional love, and forbidden from insulting herself for the next 24 hours. Certified by Nader.",
+    "author_or_source": "Nader",
+    "tease": "Official stamp: Sealed with devotion."
+  }
+]

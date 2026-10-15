@@ -1,0 +1,402 @@
+[
+  {
+    "id": "som-01",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Back Posture & Ribs",
+    "title": "Straighten Your Back, Mary",
+    "content": "Sit up and roll your shoulders back right now. You've been hunching forward over your sketchbook and your phone for hours, and that exact slouch is what pinches the nerve between your ribs. Open your chest, let your lungs fill up, and stop crushing your spine. I'm watching your posture.",
+    "author_or_source": "Nader",
+    "tease": "Yes, sit up straight immediately."
+  },
+  {
+    "id": "som-02",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ The Sharp Chest Pinch",
+    "title": "Your Heart is Healthy",
+    "content": "When that sharp needle pain hits your chest while breathing, stop panicking. Your heart is strong and healthy—it's precordial catch syndrome from tight intercostal muscles and poor sitting posture. Stand up, roll your shoulders down and back, and take one slow, controlled deep breath to release the pinch. You are safe.",
+    "author_or_source": "Nader",
+    "tease": "Don't diagnose yourself on Google. Listen to me."
+  },
+  {
+    "id": "som-03",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Artist Hands",
+    "title": "Unclench Your Drawing Hand",
+    "content": "Put down your stylus or pencil. Look at your fingers—you grip with a death hold when you're focused, and that's why your hands tremble. Open your palms, interlace your fingers, press your palms outward, and shake your wrists loose like you're flicking water off your fingertips. Let those talented hands rest.",
+    "author_or_source": "Nader",
+    "tease": "Those hands make masterpieces; treat them with respect."
+  },
+  {
+    "id": "som-04",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Vitamin D & Sunlight",
+    "title": "Take Your Vitamin D",
+    "content": "Did you take your Vitamin D today, Mary? You spend entire days tucked inside your room creating art away from the sun. Low Vitamin D drains your energy, makes you feel sluggish, and makes anxiety feel twice as heavy. Take your drop or tablet with food, and take your multivitamin. Your body needs real fuel.",
+    "author_or_source": "Nader",
+    "tease": "I'm checking in on your vitamins every single day."
+  },
+  {
+    "id": "som-05",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Drop Your Shoulders",
+    "title": "Let the Tension Fall",
+    "content": "Right now, your shoulders are lifted all the way to your ears and your teeth are clenched together. Unclench your jaw. Drop your tongue from the roof of your mouth. Exhale until your stomach is completely empty. You carry the weight of an entire household in your neck. Drop it; you're with me.",
+    "author_or_source": "Nader",
+    "tease": "Feel that relief? Don't pick the tension back up."
+  },
+  {
+    "id": "som-06",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Cold Water & Vagus Nerve",
+    "title": "Drink a Cold Glass of Water",
+    "content": "Go to the kitchen, pour yourself a large glass of cold water, and drink it slowly. When adrenaline rushes through your chest, cool water stimulates your vagus nerve and forces your heart rate to steady down. Stop overthinking and go take that sip right now.",
+    "author_or_source": "Nader",
+    "tease": "I'll wait right here until you finish the whole glass."
+  },
+  {
+    "id": "som-07",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Sleep Sanctuary",
+    "title": "Put the Screen Away",
+    "content": "It's late, Mary. Your brain has been running on high alert all day, trying to protect you from things that aren't even happening right now. The world will still be here tomorrow. Turn the brightness down, lock your phone, and close your eyes. You don't have to solve your whole life at 2 AM.",
+    "author_or_source": "Nader",
+    "tease": "No 'one more TikTok', go to sleep."
+  },
+  {
+    "id": "som-08",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Thoracic Extension",
+    "title": "Open Your Ribcage",
+    "content": "Lace your hands behind your head and gently lean back against your chair. Let your elbows open wide and take three deep breaths into your belly. That stiffness between your shoulder blades is from holding your breath when you get anxious. Open your chest and give your lungs space.",
+    "author_or_source": "Nader",
+    "tease": "Ten seconds of stretching won't hurt your schedule."
+  },
+  {
+    "id": "som-09",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Hand Shakes & Tremors",
+    "title": "When Your Hands Tremble in Class",
+    "content": "When your hands start shaking during a test or in class, it's not weakness—it's an adrenaline surge. Put your pencil down flat on the desk, press both feet flat against the cool floor, and grip the bottom edge of your chair. Feel the solid wood or metal. You are grounded. The room cannot hurt you.",
+    "author_or_source": "Nader",
+    "tease": "You survived worse than a classroom. You've got this."
+  },
+  {
+    "id": "som-10",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Sleep Debt & Rest",
+    "title": "Rest Without Guilt",
+    "content": "If you slept for 11 hours after crying or having a hard week, do not wake up and apologize for being 'lazy'. Your nervous system was repairing itself from battle. Rest is not a reward you have to earn by suffering; rest is how you survive. I'm glad you slept.",
+    "author_or_source": "Nader",
+    "tease": "Zero guilt allowed in this sanctuary."
+  },
+  {
+    "id": "som-11",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Nourishment",
+    "title": "Eat Something Real",
+    "content": "Don't survive on chips and soda today, Mary. Your brain needs protein and actual fuel to balance your mood and fight off that afternoon crash. Eat a real meal, drink some water, and take care of your body. You only get one vessel; let me help you protect it.",
+    "author_or_source": "Nader",
+    "tease": "And yes, a bag of chips is not a dinner."
+  },
+  {
+    "id": "som-12",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Wrist Flexor Reset",
+    "title": "The Prayer Stretch",
+    "content": "Put your palms together in front of your chest like you're praying. Slowly lower your wrists toward your waistline while keeping your palms pressed tight together. Feel that stretch along the inside of your forearms? That's undoing four hours of digital tablet sketching. Hold it for 20 seconds.",
+    "author_or_source": "Nader",
+    "tease": "Your wrists will thank me when you're 80."
+  },
+  {
+    "id": "som-13",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ The 4-7-8 Rhythm",
+    "title": "Breathe With My Count",
+    "content": "If your chest feels tight right now, follow my rhythm. Inhale through your nose for 4 seconds... hold your breath gently for 7 seconds... and exhale slowly through your mouth like you're blowing through a straw for 8 seconds. Do this three times. I'm right here with you.",
+    "author_or_source": "Nader",
+    "tease": "Count with me. One... two... three... four..."
+  },
+  {
+    "id": "som-14",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Eyestrain & Screen Break",
+    "title": "Look Out the Window",
+    "content": "Look away from the screen. Find the farthest building or cloud out the window and stare at it for 20 seconds without focusing on small details. Let your eye muscles relax their zoom. Your vision is precious; don't burn it out staring at pixels all night.",
+    "author_or_source": "Nader",
+    "tease": "Look outside right now, Mary."
+  },
+  {
+    "id": "som-15",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Grounding Five Senses",
+    "title": "Five Real Things",
+    "content": "If you feel yourself dissociating or getting numb, stop what you're doing. Name 5 things you can see around your room, touch 4 physical textures, hear 3 quiet sounds, smell 2 scents, and take 1 deep breath. Come back to the present moment. You are here, in your room, and you are safe.",
+    "author_or_source": "Nader",
+    "tease": "Anchor yourself. I'm right here."
+  },
+  {
+    "id": "som-16",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Wall Chest Opener",
+    "title": "Open Up Your Pectorals",
+    "content": "Stand up from your desk, put your right forearm flat against the wall or doorframe at 90 degrees, and gently rotate your body to the left. Feel that deep stretch across your chest and collarbone? That reverses hours of rounded artist shoulders and takes pressure off your ribs. Switch sides and hold each for 20 seconds.",
+    "author_or_source": "Nader",
+    "tease": "Don't be lazy; get up and stretch right now."
+  },
+  {
+    "id": "som-17",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Magnesium & Muscle Calm",
+    "title": "Magnesium For Deep Sleep",
+    "content": "Take your magnesium before bed, Mary. When your nervous system is constantly wound tight with anxiety, your body burns through magnesium rapidly, leading to muscle spasms, tight jaws, and racing midnight thoughts. A gentle magnesium supplement helps your muscle fibers physically release tension and invites deep, undisturbed sleep.",
+    "author_or_source": "Nader",
+    "tease": "Science backs it up; take your minerals."
+  },
+  {
+    "id": "som-18",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ The Physiological Sigh",
+    "title": "Two Inhales, One Long Sigh",
+    "content": "When your chest feels tight or you feel a wave of panic rising, do a physiological sigh: Take one deep breath in through your nose, then immediately take a quick second sharp inhale to fully pop open your lungs, and let out a long, slow sigh through your mouth. Doing this twice instantly resets your autonomic nervous system.",
+    "author_or_source": "Nader",
+    "tease": "Try it right now: sniff, sniff... and sigh."
+  },
+  {
+    "id": "som-19",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Stop Biting Your Lips",
+    "title": "Notice the Unconscious Fidget",
+    "content": "Stop biting your lower lip and stop picking at your fingers. Whenever you feel overwhelmed, your body looks for a sensory outlet and ends up hurting itself. Notice the fidget, uncurl your hands, put some lip balm on, and take a slow breath. You don't need to punish your skin when you're stressed.",
+    "author_or_source": "Nader",
+    "tease": "I see that lip biting from miles away."
+  },
+  {
+    "id": "som-20",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Finger Tendon Glides",
+    "title": "Claw to Fist Stretch",
+    "content": "Hold your drawing hand up. Curl your fingers halfway down like a cat's claw, hold for five seconds, then roll them into a loose fist, and finally straighten them wide apart. This stretches the tendon sheaths in your palm that get inflamed from hours of gripping styluses and pencils. Do this five times.",
+    "author_or_source": "Nader",
+    "tease": "Pamper your artist hands; they create magic."
+  },
+  {
+    "id": "som-21",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Ice on the Wrists",
+    "title": "The Cold Water Shock Reset",
+    "content": "When racing thoughts won't stop and adrenaline is buzzing in your chest, go to the sink and run freezing cold water over the insides of both wrists for 30 seconds, or splash cold water on your face. This activates the mammalian dive reflex, immediately signaling your brain stem to drop your heart rate.",
+    "author_or_source": "Nader",
+    "tease": "Cold water resets the circuit. Go do it."
+  },
+  {
+    "id": "som-22",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ 20-20-20 Rule",
+    "title": "Give Your Eyes a Break",
+    "content": "Every 20 minutes of digital painting, look at an object at least 20 feet away for 20 seconds. Digital screens lock your ciliary eye muscles into a tight cramp, causing frontal headaches and eyestrain that you mistake for exhaustion. Rest your eyes, Mary.",
+    "author_or_source": "Nader",
+    "tease": "Those gorgeous eyes need rest too."
+  },
+  {
+    "id": "som-23",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Cold Hands Warmup",
+    "title": "Warm Up Those Ice-Cold Hands",
+    "content": "When you're anxious or focused, adrenaline constricts peripheral blood vessels, leaving your hands freezing cold. Go run warm water over them or wrap them around a warm mug. Warm hands tell your nervous system that you are in a safe, warm environment, allowing your body to relax.",
+    "author_or_source": "Nader",
+    "tease": "Warm hands make better sketches."
+  },
+  {
+    "id": "som-24",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Uncross Your Legs",
+    "title": "Fix Your Hip Alignment",
+    "content": "Uncross your legs right now. Sitting with your legs tucked under you or crossed for hours tilts your pelvis, twists your lower spine, and forces your mid-back to compensate, leading directly to that sharp rib pinch. Put both feet flat on the floor and align your hips.",
+    "author_or_source": "Nader",
+    "tease": "Both feet on the floor. I mean it."
+  },
+  {
+    "id": "som-25",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Iron & Nutrition Check",
+    "title": "Don't Skip Your Meals",
+    "content": "If you feel dizzy when standing up or exhausted by 4 PM, check if you've eaten any real iron-rich food today. Skipping meals causes blood sugar drops that mimic panic attacks with rapid heartbeats and shaking. Eat something wholesome with protein before you get back to your art.",
+    "author_or_source": "Nader",
+    "tease": "An artist needs fuel to create."
+  },
+  {
+    "id": "som-26",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Bed Drawing Alert",
+    "title": "Stop Drawing Hunched in Bed",
+    "content": "Drawing in bed propped up on three pillows with your neck cranked downward is destroying your cervical spine. Sit at your desk with your chair supporting your lower back, or prop your tablet on a stand at eye level. Your neck wasn't designed to carry a bowling ball at a 45-degree angle.",
+    "author_or_source": "Nader",
+    "tease": "Out of the bed slouch, onto a proper chair."
+  },
+  {
+    "id": "som-27",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Neck Tension Release",
+    "title": "Gentle Ear-to-Shoulder Stretch",
+    "content": "Don't aggressively crack your neck. Instead, drop your right ear gently toward your right shoulder and hold for 15 seconds without forcing it. Feel that long band along the left side of your neck release? Now gently switch to the left. That releases the tension headaches building behind your eyes.",
+    "author_or_source": "Nader",
+    "tease": "Gentle stretches, no violent cracking."
+  },
+  {
+    "id": "som-28",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Public Box Breathing",
+    "title": "Secret Calm in the Classroom",
+    "content": "If you're sitting in class and feel panic creeping in, nobody has to know you're regulating. Trace a square in your mind: inhale for 4 seconds along the top edge, hold for 4 seconds down the side, exhale for 4 seconds along the bottom, and hold empty for 4 seconds going up. Repeat four times quietly. You have total control.",
+    "author_or_source": "Nader",
+    "tease": "Your secret superpower in any crowded room."
+  },
+  {
+    "id": "som-29",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Electrolytes & Hydration",
+    "title": "Water With a Pinch of Salt",
+    "content": "Plain water is great, but if you've been crying or running on adrenaline, your electrolytes are depleted. Drink water with a squeeze of lemon or a tiny pinch of natural salt. It rehydrates your cells ten times faster and stops that dry-mouth panic sensation.",
+    "author_or_source": "Nader",
+    "tease": "Hydrate like a pro, Mary."
+  },
+  {
+    "id": "som-30",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Melatonin & Pitch Black",
+    "title": "Make Your Room Pitch Black",
+    "content": "When you finally get into bed, cover up any blinking charger lights, turn off the hallway crack, and make the room as dark as a cave. Your brain needs complete darkness to produce natural melatonin and pull you into deep, restorative stage-4 sleep. Goodnight, my angel.",
+    "author_or_source": "Nader",
+    "tease": "Complete blackout mode. Sweet dreams."
+  },
+  {
+    "id": "som-31",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Thumb Webbing Release",
+    "title": "Decompress the Thumb Joint",
+    "content": "Take your left thumb and gently massage the thick, fleshy muscle between your right thumb and index finger. If you draw all day, that muscle is rock-hard and tender. Rub small circles there for thirty seconds; that single spot releases tension through your whole forearm.",
+    "author_or_source": "Nader",
+    "tease": "Find that tender spot? Massage it gently."
+  },
+  {
+    "id": "som-32",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Grounding the Soles",
+    "title": "Feel the Floor Underneath",
+    "content": "Take your socks off and plant the bare soles of your feet flat on the cool floor. Notice the temperature of the tiles or wood. Pay attention to the physical contact between your heels and the earth. You are anchored. Whatever racing thoughts are swirling in your head cannot move the ground beneath you.",
+    "author_or_source": "Nader",
+    "tease": "Solid ground, solid presence."
+  },
+  {
+    "id": "som-33",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Release the Belly",
+    "title": "Stop Sucking in Your Stomach",
+    "content": "You have been holding your stomach in tight all day without even realizing it—a subconscious defense response from feeling unsafe. Let your belly soften completely. Let it expand when you breathe in. Softening your belly disarms the fight-or-flight switch in your brain.",
+    "author_or_source": "Nader",
+    "tease": "Nobody is watching; let your stomach relax."
+  },
+  {
+    "id": "som-34",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Part Your Lips",
+    "title": "Part Your Lips and Relax the Jaw",
+    "content": "Slightly part your lips so your top teeth and bottom teeth don't touch at all. Let your lower jaw hang heavy. When the jaw unclenches, the cranial nerves connected to your neck immediately send a safety signal to your heart rate. Let your face soften.",
+    "author_or_source": "Nader",
+    "tease": "Let that jaw drop right now."
+  },
+  {
+    "id": "som-35",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Warm Bedtime Tea",
+    "title": "Warm Chamomile or Mint",
+    "content": "Make yourself a cup of warm chamomile or fresh mint tea with honey before bed. Avoid caffeinated sodas and energy drinks in the evening; caffeine stays in your bloodstream for eight hours, keeping your nervous system simmering even when you're exhausted.",
+    "author_or_source": "Nader",
+    "tease": "Warm tea, warm thoughts, peaceful night."
+  },
+  {
+    "id": "som-36",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Rhomboid Activation",
+    "title": "Squeeze Your Shoulder Blades",
+    "content": "Pinch your shoulder blades backward together like you're trying to hold a pencil between them. Hold for five seconds, then release. Do that three times. That wakes up your upper back posture muscles and pulls your collarbones wide open, keeping your chest light and free from stabbing cramps.",
+    "author_or_source": "Nader",
+    "tease": "Pinch... hold... and release. Good girl."
+  },
+  {
+    "id": "som-37",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Window Air Break",
+    "title": "Breathe Real Outside Air",
+    "content": "Open the window or step onto the balcony for two minutes. Close your eyes and feel the breeze on your face. Smell the outdoor air and listen to the distant sounds. Staying in stagnant room air all day drains your vitality. Fresh oxygen clears the brain fog.",
+    "author_or_source": "Nader",
+    "tease": "Two minutes of fresh air is an order."
+  },
+  {
+    "id": "som-38",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Stylus Grip Ergonomics",
+    "title": "Loosen Your Pinch Grip",
+    "content": "When drawing fine details, check your grip. You don't need to choke the stylus to draw a delicate line; let the software pressure curve do the work. If your fingers ache, slide a silicone or foam grip over your pen. Treat your drawing hand with kindness.",
+    "author_or_source": "Nader",
+    "tease": "Lighter grip, freer lines, happier hands."
+  },
+  {
+    "id": "som-39",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ Forearm Edge Padding",
+    "title": "Protect Your Wrists From Hard Desks",
+    "content": "If you rest your forearms on the hard edge of a desk while sketching, you compress the ulnar nerve, causing numbness or tingling in your pinky and ring fingers. Put a soft mousepad or folded towel under your arm to cushion the edge.",
+    "author_or_source": "Nader",
+    "tease": "Ergonomics are sexy, Mary."
+  },
+  {
+    "id": "som-40",
+    "category": "Somatic & Physical Care",
+    "frequency_tier": "high",
+    "tag": "✦ The Full Exhale",
+    "title": "The Calm Lives in the Exhale",
+    "content": "People think taking a deep breath means sucking in as much air as possible until they're stiff. Real calm lives at the bottom of the exhale. Blow every last drop of air out of your lungs until your ribs drop completely flat, pause for two seconds, and notice how your body naturally fills itself back up with peace.",
+    "author_or_source": "Nader",
+    "tease": "Exhale completely. Let it all go."
+  }
+]
