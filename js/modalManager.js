@@ -9,9 +9,10 @@
  * - Smooth camera flight & GSAP spring physics.
  */
 
-import { getMemoryByDotId, getCategoryPool } from './memoryDatabase.js?v=338';
-import { MARY_SANCTUARY_LEXICON } from './marySanctuaryLexicon.js?v=338';
-import { telemetry } from './telemetry.js?v=338';
+import { getMemoryByDotId, getCategoryPool } from './memoryDatabase.js?v=340';
+import { MARY_SANCTUARY_LEXICON } from './marySanctuaryLexicon.js?v=340';
+import { telemetry } from './telemetry.js?v=340';
+import { isSanctuaryUnlocked } from './sanctuaryGate.js?v=340';
 
 class ModalManager {
   constructor() {
@@ -332,6 +333,7 @@ class ModalManager {
    * Strictly resolves within activeFilter.
    */
   open(dotId, hitIndex = 0) {
+    if (!isSanctuaryUnlocked()) return;
     this.isBeaconMode = false;
     this.currentDotId = dotId;
     this.currentIndex = hitIndex;
@@ -467,6 +469,7 @@ class ModalManager {
    * Opens the Sanctuary Quotation Box directly from the molten light of the rising Orbit Beacon!
    */
   openFromBeacon(planetaryRing) {
+    if (!isSanctuaryUnlocked()) return;
     this.isBeaconMode = true;
     this.planetaryRing = planetaryRing;
     this.isOpen = true;

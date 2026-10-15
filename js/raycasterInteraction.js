@@ -8,8 +8,9 @@
  */
 
 import * as THREE from 'three';
-import { modalManager } from './modalManager.js?v=338';
-import { telemetry } from './telemetry.js?v=338';
+import { modalManager } from './modalManager.js?v=340';
+import { telemetry } from './telemetry.js?v=340';
+import { isSanctuaryUnlocked } from './sanctuaryGate.js?v=340';
 
 export class RaycasterInteraction {
   constructor(camera, scene, heartEngine, planetaryRing) {
@@ -247,7 +248,7 @@ export class RaycasterInteraction {
   }
 
   handleClick() {
-    if (window.__gateJustUnlocked || document.body.classList.contains('sanctuary-locked')) return;
+    if (window.__gateJustUnlocked || document.body.classList.contains('sanctuary-locked') || !isSanctuaryUnlocked()) return;
     if (modalManager && modalManager.isOpen) return;
     this.raycaster.setFromCamera(this.pointer, this.camera);
 

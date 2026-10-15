@@ -35,7 +35,7 @@ const _0xstr = [
   "Welcome home, my beautiful girl.<br>Everything in this entire universe was built for you... ✨", // 23
   "Entering...",                      // 24
   "none",                             // 25
-  "bdb5981a23c7e8c7d5835a3d7846953e007bfb79ab6b137b32c2f8ed66d43f7a", // 26 TARGET HASH
+  "97b5378c92f3ab24b3cdbe626ab9d5fe60bcecccf3e2f3160dadd4ba9e616405", // 26 TARGET HASH
   "🚨 INTRUDER ALERT! Back away slowly from the screen. This sanctuary has facial recognition and you definitely don't look like my girl. 🛑", // 27
   "✋ Hold up! Where do you think you're going?! Who leaked this link to you? Turn around and mind your own business! 😂", // 28
   "⚠️ WRONG DATE! If you're Mary: think back, dummy, you know our exact day! 🤦‍♂️ If you're not Mary: keep guessing, buddy, you have a 1 in 10,000 chance! 😂", // 29
@@ -44,7 +44,7 @@ const _0xstr = [
   "🔒 ERROR 403: Vault is sealed. Nice attempt, Sherlock! You will grow old and gray before you crack this date. 💀", // 32
   "👀 Woah there! You thought you could just guess the date and waltz in?! This isn't a public park; it's a private sanctuary! 🚫", // 33
   "🐈 SECURITY BREACH! The cats pressed the panic button. Self-destruct sequence initiated in 3... 2... 1... (just leave already). 💣", // 34
-  "❌ WRONG! Mary, if you forgot the exact day we first talked, I am never letting you live this down! 😭 Check your calendar!", // 35
+  "❌ WRONG! Mary, if you forgot the exact day we became official, I am never letting you live this down! 😭 Think about when we became us!", // 35
   "🚨 HALT! You are not authorized to view this starlight. Step away from the keyboard and go drink some water. 🥤", // 36
   "🤨 Suspicious activity logged. Who sent you? Was it the FBI? Unless your name is Mary, this door stays bolted forever! 🔐", // 37
   "🐾 ACCESS REJECTED! Cat paws only. You don't have the clearance, the beauty, or the key. Close the tab buddy! 💅", // 38
@@ -139,7 +139,7 @@ export class SanctuaryGate {
 
     if (!this.el) return;
 
-    if (sessionStorage.getItem(_0x(13)) === 'true') {
+    if (sessionStorage.getItem(_0x(13)) === _0x(26)) {
       this.el.style.display = _0x(25);
       document.body.classList.remove(_0x(15));
       return;
@@ -147,6 +147,7 @@ export class SanctuaryGate {
 
     this.el.classList.remove(_0x(14));
     document.body.classList.add(_0x(15));
+    this._0xstartTamperGuard();
 
     if (this.btn) {
       this.btn.addEventListener(_0x(16), (e) => {
@@ -283,7 +284,7 @@ export class SanctuaryGate {
   }
 
   _0xenterSanctuary() {
-    sessionStorage.setItem(_0x(13), 'true');
+    sessionStorage.setItem(_0x(13), _0x(26));
     window.__gateJustUnlocked = true;
     setTimeout(() => { window.__gateJustUnlocked = false; }, 2500);
 
@@ -318,6 +319,42 @@ export class SanctuaryGate {
       }
     }
   }
+
+  _0xstartTamperGuard() {
+    const guard = () => {
+      if (sessionStorage.getItem(_0x(13)) === _0x(26)) return;
+      if (!document.body.classList.contains(_0x(15))) {
+        document.body.classList.add(_0x(15));
+      }
+      const overlay = document.getElementById(_0x(0));
+      if (!overlay || !document.body.contains(overlay)) {
+        if (window.heartScene && window.heartScene.renderer) {
+          window.heartScene.renderer.clear();
+        }
+        location.reload();
+        return;
+      }
+      if (overlay.style.display === _0x(25) || overlay.classList.contains(_0x(14)) || overlay.style.opacity === '0') {
+        overlay.style.display = 'flex';
+        overlay.classList.remove(_0x(14));
+        overlay.style.opacity = '1';
+      }
+    };
+
+    if (window.MutationObserver) {
+      const observer = new MutationObserver(guard);
+      observer.observe(document.body, { attributes: true, childList: true, subtree: true });
+    }
+    setInterval(guard, 400);
+  }
+}
+
+export function verifySanctuaryDate(y, m, d) {
+  return _0xverify(y, m, d);
+}
+
+export function isSanctuaryUnlocked() {
+  return sessionStorage.getItem(_0x(13)) === _0x(26);
 }
 
 export const sanctuaryGate = new SanctuaryGate();

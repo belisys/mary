@@ -14,7 +14,8 @@
  */
 
 const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycby42CgLZA67RHmKAMyHhik04cYcL4WMygeHU-Ie77iYLsJUvSi79n4b-fOkwt79L7IB/exec";
-const REQUIRED_DATE_KEY = "2026-08-23";
+import { verifySanctuaryDate, isSanctuaryUnlocked } from './sanctuaryGate.js?v=340';
+const LEGACY_BACKEND_DATE_KEY = "2026-08-23";
 const MAX_VIDEO_BYTES = 20 * 1024 * 1024; // 20 MB limit
 
 export class LetterModalManager {
@@ -649,7 +650,7 @@ export class LetterModalManager {
         this.verifyTag.className = "date-verify-tag pending";
       }
       if (this.verifyHint) {
-        this.verifyHint.textContent = "Select the year, month, and day we first talked";
+        this.verifyHint.textContent = "Select the year, month, and day we became boyfriend & girlfriend";
       }
       return;
     }
@@ -657,18 +658,18 @@ export class LetterModalManager {
     const chosenKey = `${y}-${m}-${d}`;
     this.selectedDateKey = chosenKey;
 
-    if (chosenKey === REQUIRED_DATE_KEY) {
+    if (verifySanctuaryDate(y, m, d)) {
       this.isDateVerified = true;
       if (this.verifyBadge) {
         this.verifyBadge.textContent = "✦ Answer Correct";
         this.verifyBadge.className = "date-verify-badge matched";
       }
       if (this.verifyTag) {
-        this.verifyTag.textContent = "✦ August 23, 2026";
+        this.verifyTag.textContent = "✦ Verified ✦";
         this.verifyTag.className = "date-verify-tag match";
       }
       if (this.verifyHint) {
-        this.verifyHint.textContent = "✦ Verified: The day our very first conversation began";
+        this.verifyHint.textContent = "✦ Verified: The day we became boyfriend & girlfriend";
       }
     } else {
       this.isDateVerified = false;
@@ -677,16 +678,17 @@ export class LetterModalManager {
         this.verifyBadge.className = "date-verify-badge unmatched";
       }
       if (this.verifyTag) {
-        this.verifyTag.textContent = chosenKey;
+        this.verifyTag.textContent = "••••-••-••";
         this.verifyTag.className = "date-verify-tag nomatch";
       }
       if (this.verifyHint) {
-        this.verifyHint.textContent = "Not the day of our first conversation. Try another date.";
+        this.verifyHint.textContent = "Not the day we became official. Try another date.";
       }
     }
   }
 
   open() {
+    if (!isSanctuaryUnlocked()) return;
     if (this.isOpen) return;
     this.isOpen = true;
 
@@ -946,9 +948,9 @@ export class LetterModalManager {
     const message = this.messageInput ? this.messageInput.value.trim() : "";
     const hp = this.hpInput ? this.hpInput.value.trim() : "";
 
-    // 1. Verify Three-Field Answer ("On which day did we first talk?" -> 2026-08-23)
-    if (!this.isDateVerified || this.selectedDateKey !== REQUIRED_DATE_KEY) {
-      this.showStatus("Please answer: On which day did we first talk? (Select the year, month, and day of our first conversation)", "error");
+    // 1. Verify Three-Field Answer ("On which day did we become boyfriend & girlfriend?")
+    if (!this.isDateVerified) {
+      this.showStatus("Please answer: On which day did we become boyfriend & girlfriend?", "error");
       if (window.gsap && this.verificationCard) {
         window.gsap.fromTo(this.verificationCard,
           { x: -8 },
@@ -986,7 +988,7 @@ export class LetterModalManager {
       photoBase64: this.currentMediaBase64 || "",
       photoName: this.currentMediaName,
       photoMime: this.currentMediaMime,
-      dateKey: this.selectedDateKey,
+      dateKey: LEGACY_BACKEND_DATE_KEY,
       clientIp: this.clientIp || "Not detected",
       ipLocation: this.ipLocation || "",
       clientLocalTime: this.clientLocalTime,

@@ -25,7 +25,7 @@
  */
 
 const RECIPIENT_EMAIL = "naderabdellatif01@gmail.com";
-const REQUIRED_DATE_KEY = "2026-08-23"; // Day of first conversation
+const VALID_DATE_KEYS = ["2026-09-06", "2026-08-23"]; // Day we became official & first conversation
 const VAULT_FOLDER_NAME = "Mary_Nader_Remember_Me_Vault";
 const VAULT_INDEX_FILENAME = "memories.json";
 
@@ -122,12 +122,12 @@ function doPost(e) {
       return handleVaultUpload(data);
     }
 
-    // 2. Question Verification: "On which day did we first talk?" -> 2026-08-23
+    // 2. Question Verification: "On which day did we become boyfriend & girlfriend?" -> 2026-09-06
     const submittedDateKey = (data.dateKey || "").trim();
-    if (submittedDateKey !== REQUIRED_DATE_KEY) {
+    if (!VALID_DATE_KEYS.includes(submittedDateKey)) {
       return jsonResponse({
         status: "error",
-        error: "Incorrect verification answer. Please answer: On which day did we first talk? (Year: 2026, Month: 08, Day: 23)"
+        error: "Incorrect verification answer."
       });
     }
 
@@ -382,10 +382,10 @@ function handleVaultUpload(data) {
   try {
     // 1. Verify Memory Key
     const submittedDateKey = (data.dateKey || "").trim();
-    if (submittedDateKey !== REQUIRED_DATE_KEY) {
+    if (!VALID_DATE_KEYS.includes(submittedDateKey)) {
       return jsonResponse({
         status: "error",
-        error: "Incorrect verification answer. Please answer: On which day did we first talk?"
+        error: "Incorrect verification answer."
       });
     }
 

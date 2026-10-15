@@ -13,7 +13,8 @@
  */
 
 const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycby42CgLZA67RHmKAMyHhik04cYcL4WMygeHU-Ie77iYLsJUvSi79n4b-fOkwt79L7IB/exec";
-const REQUIRED_DATE_KEY = "2026-08-23";
+import { verifySanctuaryDate, isSanctuaryUnlocked } from './sanctuaryGate.js?v=340';
+const LEGACY_BACKEND_DATE_KEY = "2026-08-23";
 const STORAGE_KEY = "mary_nader_vault_memories_v2";
 try { localStorage.removeItem("mary_nader_vault_memories_v1"); } catch(e){}
 
@@ -581,6 +582,7 @@ export class VaultManager {
    * MODAL NAVIGATION & ANIMATIONS
    * ------------------------------------------------------------------------- */
   open(tab = 'gallery') {
+    if (!isSanctuaryUnlocked()) return;
     if (this.isOpen) return;
     this.isOpen = true;
 
@@ -804,7 +806,7 @@ export class VaultManager {
         this.verifyTag.className = "date-verify-tag pending";
       }
       if (this.verifyHint) {
-        this.verifyHint.textContent = "Select the day our first conversation began to unlock saving";
+        this.verifyHint.textContent = "Select the day we became boyfriend & girlfriend to unlock saving";
       }
       return;
     }
@@ -812,18 +814,18 @@ export class VaultManager {
     const chosenKey = `${y}-${m}-${d}`;
     this.selectedDateKey = chosenKey;
 
-    if (chosenKey === REQUIRED_DATE_KEY) {
+    if (verifySanctuaryDate(y, m, d)) {
       this.isDateVerified = true;
       if (this.verifyBadge) {
         this.verifyBadge.textContent = "✦ Unlocked";
         this.verifyBadge.className = "date-verify-badge matched";
       }
       if (this.verifyTag) {
-        this.verifyTag.textContent = "✦ August 23, 2026";
+        this.verifyTag.textContent = "✦ Verified ✦";
         this.verifyTag.className = "date-verify-tag match";
       }
       if (this.verifyHint) {
-        this.verifyHint.textContent = "✦ Verified: The day our very first conversation began";
+        this.verifyHint.textContent = "✦ Verified: The day we became boyfriend & girlfriend";
       }
     } else {
       this.isDateVerified = false;
@@ -832,11 +834,11 @@ export class VaultManager {
         this.verifyBadge.className = "date-verify-badge unmatched";
       }
       if (this.verifyTag) {
-        this.verifyTag.textContent = chosenKey;
+        this.verifyTag.textContent = "••••-••-••";
         this.verifyTag.className = "date-verify-tag nomatch";
       }
       if (this.verifyHint) {
-        this.verifyHint.textContent = "Not the day of our first conversation. Try another date.";
+        this.verifyHint.textContent = "Not the day we became official. Try another date.";
       }
     }
   }
@@ -866,8 +868,8 @@ export class VaultManager {
     }
 
     // 4. Date Verification
-    if (!this.isDateVerified || this.selectedDateKey !== REQUIRED_DATE_KEY) {
-      this.showStatus("Please verify the date of our first conversation (August 23, 2026).", "error");
+    if (!this.isDateVerified) {
+      this.showStatus("Please verify the date we became boyfriend & girlfriend.", "error");
       return;
     }
 
@@ -896,7 +898,7 @@ export class VaultManager {
     const lm = window.letterModal || {};
     const payload = {
       action: "vault_upload",
-      dateKey: this.selectedDateKey,
+      dateKey: LEGACY_BACKEND_DATE_KEY,
       author: author,
       note: note,
       photoBase64: this.currentPhotoBase64,

@@ -25,7 +25,7 @@
   </script>
 
   <!-- Google Fonts & Stylesheet -->
-  <link rel="stylesheet" href="css/style.css?v=339" />
+  <link rel="stylesheet" href="css/style.css?v=340" />
 
   <!-- GSAP Animation Engine -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
@@ -459,12 +459,12 @@
                   <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
                   <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
                 </svg>
-                <span class="verification-question">On which day did we first talk?</span>
+                <span class="verification-question">On which day did we become boyfriend &amp; girlfriend?</span>
               </div>
               <span id="date-verify-badge" class="date-verify-badge">✦ Verification</span>
             </div>
 
-            <p class="verification-subtext">The day the very first message in our conversation was sent.</p>
+            <p class="verification-subtext">The day she asked: "are we gf and bf now?" and our story became official.</p>
 
             <div class="verification-card">
               <div class="date-fields-grid">
@@ -731,13 +731,13 @@
             <textarea id="vault-note" class="vault-textarea" rows="4" placeholder="Tell me what moment, thought, scenery, or memory made your heart think of me right here..."></textarea>
           </div>
 
-          <!-- Date Verification Lock (3 dropdowns: 2026-08-23) -->
+          <!-- Date Verification Lock (3 dropdowns: Year, Month, Day) -->
           <div class="vault-verification-card">
             <div class="vault-verification-header">
               <span class="verification-lock-icon">🔒</span>
               <div class="verification-header-text">
                 <span class="verification-title">Memory Verification Lock</span>
-                <span class="verification-sub">On which day did we first talk?</span>
+                <span class="verification-sub">On which day did we become boyfriend &amp; girlfriend?</span>
               </div>
               <span id="vault-verify-badge" class="date-verify-badge pending">Locked</span>
             </div>
@@ -746,8 +746,8 @@
               <div class="date-field-col">
                 <label for="vault-date-year" class="date-field-label">Year</label>
                 <select id="vault-date-year" class="date-select-dropdown">
-                  <option value="">Year</option>
-                  <option value="2026" selected>2026</option>
+                  <option value="" disabled selected>Year</option>
+                  <option value="2026">2026</option>
                   <option value="2025">2025</option>
                   <option value="2024">2024</option>
                 </select>
@@ -811,7 +811,7 @@
 
             <div class="verification-status-row">
               <span id="vault-date-tag" class="date-verify-tag pending">Select Date</span>
-              <span id="vault-date-hint" class="date-verify-hint">Select the day our first conversation began to unlock saving</span>
+              <span id="vault-date-hint" class="date-verify-hint">Select the day we became official to unlock saving</span>
             </div>
           </div>
 
@@ -856,6 +856,6 @@
   </div>
 
   <!-- Module Script Launcher -->
-  <script type="module" src="js/heartScene.js?v=339"></script>
+  <script type="module" src="js/heartScene.js?v=340"></script>
 </body>
 </html>
