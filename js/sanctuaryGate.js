@@ -38,7 +38,7 @@ const _0xstr = [
   "bdb5981a23c7e8c7d5835a3d7846953e007bfb79ab6b137b32c2f8ed66d43f7a", // 26 TARGET HASH
   "🚨 INTRUDER ALERT! Back away slowly from the screen. This sanctuary has facial recognition and you definitely don't look like my girl. 🛑", // 27
   "✋ Hold up! Where do you think you're going?! Who leaked this link to you? Turn around and mind your own business! 😂", // 28
-  "⚠️ WRONG DATE! If you're Mary: think back, dummy! August 2026! 🤦‍♂️ If you're not Mary: why are you snooping in our love story?! 🤨", // 29
+  "⚠️ WRONG DATE! If you're Mary: think back, dummy, you know our exact day! 🤦‍♂️ If you're not Mary: keep guessing, buddy, you have a 1 in 10,000 chance! 😂", // 29
   "🚫 BEEP BEEP BEEP! Unauthorized trespasser detected! Our cats have already memorized your IP address and dispatched security. 😾🐾", // 30
   "🛑 ACCESS DENIED! Did I stutter? ME AND HER ONLY. You clearly have zero idea when our universe began. Out! 🚪💨", // 31
   "🔒 ERROR 403: Vault is sealed. Nice attempt, Sherlock! You will grow old and gray before you crack this date. 💀", // 32
