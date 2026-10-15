@@ -14,7 +14,7 @@
  * non-matching stars gently recede into velvet night twilight.
  */
 
-import { modalManager } from './modalManager.js?v=337';
+import { modalManager } from './modalManager.js?v=338';
 
 export const CONSTELLATION_GROUPS = {
   all: {
@@ -52,6 +52,15 @@ export const CONSTELLATION_GROUPS = {
     colorHex: "#38bdf8", // Radiant Celestial Jade / Cyan
     threeColorHex: 0x38bdf8,
     actionLabel: "✦ Read Lesson & Knowledge"
+  },
+  ten_kids: {
+    id: "ten_kids",
+    title: "The Ten Kids",
+    subtitle: "Our inside joke",
+    iconSvg: `<svg class="cat-svg-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg>`,
+    colorHex: "#fb7185", // Warm Rose Pink
+    threeColorHex: 0xfb7185,
+    actionLabel: "✦ Read The Ten Kids"
   }
 };
 
@@ -152,6 +161,9 @@ export class ConstellationSelector {
         const filterId = itemBtn.dataset.filter;
         if (filterId) {
           this.setFilter(filterId);
+          if (filterId === 'ten_kids') {
+            this.triggerQuickAction();
+          }
         }
       });
     }
@@ -229,6 +241,14 @@ export class ConstellationSelector {
 
   triggerQuickAction() {
     if (!this.heartEngine || !modalManager) return;
+
+    if (this.currentFilter === 'ten_kids') {
+      const targetDotId = 186;
+      const targetIndex = 185;
+      this.heartEngine.markDiscovered(targetIndex);
+      modalManager.open(targetDotId, targetIndex);
+      return;
+    }
 
     if (modalManager.isOpen) {
       modalManager.triggerRandom();

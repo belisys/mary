@@ -12,7 +12,7 @@
  * - Zero em dashes.
  */
 
-import { MARY_SANCTUARY_LEXICON } from './marySanctuaryLexicon.js?v=337';
+import { MARY_SANCTUARY_LEXICON } from './marySanctuaryLexicon.js?v=338';
 
 // Kept empty for backwards compatibility
 export const PHOTO_MEMORIES = {};
@@ -55,10 +55,21 @@ export const CATEGORY_POOLS = {
     title: e.title,
     content: e.content,
     tease: e.tease ? `"${e.tease}" • ${e.author_or_source || 'Nader'}` : 'Knowledge for your body and peace of mind.'
+  })),
+
+  // 4. The Ten Kids: Dedicated inside joke single quotation
+  ten_kids: MARY_SANCTUARY_LEXICON.filter(e => e.id === 'drm-01').map(e => ({
+    id: e.id,
+    type: e.type || 'expression',
+    category: e.category || 'Words From Me & Devotion',
+    tag: e.tag || '✦ Inside Joke • Ten Kids',
+    title: e.title,
+    content: e.content,
+    tease: e.tease ? `"${e.tease}" • ${e.author_or_source || 'Nader'}` : 'Our promise of ten kids.'
   }))
 };
 
-// 4. All Stars Pool: Complete collection of all 420 items
+// 5. All Stars Pool: Complete collection of all 420 items
 CATEGORY_POOLS.all = [
   ...CATEGORY_POOLS.words_from_me,
   ...CATEGORY_POOLS.poems,

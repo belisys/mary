@@ -9,9 +9,9 @@
  * - Smooth camera flight & GSAP spring physics.
  */
 
-import { getMemoryByDotId, getCategoryPool } from './memoryDatabase.js?v=337';
-import { MARY_SANCTUARY_LEXICON } from './marySanctuaryLexicon.js?v=337';
-import { telemetry } from './telemetry.js?v=337';
+import { getMemoryByDotId, getCategoryPool } from './memoryDatabase.js?v=338';
+import { MARY_SANCTUARY_LEXICON } from './marySanctuaryLexicon.js?v=338';
+import { telemetry } from './telemetry.js?v=338';
 
 class ModalManager {
   constructor() {
@@ -96,6 +96,7 @@ class ModalManager {
     window.addEventListener('keydown', (e) => {
       if (!this.isOpen) return;
       if (e.key === 'Escape') this.close();
+      if (this.activeFilter === 'ten_kids') return;
       if (e.key === 'ArrowLeft') this.navigatePrev();
       if (e.key === 'ArrowRight') this.navigateNext();
     });
@@ -171,12 +172,58 @@ class ModalManager {
   }
 
   updateNavButtonStates() {
+    if (this.activeFilter === 'ten_kids') {
+      if (this.prevBtn) {
+        this.prevBtn.setAttribute('disabled', 'true');
+        this.prevBtn.classList.add('disabled');
+        this.prevBtn.style.opacity = '0.2';
+        this.prevBtn.style.cursor = 'not-allowed';
+        this.prevBtn.style.pointerEvents = 'none';
+        this.prevBtn.title = 'Only this quotation exists';
+      }
+      if (this.nextBtn) {
+        this.nextBtn.setAttribute('disabled', 'true');
+        this.nextBtn.classList.add('disabled');
+        this.nextBtn.style.opacity = '0.2';
+        this.nextBtn.style.cursor = 'not-allowed';
+        this.nextBtn.style.pointerEvents = 'none';
+        this.nextBtn.title = 'Only this quotation exists';
+      }
+      if (this.randomBtn) {
+        this.randomBtn.setAttribute('disabled', 'true');
+        this.randomBtn.classList.add('disabled');
+        this.randomBtn.style.opacity = '0.2';
+        this.randomBtn.style.cursor = 'not-allowed';
+        this.randomBtn.style.pointerEvents = 'none';
+        this.randomBtn.title = 'Only this quotation exists';
+      }
+      return;
+    }
+
     if (this.prevBtn) {
+      this.prevBtn.removeAttribute('disabled');
+      this.prevBtn.classList.remove('disabled');
       const canGoBack = this.historyIndex > 0;
       this.prevBtn.style.opacity = canGoBack ? '1' : '0.35';
       this.prevBtn.style.cursor = canGoBack ? 'pointer' : 'default';
       this.prevBtn.style.pointerEvents = canGoBack ? 'auto' : 'none';
       this.prevBtn.title = canGoBack ? 'Previous note (go back in history)' : 'No earlier notes';
+    }
+    if (this.nextBtn) {
+      this.nextBtn.removeAttribute('disabled');
+      this.nextBtn.classList.remove('disabled');
+      this.nextBtn.style.opacity = '1';
+      this.nextBtn.style.cursor = 'pointer';
+      this.nextBtn.style.pointerEvents = 'auto';
+      this.nextBtn.title = 'Next Star';
+    }
+    if (this.randomBtn) {
+      this.randomBtn.removeAttribute('disabled');
+      this.randomBtn.classList.remove('disabled');
+      this.randomBtn.style.opacity = '1';
+      this.randomBtn.style.cursor = 'pointer';
+      this.randomBtn.style.pointerEvents = 'auto';
+      this.randomBtn.title = 'Fly to a random star';
     }
   }
 
@@ -185,6 +232,8 @@ class ModalManager {
    * Moves forward in history if available; otherwise draws next unseen entry in category pool.
    */
   navigateNext() {
+    if (this.activeFilter === 'ten_kids') return;
+
     if (this.isBeaconMode) {
       this.unveilNextBeaconQuote();
       return;
@@ -226,6 +275,8 @@ class ModalManager {
    * Steps backwards through the exact cards previously visited in this session.
    */
   navigatePrev() {
+    if (this.activeFilter === 'ten_kids') return;
+
     if (this.isBeaconMode) {
       this.unveilNextBeaconQuote();
       return;
@@ -246,6 +297,8 @@ class ModalManager {
    * Immediately draws a fresh random entry from the active category and appends to history.
    */
   triggerRandom() {
+    if (this.activeFilter === 'ten_kids') return;
+
     if (this.isBeaconMode) {
       this.unveilNextBeaconQuote();
       return;
@@ -314,6 +367,7 @@ class ModalManager {
 
     telemetry.recordInteraction(dotId);
     this.updateCounter();
+    this.updateNavButtonStates();
 
     if (this.onFlyToCallback) {
       this.onFlyToCallback(hitIndex);
@@ -507,7 +561,9 @@ class ModalManager {
 
   renderCardContent(data) {
     let badgeText = `${data.tag} • ${data.category}`;
-    if (data.type === 'photo') {
+    if (data.id === 'drm-01' || this.activeFilter === 'ten_kids') {
+      badgeText = `✦ Inside Joke • The Ten Kids`;
+    } else if (data.type === 'photo') {
       badgeText = `📷 Travel Polaroid • ${data.category}`;
     } else if (data.category === 'Travel & Shared Dreams') {
       badgeText = `📍 Travel Milestone • ${data.tag}`;

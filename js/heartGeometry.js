@@ -11,7 +11,7 @@
 
 import * as THREE from 'three';
 import { CONFIG } from './config.js';
-import { MARY_SANCTUARY_LEXICON } from './marySanctuaryLexicon.js?v=337';
+import { MARY_SANCTUARY_LEXICON } from './marySanctuaryLexicon.js?v=338';
 
 export class HeartEngine {
   constructor(scene) {
@@ -28,7 +28,8 @@ export class HeartEngine {
     this.filterColors = {
       words_from_me: new THREE.Color(0xfde047), // Warm Champagne Sunburst Gold
       poems: new THREE.Color(0xe879f9),         // Ethereal Rose-Lavender / Amethyst
-      advice: new THREE.Color(0x38bdf8)         // Radiant Celestial Jade / Cyan
+      advice: new THREE.Color(0x38bdf8),        // Radiant Celestial Jade / Cyan
+      ten_kids: new THREE.Color(0xfb7185)       // Radiant Warm Coral / Rose Pink
     };
 
     // Load discovered star IDs from localStorage
@@ -364,7 +365,7 @@ export class HeartEngine {
 
       if (this.activeFilter && this.activeFilter !== 'all') {
         // --- CONSTELLATION FILTER HIGHLIGHT MODE ---
-        const isMatch = (data.filterGroup === this.activeFilter);
+        const isMatch = (data.filterGroup === this.activeFilter || (this.activeFilter === 'ten_kids' && data.id === 186));
 
         if (isMatch) {
           // Highlight with category's signature color

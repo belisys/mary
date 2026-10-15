@@ -8,8 +8,8 @@
  */
 
 import * as THREE from 'three';
-import { modalManager } from './modalManager.js?v=337';
-import { telemetry } from './telemetry.js?v=337';
+import { modalManager } from './modalManager.js?v=338';
+import { telemetry } from './telemetry.js?v=338';
 
 export class RaycasterInteraction {
   constructor(camera, scene, heartEngine, planetaryRing) {
@@ -212,7 +212,11 @@ export class RaycasterInteraction {
 
         let categoryTag = '';
         if (pData && pData.filterGroup === 'words_from_me') {
-          categoryTag = `<span style="color:#fde047; font-weight:600;">✦ From Nader</span>`;
+          if (pData.id === 186) {
+            categoryTag = `<span style="color:#fb7185; font-weight:600;">✦ The Ten Kids</span>`;
+          } else {
+            categoryTag = `<span style="color:#fde047; font-weight:600;">✦ From Nader</span>`;
+          }
         } else if (pData && pData.filterGroup === 'poems') {
           categoryTag = `<span style="color:#e879f9; font-weight:600;">✦ Poem & Verse</span>`;
         } else if (pData && pData.filterGroup === 'advice') {
