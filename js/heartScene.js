@@ -20,7 +20,7 @@ import { RaycasterInteraction } from './raycasterInteraction.js?v=327';
 import { modalManager } from './modalManager.js?v=327';
 import { telemetry } from './telemetry.js?v=327';
 import { ScreenWhispersEngine } from './screenWhispers.js';
-import { musicPlayer } from './musicPlayer.js?v=327';
+import { musicPlayer } from './musicPlayer.js?v=330';
 import { ShootingStarsEngine } from './shootingStars.js';
 import { ConstellationSelector } from './constellationSelector.js?v=327';
 import { letterModal } from './letterModal.js?v=327';

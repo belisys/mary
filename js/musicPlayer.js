@@ -8,7 +8,7 @@
  * - Millisecond-synchronized lyrics ticker
  */
 
-import { PLAYLIST } from './lyricsData.js?v=327';
+import { PLAYLIST } from './lyricsData.js?v=330';
 
 let instance = null;
 

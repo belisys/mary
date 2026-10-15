@@ -1681,6 +1681,86 @@ export const AINT_NO_MOUNTAIN_LYRICS = [
   }
 ];
 
+export const SEM_DEMORA_LYRICS = [
+  { text: "♪ [Instrumental Phonk Beat] ♪", start_ms: 0, end_ms: 12000 },
+  { text: "Quem é essa mina?", start_ms: 12000, end_ms: 18000 },
+  { text: "Onde que tu mora?", start_ms: 18000, end_ms: 24000 },
+  { text: "Vamo se envolver, bebê, já é", start_ms: 24000, end_ms: 30000 },
+  { text: "Qual é a demora?", start_ms: 30000, end_ms: 36000 },
+  { text: "Quem é essa mina?", start_ms: 36000, end_ms: 42000 },
+  { text: "Onde que tu mora?", start_ms: 42000, end_ms: 48000 },
+  { text: "Vamo se envolver, bebê, já é", start_ms: 48000, end_ms: 54000 },
+  { text: "Qual é a demora?", start_ms: 54000, end_ms: 60000 },
+  { text: "♪ [Phonk Bass Drop • Heavy Rhythm] ♪", start_ms: 60000, end_ms: 74000 },
+  { text: "Quem é essa mina? Onde que tu mora?", start_ms: 74000, end_ms: 84000 },
+  { text: "Vamo se envolver, bebê, já é, qual é a demora?", start_ms: 84000, end_ms: 96000 },
+  { text: "♪ [Outro Echo] ♪", start_ms: 96000, end_ms: 103677 }
+];
+
+export const SEM_DEMORA_SLOWED_LYRICS = [
+  { text: "♪ [Slowed Instrumental Drift] ♪", start_ms: 0, end_ms: 14000 },
+  { text: "Quem é essa mina?", start_ms: 14000, end_ms: 21000 },
+  { text: "Onde que tu mora?", start_ms: 21000, end_ms: 28000 },
+  { text: "Vamo se envolver, bebê, já é", start_ms: 28000, end_ms: 35000 },
+  { text: "Qual é a demora?", start_ms: 35000, end_ms: 42000 },
+  { text: "Quem é essa mina?", start_ms: 42000, end_ms: 49000 },
+  { text: "Onde que tu mora?", start_ms: 49000, end_ms: 56000 },
+  { text: "Vamo se envolver, bebê, já é", start_ms: 56000, end_ms: 63000 },
+  { text: "Qual é a demora?", start_ms: 63000, end_ms: 70000 },
+  { text: "♪ [Deep Slowed Bass Reverberation] ♪", start_ms: 70000, end_ms: 85000 },
+  { text: "Quem é essa mina? Onde que tu mora?", start_ms: 85000, end_ms: 97000 },
+  { text: "Vamo se envolver, bebê, já é, qual é a demora?", start_ms: 97000, end_ms: 109000 },
+  { text: "♪ [Slowed Fade Atmosphere] ♪", start_ms: 109000, end_ms: 116680 }
+];
+
+export const SEM_DEMORA_SUPER_SLOWED_LYRICS = [
+  { text: "♪ [Super Slowed Cosmic Pulse] ♪", start_ms: 0, end_ms: 15500 },
+  { text: "Quem é essa mina?", start_ms: 15500, end_ms: 23000 },
+  { text: "Onde que tu mora?", start_ms: 23000, end_ms: 30500 },
+  { text: "Vamo se envolver, bebê, já é", start_ms: 30500, end_ms: 38000 },
+  { text: "Qual é a demora?", start_ms: 38000, end_ms: 45500 },
+  { text: "Quem é essa mina?", start_ms: 45500, end_ms: 53000 },
+  { text: "Onde que tu mora?", start_ms: 53000, end_ms: 60500 },
+  { text: "Vamo se envolver, bebê, já é", start_ms: 60500, end_ms: 68000 },
+  { text: "Qual é a demora?", start_ms: 68000, end_ms: 75500 },
+  { text: "♪ [Sub-Bass Wave Resonance] ♪", start_ms: 75500, end_ms: 91500 },
+  { text: "Quem é essa mina? Onde que tu mora?", start_ms: 91500, end_ms: 104000 },
+  { text: "Vamo se envolver, bebê, já é, qual é a demora?", start_ms: 104000, end_ms: 116500 },
+  { text: "♪ [Nebula Drift Echo] ♪", start_ms: 116500, end_ms: 123669 }
+];
+
+export const SEM_DEMORA_ULTRA_SLOWED_LYRICS = [
+  { text: "♪ [Ultra Slowed Ethereal Void] ♪", start_ms: 0, end_ms: 17000 },
+  { text: "Quem é essa mina?", start_ms: 17000, end_ms: 25000 },
+  { text: "Onde que tu mora?", start_ms: 25000, end_ms: 33000 },
+  { text: "Vamo se envolver, bebê, já é", start_ms: 33000, end_ms: 41000 },
+  { text: "Qual é a demora?", start_ms: 41000, end_ms: 49000 },
+  { text: "Quem é essa mina?", start_ms: 49000, end_ms: 57000 },
+  { text: "Onde que tu mora?", start_ms: 57000, end_ms: 65000 },
+  { text: "Vamo se envolver, bebê, já é", start_ms: 65000, end_ms: 73000 },
+  { text: "Qual é a demora?", start_ms: 73000, end_ms: 81000 },
+  { text: "♪ [Deep Space Slowdown Waves] ♪", start_ms: 81000, end_ms: 98000 },
+  { text: "Quem é essa mina? Onde que tu mora?", start_ms: 98000, end_ms: 111000 },
+  { text: "Vamo se envolver, bebê, já é, qual é a demora?", start_ms: 111000, end_ms: 124000 },
+  { text: "♪ [Cosmic Silence Fade] ♪", start_ms: 124000, end_ms: 130914 }
+];
+
+export const SEM_DEMORA_SPED_UP_LYRICS = [
+  { text: "♪ [Sped Up Energy Surge] ♪", start_ms: 0, end_ms: 11000 },
+  { text: "Quem é essa mina?", start_ms: 11000, end_ms: 16500 },
+  { text: "Onde que tu mora?", start_ms: 16500, end_ms: 22000 },
+  { text: "Vamo se envolver, bebê, já é", start_ms: 22000, end_ms: 27500 },
+  { text: "Qual é a demora?", start_ms: 27500, end_ms: 33000 },
+  { text: "Quem é essa mina?", start_ms: 33000, end_ms: 38500 },
+  { text: "Onde que tu mora?", start_ms: 38500, end_ms: 44000 },
+  { text: "Vamo se envolver, bebê, já é", start_ms: 44000, end_ms: 49500 },
+  { text: "Qual é a demora?", start_ms: 49500, end_ms: 55000 },
+  { text: "♪ [High-Tempo Phonk Beat] ♪", start_ms: 55000, end_ms: 69000 },
+  { text: "Quem é essa mina? Onde que tu mora?", start_ms: 69000, end_ms: 79000 },
+  { text: "Vamo se envolver, bebê, já é, qual é a demora?", start_ms: 79000, end_ms: 89000 },
+  { text: "♪ [Electric Outro Rush] ♪", start_ms: 89000, end_ms: 98174 }
+];
+
 export const PLAYLIST = [
   {
     id: "cinderella",
@@ -1721,5 +1801,46 @@ export const PLAYLIST = [
     durationMs: 151000,
     audioSrc: "assets/audio/aint_no_mountain_high_enough.mp3",
     lyrics: AINT_NO_MOUNTAIN_LYRICS
+  },
+  {
+    id: "sem_demora",
+    title: "SEM DEMORA",
+    artist: "DJ Samir & MXXNAVRA",
+    durationMs: 103677,
+    audioSrc: "assets/audio/sem_demora.mp3",
+    lyrics: SEM_DEMORA_LYRICS
+  },
+  {
+    id: "sem_demora_slowed",
+    title: "SEM DEMORA (Slowed)",
+    artist: "DJ Samir & MXXNAVRA",
+    durationMs: 116680,
+    audioSrc: "assets/audio/sem_demora_slowed.mp3",
+    lyrics: SEM_DEMORA_SLOWED_LYRICS
+  },
+  {
+    id: "sem_demora_super_slowed",
+    title: "SEM DEMORA (Super Slowed)",
+    artist: "DJ Samir & MXXNAVRA",
+    durationMs: 123669,
+    audioSrc: "assets/audio/sem_demora_super_slowed.mp3",
+    lyrics: SEM_DEMORA_SUPER_SLOWED_LYRICS
+  },
+  {
+    id: "sem_demora_ultra_slowed",
+    title: "SEM DEMORA (Ultra Slowed)",
+    artist: "DJ Samir & MXXNAVRA",
+    durationMs: 130914,
+    audioSrc: "assets/audio/sem_demora_ultra_slowed.mp3",
+    lyrics: SEM_DEMORA_ULTRA_SLOWED_LYRICS
+  },
+  {
+    id: "sem_demora_sped_up",
+    title: "SEM DEMORA (Sped Up)",
+    artist: "DJ Samir & MXXNAVRA",
+    durationMs: 98174,
+    audioSrc: "assets/audio/sem_demora_sped_up.mp3",
+    lyrics: SEM_DEMORA_SPED_UP_LYRICS
   }
 ];
+
