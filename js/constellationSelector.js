@@ -24,7 +24,6 @@ export const CONSTELLATION_GROUPS = {
     iconSvg: `<svg class="cat-svg-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>`,
     colorHex: "#f43f5e",
     threeColorHex: 0xf43f5e,
-    badgeCount: "",
     actionLabel: "✦ Explore Random Star"
   },
   words_from_me: {
@@ -34,17 +33,15 @@ export const CONSTELLATION_GROUPS = {
     iconSvg: `<svg class="cat-svg-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>`,
     colorHex: "#fde047", // Warm Champagne Sunburst Gold
     threeColorHex: 0xfde047,
-    badgeCount: "165",
     actionLabel: "✦ Read Word From Nader"
   },
   poems: {
     id: "poems",
     title: "Poems & Wisdom",
-    subtitle: "French romance & classics",
+    subtitle: "Arabic & classical romance",
     iconSvg: `<svg class="cat-svg-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>`,
     colorHex: "#e879f9", // Ethereal Rose-Lavender / Amethyst
     threeColorHex: 0xe879f9,
-    badgeCount: "60",
     actionLabel: "✦ Read a Poem"
   },
   advice: {
@@ -54,7 +51,6 @@ export const CONSTELLATION_GROUPS = {
     iconSvg: `<svg class="cat-svg-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>`,
     colorHex: "#38bdf8", // Radiant Celestial Jade / Cyan
     threeColorHex: 0x38bdf8,
-    badgeCount: "60",
     actionLabel: "✦ Read Advice & Calm"
   },
   travel: {
@@ -64,7 +60,6 @@ export const CONSTELLATION_GROUPS = {
     iconSvg: `<svg class="cat-svg-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>`,
     colorHex: "#ffffff", // Pure Diamond Starlight Flare
     threeColorHex: 0xffffff,
-    badgeCount: "24",
     actionLabel: "✦ Open Travel Milestone"
   }
 };
@@ -130,7 +125,6 @@ export class ConstellationSelector {
                     <span class="item-sub">${group.subtitle}</span>
                   </div>
                 </div>
-                ${group.badgeCount ? `<span class="item-count">${group.badgeCount}</span>` : ''}
               </button>
             `;
           }).join('')}

@@ -9,7 +9,7 @@
  * - Zero AI-generated em dashes.
  */
 
-import { MARY_SANCTUARY_LEXICON } from './marySanctuaryLexicon.js?v=327';
+import { MARY_SANCTUARY_LEXICON } from './marySanctuaryLexicon.js?v=335';
 
 export const PHOTO_MEMORIES = {
   1: {
@@ -141,8 +141,8 @@ export const CATEGORY_POOLS = {
   // 1. Travel & Shared Dreams: Exactly 24 entries (9 photos + 15 dream visions)
   travel: [...photoList, ...travelDrmEntries],
 
-  // 2. Poems & Wisdom: Exactly 60 entries (45 poetic verse + 15 literary classics)
-  poems: MARY_SANCTUARY_LEXICON.filter(e => e.id && (e.id.startsWith('poe-') || e.id.startsWith('lit-'))).map(e => ({
+  // 2. Poems & Wisdom: Poetic verse, Arabic romance, literary classics & philosophy
+  poems: MARY_SANCTUARY_LEXICON.filter(e => e.id && (e.id.startsWith('poe-') || e.id.startsWith('lit-') || e.id.startsWith('phi-'))).map(e => ({
     id: e.id,
     type: e.type || 'expression',
     category: e.category || 'Celestial Verse & Poetry',

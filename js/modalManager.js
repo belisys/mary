@@ -9,9 +9,9 @@
  * - Smooth camera flight & GSAP spring physics.
  */
 
-import { getMemoryByDotId, getCategoryPool } from './memoryDatabase.js?v=327';
-import { MARY_SANCTUARY_LEXICON } from './marySanctuaryLexicon.js?v=327';
-import { telemetry } from './telemetry.js?v=327';
+import { getMemoryByDotId, getCategoryPool } from './memoryDatabase.js?v=335';
+import { MARY_SANCTUARY_LEXICON } from './marySanctuaryLexicon.js?v=335';
+import { telemetry } from './telemetry.js?v=335';
 
 class ModalManager {
   constructor() {
@@ -546,11 +546,7 @@ class ModalManager {
   }
 
   updateCounter() {
-    const unlocked = telemetry.getUnlockedCount();
-    const text = `✦ ${unlocked} / 309 Stars Explored`;
-
-    if (this.counterEl) this.counterEl.textContent = text;
-    if (this.badgeCountEl) this.badgeCountEl.textContent = `${unlocked} / 309`;
+    // Star progress counting intentionally removed
   }
 }
 
