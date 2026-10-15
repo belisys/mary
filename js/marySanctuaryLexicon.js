@@ -2205,7 +2205,7 @@ export const MARY_SANCTUARY_LEXICON = [
     "frequency_tier": "high",
     "tag": "✦ Mahmoud Darwish",
     "title": "A Sanctuary in Exile",
-    "content": "\"If I were told: You have only one wish left in this life, I would say: Let her rest, and let me carry her sorrow. You are the homeland I carry in my chest when all other lands feel like exile.\" — Mahmoud Darwish",
+    "content": "\"If I were told: You have only one wish left in this life, I would say: Let her rest, and let me carry her sorrow. You are the homeland I carry in my chest when all other lands feel like exile.\" (Mahmoud Darwish)",
     "author_or_source": "Mahmoud Darwish",
     "tease": "You are the homeland I carry in my chest.",
     "type": "poem"
@@ -2216,7 +2216,7 @@ export const MARY_SANCTUARY_LEXICON = [
     "frequency_tier": "high",
     "tag": "✦ Nizar Qabbani",
     "title": "Beyond Words and Time",
-    "content": "\"I love you in a way that words cannot explain. I love you beyond time, beyond distance, and beyond all things that fade. Your eyes are a sanctuary of quiet in a world that never stops screaming.\" — Nizar Qabbani",
+    "content": "\"I love you in a way that words cannot explain. I love you beyond time, beyond distance, and beyond all things that fade. Your eyes are a sanctuary of quiet in a world that never stops screaming.\" (Nizar Qabbani)",
     "author_or_source": "Nizar Qabbani",
     "tease": "A sanctuary of quiet in a world that never stops screaming.",
     "type": "poem"
@@ -2227,7 +2227,7 @@ export const MARY_SANCTUARY_LEXICON = [
     "frequency_tier": "high",
     "tag": "✦ Pablo Neruda",
     "title": "Sonnet XVII",
-    "content": "\"I love you without knowing how, or when, or from where. I love you simply, without problems or pride: I love you in this way because I do not know any other way of loving, but this in which there is no I or you, so intimate that your hand upon my chest is my hand, so intimate that when I fall asleep your eyes close.\" — Pablo Neruda",
+    "content": "\"I love you without knowing how, or when, or from where. I love you simply, without problems or pride: I love you in this way because I do not know any other way of loving, but this in which there is no I or you, so intimate that your hand upon my chest is my hand, so intimate that when I fall asleep your eyes close.\" (Pablo Neruda)",
     "author_or_source": "Pablo Neruda",
     "tease": "I love you simply, without problems or pride.",
     "type": "poem"
@@ -2238,7 +2238,7 @@ export const MARY_SANCTUARY_LEXICON = [
     "frequency_tier": "high",
     "tag": "✦ Kahlil Gibran",
     "title": "Love's Unshakeable Strength",
-    "content": "\"Tenderness and kindness are not signs of weakness and despair, but manifestations of strength and resolution. When you love, you should not say, 'God is in my heart,' but rather, 'I am in the heart of God.'\" — Kahlil Gibran",
+    "content": "\"Tenderness and kindness are not signs of weakness and despair, but manifestations of strength and resolution. When you love, you should not say, 'God is in my heart,' but rather, 'I am in the heart of God.'\" (Kahlil Gibran)",
     "author_or_source": "Kahlil Gibran",
     "tease": "Tenderness is the truest manifestation of strength.",
     "type": "poem"
@@ -2249,7 +2249,7 @@ export const MARY_SANCTUARY_LEXICON = [
     "frequency_tier": "high",
     "tag": "✦ Rainer Maria Rilke",
     "title": "Stored Up Love",
-    "content": "\"Believe in a love that is being stored up for you like an inheritance, and have faith that in this love there is a strength and a blessing so large that you can travel as far as you wish without having to step outside it.\" — Rainer Maria Rilke",
+    "content": "\"Believe in a love that is being stored up for you like an inheritance, and have faith that in this love there is a strength and a blessing so large that you can travel as far as you wish without having to step outside it.\" (Rainer Maria Rilke)",
     "author_or_source": "Rainer Maria Rilke",
     "tease": "A love stored up for you like an inheritance.",
     "type": "poem"
@@ -2293,7 +2293,7 @@ export const MARY_SANCTUARY_LEXICON = [
     "frequency_tier": "high",
     "tag": "✦ Victor Hugo",
     "title": "The Pearl in the Dark",
-    "content": "\"To love or have loved, that is enough. Ask nothing further. There is no other pearl to be found in the dark folds of life. Love is the only thing that can occupy and fill eternity.\" — Victor Hugo",
+    "content": "\"To love or have loved, that is enough. Ask nothing further. There is no other pearl to be found in the dark folds of life. Love is the only thing that can occupy and fill eternity.\" (Victor Hugo)",
     "author_or_source": "Victor Hugo",
     "tease": "Love is the only pearl in the dark folds of life.",
     "type": "poem"
@@ -2304,7 +2304,7 @@ export const MARY_SANCTUARY_LEXICON = [
     "frequency_tier": "high",
     "tag": "✦ Real Life & Honest Dreams",
     "title": "Discovering the World Together",
-    "content": "I don't have riches or easy money right now. Life has been tight, but every place I dream of seeing—the Pyramids, ancient dunes, quiet shores—I only want to discover with you. Not alone, not with anyone else. Just us, side by side, building our way out of the dark.",
+    "content": "I don't have riches or easy money right now. Life has been tight, but every place I dream of seeing, the Pyramids, ancient dunes, quiet shores, I only want to discover with you. Not alone, not with anyone else. Just us, side by side, building our way out of the dark.",
     "author_or_source": "Nader",
     "tease": "Places I only want to discover with you, not with anyone else.",
     "type": "advice"
@@ -2315,7 +2315,7 @@ export const MARY_SANCTUARY_LEXICON = [
     "frequency_tier": "high",
     "tag": "✦ Rumi",
     "title": "In Each Other All Along",
-    "content": "\"The minute I heard my first love story, I started looking for you, not knowing how blind that was. Lovers don't finally meet somewhere. They're in each other all along.\" — Rumi",
+    "content": "\"The minute I heard my first love story, I started looking for you, not knowing how blind that was. Lovers don't finally meet somewhere. They're in each other all along.\" (Rumi)",
     "author_or_source": "Rumi",
     "tease": "Lovers don't finally meet somewhere; they're in each other all along.",
     "type": "poem"
@@ -2359,7 +2359,7 @@ export const MARY_SANCTUARY_LEXICON = [
     "frequency_tier": "high",
     "tag": "✦ John Keats",
     "title": "Absorbed in You",
-    "content": "\"I cannot exist without you; I am forgetful of everything but seeing you again: my life seems to stop there, I see no further. You have absorb'd me. I have a sensation at the present moment as though I were dissolving.\" — John Keats",
+    "content": "\"I cannot exist without you; I am forgetful of everything but seeing you again: my life seems to stop there, I see no further. You have absorb'd me. I have a sensation at the present moment as though I were dissolving.\" (John Keats)",
     "author_or_source": "John Keats",
     "tease": "You have absorb'd me; I see no further.",
     "type": "poem"
@@ -2381,7 +2381,7 @@ export const MARY_SANCTUARY_LEXICON = [
     "frequency_tier": "high",
     "tag": "✦ Nizar Qabbani",
     "title": "The Language of Tenderness",
-    "content": "\"Because I love you, my words have become gentle, like rain falling on parched earth. You taught me that the strongest love is the one that asks for nothing but your safety and your smile.\" — Nizar Qabbani",
+    "content": "\"Because I love you, my words have become gentle, like rain falling on parched earth. You taught me that the strongest love is the one that asks for nothing but your safety and your smile.\" (Nizar Qabbani)",
     "author_or_source": "Nizar Qabbani",
     "tease": "Words gentle like rain falling on parched earth.",
     "type": "poem"
@@ -2403,7 +2403,7 @@ export const MARY_SANCTUARY_LEXICON = [
     "frequency_tier": "high",
     "tag": "✦ Mahmoud Darwish",
     "title": "The Road of Longing",
-    "content": "\"And I loved you as you are: quiet, weary, carrying the weight of skies you never asked to hold. Wherever you walk, my heart walks ahead of you to clear the stones from your path.\" — Mahmoud Darwish",
+    "content": "\"And I loved you as you are: quiet, weary, carrying the weight of skies you never asked to hold. Wherever you walk, my heart walks ahead of you to clear the stones from your path.\" (Mahmoud Darwish)",
     "author_or_source": "Mahmoud Darwish",
     "tease": "My heart walks ahead of you to clear the stones from your path.",
     "type": "poem"
@@ -2414,7 +2414,7 @@ export const MARY_SANCTUARY_LEXICON = [
     "frequency_tier": "high",
     "tag": "✦ Emily Dickinson",
     "title": "The Soul Selects Her Own Society",
-    "content": "\"The Soul selects her own Society — Then — shuts the Door — To her divine Majority — Present no more — Unmoved — she notes the Chariots — pausing — At her low Gate.\" — Emily Dickinson",
+    "content": "\"The Soul selects her own Society... Then... shuts the Door... To her divine Majority... Present no more... Unmoved... she notes the Chariots... pausing... At her low Gate.\" (Emily Dickinson)",
     "author_or_source": "Emily Dickinson",
     "tease": "The Soul selects her own Society, then shuts the Door.",
     "type": "poem"
@@ -2458,7 +2458,7 @@ export const MARY_SANCTUARY_LEXICON = [
     "frequency_tier": "high",
     "tag": "✦ Kahlil Gibran",
     "title": "On Giving",
-    "content": "\"You give but little when you give of your possessions. It is when you give of yourself that you truly give. For what are your possessions but things you keep and guard for fear you may need them tomorrow?\" — Kahlil Gibran",
+    "content": "\"You give but little when you give of your possessions. It is when you give of yourself that you truly give. For what are your possessions but things you keep and guard for fear you may need them tomorrow?\" (Kahlil Gibran)",
     "author_or_source": "Kahlil Gibran",
     "tease": "It is when you give of yourself that you truly give.",
     "type": "poem"
@@ -2491,7 +2491,7 @@ export const MARY_SANCTUARY_LEXICON = [
     "frequency_tier": "high",
     "tag": "✦ Pablo Neruda",
     "title": "Every Day You Play",
-    "content": "\"Every day you play with the light of the universe. Subtle visitor, you arrive in the flower and the water. You are more than this white head that I hold tightly as a cluster of fruit, each day, between my hands.\" — Pablo Neruda",
+    "content": "\"Every day you play with the light of the universe. Subtle visitor, you arrive in the flower and the water. You are more than this white head that I hold tightly as a cluster of fruit, each day, between my hands.\" (Pablo Neruda)",
     "author_or_source": "Pablo Neruda",
     "tease": "Every day you play with the light of the universe.",
     "type": "poem"
@@ -2524,7 +2524,7 @@ export const MARY_SANCTUARY_LEXICON = [
     "frequency_tier": "high",
     "tag": "✦ Charles Baudelaire",
     "title": "L'Invitation au Voyage",
-    "content": "\"There, all is order and beauty, luxury, calm, and pleasure. See on those canals those vessels sleeping, whose temper is adventurous; it is to satisfy your least desire that they have come from the ends of the earth.\" — Charles Baudelaire",
+    "content": "\"There, all is order and beauty, luxury, calm, and pleasure. See on those canals those vessels sleeping, whose temper is adventurous; it is to satisfy your least desire that they have come from the ends of the earth.\" (Charles Baudelaire)",
     "author_or_source": "Charles Baudelaire",
     "tease": "There, all is order and beauty, luxury, calm, and pleasure.",
     "type": "poem"
@@ -2557,7 +2557,7 @@ export const MARY_SANCTUARY_LEXICON = [
     "frequency_tier": "high",
     "tag": "✦ Nizar Qabbani",
     "title": "A Painting of Love",
-    "content": "\"If you were to ask the stars, they would tell you that your name is written in their glow. If you were to ask the night, it would tell you that it only finds peace when your eyes are resting.\" — Nizar Qabbani",
+    "content": "\"If you were to ask the stars, they would tell you that your name is written in their glow. If you were to ask the night, it would tell you that it only finds peace when your eyes are resting.\" (Nizar Qabbani)",
     "author_or_source": "Nizar Qabbani",
     "tease": "The night only finds peace when your eyes are resting.",
     "type": "poem"
@@ -2579,7 +2579,7 @@ export const MARY_SANCTUARY_LEXICON = [
     "frequency_tier": "high",
     "tag": "✦ Rainer Maria Rilke",
     "title": "Love Consists in This",
-    "content": "\"Love consists in this: that two solitudes protect and border and greet each other. For one human being to love another is perhaps the most difficult of all our tasks; the ultimate, the last test and proof.\" — Rainer Maria Rilke",
+    "content": "\"Love consists in this: that two solitudes protect and border and greet each other. For one human being to love another is perhaps the most difficult of all our tasks; the ultimate, the last test and proof.\" (Rainer Maria Rilke)",
     "author_or_source": "Rainer Maria Rilke",
     "tease": "Two solitudes that protect and border and greet each other.",
     "type": "poem"
@@ -2601,7 +2601,7 @@ export const MARY_SANCTUARY_LEXICON = [
     "frequency_tier": "high",
     "tag": "✦ Mahmoud Darwish",
     "title": "In Your Name",
-    "content": "\"And I have learned that love is not a battle to be won, but a quiet refuge where the weary traveler finally sets down his load. In your name, my heart found its rest.\" — Mahmoud Darwish",
+    "content": "\"And I have learned that love is not a battle to be won, but a quiet refuge where the weary traveler finally sets down his load. In your name, my heart found its rest.\" (Mahmoud Darwish)",
     "author_or_source": "Mahmoud Darwish",
     "tease": "A quiet refuge where the weary traveler sets down his load.",
     "type": "poem"
@@ -2634,7 +2634,7 @@ export const MARY_SANCTUARY_LEXICON = [
     "frequency_tier": "high",
     "tag": "✦ Lord Byron",
     "title": "She Walks in Beauty",
-    "content": "\"She walks in beauty, like the night of cloudless climes and starry skies; and all that's best of dark and bright meet in her aspect and her eyes: thus mellowed to that tender light which heaven to gaudy day denies.\" — Lord Byron",
+    "content": "\"She walks in beauty, like the night of cloudless climes and starry skies; and all that's best of dark and bright meet in her aspect and her eyes: thus mellowed to that tender light which heaven to gaudy day denies.\" (Lord Byron)",
     "author_or_source": "Lord Byron",
     "tease": "She walks in beauty, like the night of cloudless climes and starry skies.",
     "type": "poem"
@@ -2645,7 +2645,7 @@ export const MARY_SANCTUARY_LEXICON = [
     "frequency_tier": "high",
     "tag": "✦ Albert Camus",
     "title": "Invincible Summer",
-    "content": "\"In the midst of winter, I found there was, within me, an invincible summer. And that makes me happy. For it says that no matter how hard the world pushes against me, within me, there's something stronger – something better, pushing right back.\" — Albert Camus",
+    "content": "\"In the midst of winter, I found there was, within me, an invincible summer. And that makes me happy. For it says that no matter how hard the world pushes against me, within me, there's something stronger... something better, pushing right back.\" (Albert Camus)",
     "author_or_source": "Albert Camus",
     "tease": "In the midst of winter, an invincible summer.",
     "type": "poem"
@@ -2678,7 +2678,7 @@ export const MARY_SANCTUARY_LEXICON = [
     "frequency_tier": "high",
     "tag": "✦ Nizar Qabbani",
     "title": "The Book of Love",
-    "content": "\"Whenever I write your name, the letters turn into Jasmine. You are the poem that has no end, and the song that fills the silence of my nights.\" — Nizar Qabbani",
+    "content": "\"Whenever I write your name, the letters turn into Jasmine. You are the poem that has no end, and the song that fills the silence of my nights.\" (Nizar Qabbani)",
     "author_or_source": "Nizar Qabbani",
     "tease": "You are the poem that has no end.",
     "type": "poem"
@@ -2744,7 +2744,7 @@ export const MARY_SANCTUARY_LEXICON = [
     "frequency_tier": "high",
     "tag": "✦ The Artist's Sword",
     "title": "Your Art Is Your Sanctuary",
-    "content": "When words fail and the house is loud or tense, put your pencil to paper. Drawing is the one sanctuary that is completely yours—where no one can raise a voice at you, no one can dictate your colors, and your soul is free.",
+    "content": "When words fail and the house is loud or tense, put your pencil to paper. Drawing is the one sanctuary that is completely yours, where no one can raise a voice at you, no one can dictate your colors, and your soul is free.",
     "author_or_source": "Nader",
     "tease": "Your drawing is your peace and your freedom.",
     "type": "advice"

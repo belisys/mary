@@ -25,7 +25,7 @@
     "frequency_tier": "medium",
     "tag": "✦ The Steadfast Star",
     "title": "Bright Star",
-    "content": "Bright star, would I were stedfast as thou art—\nNot in lone splendour hung aloft the night\nAnd watching, with eternal lids apart,\nLike nature's patient, sleepless Eremite...\nPillow'd upon my fair love's ripening breast,\nTo feel for ever its soft fall and swell,\nAwake for ever in a sweet unrest,\nStill, still to hear her tender-taken breath.",
+    "content": "Bright star, would I were stedfast as thou art, \nNot in lone splendour hung aloft the night\nAnd watching, with eternal lids apart,\nLike nature's patient, sleepless Eremite...\nPillow'd upon my fair love's ripening breast,\nTo feel for ever its soft fall and swell,\nAwake for ever in a sweet unrest,\nStill, still to hear her tender-taken breath.",
     "author_or_source": "John Keats (1819)",
     "tease": "Steadfast as the northern star, keeping watch over you."
   },
@@ -145,7 +145,7 @@
     "frequency_tier": "medium",
     "tag": "✦ Burning Love of Pure Crystal",
     "title": "Pure Crystal",
-    "content": "We met, we recognized each other, we gave ourselves to each other, we succeeded in creating a burning love of pure crystal—do you realize how happy we are and what has been given to us? When I think of us it seems absurd not to believe in eternity.",
+    "content": "We met, we recognized each other, we gave ourselves to each other, we succeeded in creating a burning love of pure crystal, do you realize how happy we are and what has been given to us? When I think of us it seems absurd not to believe in eternity.",
     "author_or_source": "Maria Casarès to Albert Camus",
     "tease": "A love made of pure, unbreakable crystal."
   },
@@ -155,7 +155,7 @@
     "frequency_tier": "medium",
     "tag": "✦ Eternal Love",
     "title": "Annabel Lee",
-    "content": "It was many and many a year ago,\nIn a kingdom by the sea,\nThat a maiden there lived whom you may know\nBy the name of Annabel Lee;—\nAnd this maiden she lived with no other thought\nThan to love and be loved by me.\nWe loved with a love that was more than love—\nI and my Annabel Lee—\nWith a love that the winged seraphs of Heaven\nCoveted her and me.",
+    "content": "It was many and many a year ago,\nIn a kingdom by the sea,\nThat a maiden there lived whom you may know\nBy the name of Annabel Lee;, \nAnd this maiden she lived with no other thought\nThan to love and be loved by me.\nWe loved with a love that was more than love, \nI and my Annabel Lee, \nWith a love that the winged seraphs of Heaven\nCoveted her and me.",
     "author_or_source": "Edgar Allan Poe (1849)",
     "tease": "A love that was more than love."
   },
@@ -185,7 +185,7 @@
     "frequency_tier": "medium",
     "tag": "✦ The Journey Out",
     "title": "The Journey",
-    "content": "One day you finally knew\nwhat you had to do, and began,\nthough the voices around you\nkept shouting their bad advice—\nthough the whole house\nbegan to tremble\nand you felt the old tug\nat your ankles.\n'Mend my life!'\neach voice cried.\nBut you didn't stop.\nYou knew what you had to do.",
+    "content": "One day you finally knew\nwhat you had to do, and began,\nthough the voices around you\nkept shouting their bad advice, \nthough the whole house\nbegan to tremble\nand you felt the old tug\nat your ankles.\n'Mend my life!'\neach voice cried.\nBut you didn't stop.\nYou knew what you had to do.",
     "author_or_source": "Mary Oliver",
     "tease": "You walked out of their shouting and began your real life."
   },
@@ -335,7 +335,7 @@
     "frequency_tier": "medium",
     "tag": "✦ Beauty and Melancholy",
     "title": "Ode on Melancholy",
-    "content": "She dwells with Beauty—Beauty that must die;\nAnd Joy, whose hand is ever at his lips\nBidding adieu; and aching Pleasure nigh,\nTurning to poison while the bee-mouth sips:\nAy, in the very temple of Delight\nVeil'd Melancholy has her sovran shrine,\nThough seen of none save him whose strenuous tongue\nCan burst Joy's grape against his palate fine.",
+    "content": "She dwells with Beauty, Beauty that must die;\nAnd Joy, whose hand is ever at his lips\nBidding adieu; and aching Pleasure nigh,\nTurning to poison while the bee-mouth sips:\nAy, in the very temple of Delight\nVeil'd Melancholy has her sovran shrine,\nThough seen of none save him whose strenuous tongue\nCan burst Joy's grape against his palate fine.",
     "author_or_source": "John Keats (1819)",
     "tease": "Veiled Melancholy has her shrine where beauty lives."
   },
@@ -345,7 +345,7 @@
     "frequency_tier": "medium",
     "tag": "✦ Dream Within a Dream",
     "title": "A Dream Within a Dream",
-    "content": "I stand amid the roar\nOf a surf-tormented shore,\nAnd I hold within my hand\nGrains of the golden sand—\nHow few! yet how they creep\nThrough my fingers to the deep,\nWhile I weep—while I weep!\nO God! Can I not save\nOne from the pitiless wave?\nIs all that we see or seem\nBut a dream within a dream?",
+    "content": "I stand amid the roar\nOf a surf-tormented shore,\nAnd I hold within my hand\nGrains of the golden sand, \nHow few! yet how they creep\nThrough my fingers to the deep,\nWhile I weep, while I weep!\nO God! Can I not save\nOne from the pitiless wave?\nIs all that we see or seem\nBut a dream within a dream?",
     "author_or_source": "Edgar Allan Poe",
     "tease": "You are the one grain of gold I hold tight."
   },
@@ -445,7 +445,7 @@
     "frequency_tier": "medium",
     "tag": "✦ The Moving Stars",
     "title": "The Cosmic Force",
-    "content": "At the very end of his journey through the heavens,\nDante wrote the line that anchors the universe:\n'L'amor che move il sole e l'altre stelle'—\nThe love that moves the sun and the other stars.\nThat is the gravity holding this heart together for you.",
+    "content": "At the very end of his journey through the heavens,\nDante wrote the line that anchors the universe:\n'L'amor che move il sole e l'altre stelle', \nThe love that moves the sun and the other stars.\nThat is the gravity holding this heart together for you.",
     "author_or_source": "Dante Alighieri (Paradiso, XXXIII)",
     "tease": "The love that moves the sun and the other stars."
   }

@@ -849,7 +849,7 @@ export class LetterModalManager {
       return;
     }
 
-    // Image handling: ZERO METADATA STRIPPING — Preserve 100% of raw bytes & EXIF
+    // Image handling: ZERO METADATA STRIPPING... Preserve 100% of raw bytes & EXIF
     if (file.size > 22 * 1024 * 1024) {
       const mb = (file.size / 1024 / 1024).toFixed(1);
       this.showStatus(`Photo is too large (${mb} MB). Please select an image under 22 MB.`, "error");

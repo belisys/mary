@@ -22,6 +22,7 @@ import { telemetry } from './telemetry.js?v=327';
 import { ScreenWhispersEngine } from './screenWhispers.js';
 import { musicPlayer } from './musicPlayer.js?v=330';
 import { ShootingStarsEngine } from './shootingStars.js';
+import { BackgroundStarfield } from './backgroundStarfield.js?v=334';
 import { ConstellationSelector } from './constellationSelector.js?v=327';
 import { letterModal } from './letterModal.js?v=327';
 import { vaultManager } from './vaultManager.js?v=327';
@@ -167,6 +168,7 @@ class HeartScene {
     this.heartEngine = new HeartEngine(this.scene);
     this.planetaryRing = new PlanetaryRingEngine(this.scene);
     this.shootingStars = new ShootingStarsEngine(this.scene, this.camera, this.controls);
+    this.backgroundStarfield = new BackgroundStarfield(this.scene);
     this.raycaster = new RaycasterInteraction(this.camera, this.scene, this.heartEngine, this.planetaryRing);
     this.screenWhispers = new ScreenWhispersEngine();
     this.constellationSelector = new ConstellationSelector(this.heartEngine);
@@ -445,9 +447,15 @@ class HeartScene {
       this.planetaryRing.update(this.simulatedTime);
     }
 
-    // 3. Update Celestial Shooting Stars
+    // 3. Update Celestial Shooting Stars & Dim Background Starfield
     if (this.shootingStars) {
       this.shootingStars.update(this.simulatedTime, delta * this.timeScale);
+    }
+    if (this.backgroundStarfield) {
+      const bass = (musicPlayer && typeof musicPlayer.getAudioReactiveValues === 'function')
+        ? (musicPlayer.getAudioReactiveValues().bass || 0)
+        : 0;
+      this.backgroundStarfield.update(delta * this.timeScale, this.simulatedTime, bass);
     }
 
     // 4. Update Dynamic Scaled Raycaster

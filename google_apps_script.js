@@ -285,7 +285,7 @@ function doPost(e) {
       "-------------------------------------------------------\n" +
       "SUBJECT: " + subject + "\n" +
       "-------------------------------------------------------\n" +
-      (message || "[No text written — media attachment only]") + "\n\n" +
+      (message || "[No text written... media attachment only]") + "\n\n" +
       (attachments.length > 0 ?
         "ATTACHMENT (" + mediaTypeLabel + "): " + mediaName + " (" + mediaMime + ")\n\n" : "") +
       "3D Cosmic Heart Sanctuary • Nader & Mary\n";
@@ -322,7 +322,7 @@ ${gpuRenderer && gpuRenderer !== 'Not exposed' && gpuRenderer !== 'Unavailable' 
           <!-- Message Content in Deep Velvet Card -->
           <div style="background: #151120; border: 1px solid rgba(244,63,94,0.22); border-radius: 14px; padding: 22px; margin-bottom: 18px;">
             <span style="display: block; font-size: 11px; color: #fda4af; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 10px;">Message</span>
-            <div style="font-size: 15.5px; line-height: 1.8; color: #f1f5f9; white-space: pre-wrap; font-family: Georgia, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, serif;">${escapeHtml(message || "[No text written — media attachment only]")}</div>
+            <div style="font-size: 15.5px; line-height: 1.8; color: #f1f5f9; white-space: pre-wrap; font-family: Georgia, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, serif;">${escapeHtml(message || "[No text written... media attachment only]")}</div>
           </div>
 
           <!-- Attachment Box (Colored Card) -->
